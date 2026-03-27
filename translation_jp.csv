@@ -1,0 +1,773 @@
+key,en
+theme.environmental.name,自然
+theme.gilded.name,金メッキ
+theme.inverted.name,反転
+theme.magical.name,魔法
+theme.sunset.name,日没
+theme.twilight.name,黄昏
+action.area_press.name,エリアプレス
+action.buy_many.name,まとめ買い
+action.fps.name,FPS表示切替
+action.fullscreen.name,フルスクリーン
+action.go_to_academy.name,アカデミーへ移動
+action.go_to_building.name,建物へ移動
+action.go_to_dragon_nest.name,ドラゴンネストへ移動
+action.go_to_embassy.name,大使館へ移動
+action.go_to_forestry.name,林業へ移動
+action.go_to_observatory.name,天文台へ移動
+action.go_to_orb.name,オーブへ移動
+action.go_to_prestige.name,プレステージへ移動
+action.go_to_relics.name,錬金術ラボへ移動
+action.go_to_runecraft.name,ルーンクラフトへ移動
+action.go_to_sorcery.name,ソーサリーへ移動
+action.go_to_study.name,書斎へ移動
+action.go_to_temple.name,寺院へ移動
+action.go_to_wall_wizard.name,ウォールウィザードへ移動
+action.joypad_zoom_in.name,ズームイン (ゲームパッド)
+action.joypad_zoom_out.name,ズームアウト (ゲームパッド)
+action.keyboard_zoom_in.name,ズームイン (キーボード)
+action.keyboard_zoom_out.name,ズームアウト (キーボード)
+action.up.name,上へ移動
+action.down.name,下へ移動
+action.left.name,左へ移動
+action.right.name,右へ移動
+blessing.academy_blessing.name,研究の祝福
+blessing.academy_blessing.description,アカデミーの研究対象がレベルアップするたび、追加で{mult}レベルを獲得する
+blessing.alchemy_blessing.name,錬金術の祝福
+blessing.alchemy_blessing.description,{magic_gold_icon}が1つ生成されるたびに、追加で{add}個の{magic_gold_icon}を生成する
+blessing.balance_blessing.name,均衡の祝福
+blessing.balance_blessing.description,"達成から最も遠いタワー要件のリソース獲得量が{percent_increase}%増加します。
+
+- 全てのタワー要件が満たされている、またはタワー要件が存在しない場合、代わりに全てのタワー要件のリソース獲得量が{all_increase}%増加します。"
+blessing.balance_blessing_exception.description,- {cosmic_dust_icon}には適用されません
+blessing.blessing_of_carving.name,彫刻の祝福
+blessing.blessing_of_carving.description,トーテムの自動購入オプションを解放します。
+blessing.blessing_of_compounding.name,複利の祝福
+blessing.blessing_of_compounding.description,「破壊の祝福」のボーナスが{percent_increase}%の複利で増加する
+blessing.blessing_of_curses.name,呪いの祝福
+blessing.blessing_of_curses.description,シャーマンが壁に{effect}を付与します。スタックが100に達すると、全シャーマンの合計ダメージの{mult}倍のダメージを壁に与えます。
+blessing.blessing_of_destruction.name,破壊の祝福
+blessing.blessing_of_destruction.description,ソーサリー以外のスピリットの生産性が、毎分ダメージの桁が1つ上がるごとに{percent_increase}%増加する。
+blessing.blessing_of_destruction.active_description,"ソーサリー以外のスピリットの生産性が{percent_increase}%増加します
+
+- 次のレベル: 毎分{damage}ダメージ。"
+blessing.blessing_of_diplomacy.name,外交の祝福
+blessing.blessing_of_diplomacy.description,"国家と国交を樹立するたびに、{amount}個の{magic_gold_icon}を獲得します。
+
+- リソースボーナスの影響は受けません。"
+blessing.blessing_of_effects.name,効果の祝福
+blessing.blessing_of_effects.description,壁の各ステータス効果は、スタックが{decay}に達するまで減少しなくなります
+blessing.blessing_of_exploration.name,探検の祝福
+blessing.blessing_of_exploration.description,国交を樹立すると、外交官の人口と同数の貿易協定をもたらす新たな国家を発見します。
+blessing.blessing_of_few.name,少数精鋭の祝福
+blessing.blessing_of_few.description,「60の祝福」または「人口の祝福」が有効でない全てのスピリットタイプの生産性が{percent_increase}%向上します。
+blessing.blessing_of_fire.name,火の祝福
+blessing.blessing_of_fire.description,"イフリートが壁に{effect}を付与します。「溶融」のスタックごとに、壁が受けるドラゴン・ファイアボールのダメージが{percent_increase}%増加します。
+
+- さらに、ドラゴンEXPの獲得量が{exp_increase}%増加します"
+blessing.blessing_of_fire_abridged.description,イフリートが壁に{effect}を付与します。「溶融」のスタックごとに、壁が受けるドラゴン・ファイアボールのダメージが{percent_increase}%増加します。
+blessing.blessing_of_hovering.name,ホバリングの祝福
+blessing.blessing_of_hovering.description,クリックの代わりに、対象エリアの上にカーソルを置くだけでスピリットの速度が上昇します。
+blessing.blessing_of_multitasking.name,マルチタスクの祝福
+blessing.blessing_of_multitasking.description,スピリットセージがアカデミーの全教科を同時に研究するようになります。
+blessing.blessing_of_n.name,60の祝福
+blessing.blessing_of_n.description,"個体数が{threshold}以上のスピリットは、生産性が{percent_increase}%向上します。
+
+-「生産性」とは、そのスピリットの持つ主要な能力を指します。"
+blessing.blessing_of_population.name,人口の祝福
+blessing.blessing_of_population.description,"最も個体数の多いスピリットタイプの生産性が{percent_increase}%向上します。
+
+-「生産性」とは、そのスピリットの持つ主要な能力を指します。"
+blessing.blessing_of_summoning.name,召喚の祝福
+blessing.blessing_of_summoning.description,{spirit_icon}の自動購入オプションを解放します。
+blessing.blessing_of_supervision.name,指導者の祝福
+blessing.blessing_of_supervision.description,最後にクリックした場所は、次に別の場所をクリックするまで、作業速度が{percent_increase}%向上します
+blessing.blessing_of_supervision_units.description,- ソーサリーユニットが得られる速度ボーナスは半分になります
+blessing.blessing_of_the_tower.name,塔の祝福
+blessing.blessing_of_the_tower.description,新たな周回を開始すると、「書斎」、{cloudlings}体の「クラウドリング」、{tomes}冊の「トーム」を所持した状態でタワーが建設されます
+blessing.blessing_of_the_tower_2.name,塔の大いなる祝福
+blessing.blessing_of_the_tower_2.description,新たな周回を開始すると、「林業」「プレステージ」が解放され、{druids}体の「ドルイド」と{spirit_tomes}冊の「スピリット・トーム」を追加で所持した状態でタワーが建設されます。
+blessing.blessing_of_the_tower_3.name,塔の最終祝福
+blessing.blessing_of_the_tower_3.description,新たな周回を開始すると、「ソーサリー」までの全ての建物が建設された状態でタワーが始まります。
+blessing.blessing_of_totems.name,トーテムの祝福
+blessing.blessing_of_totems.description,特定の種類のトーテムが{totems}個彫られるごとに、そのトーテムのパッシブ効果が{percent_increase}%の複利で増加します
+blessing.build_academy.name,書物の祝福
+blessing.build_academy.description,スピリット・トームが{requirement}冊以上ある場合、{knowledge_icon}と{magic_icon}の獲得量が{percent_increase}%増加します
+blessing.crafting_totem_blessing.name,製作トーテムの祝福
+blessing.crafting_totem_blessing.description,{blank_rune_icon}と{magic_gold_icon}の生成速度を{percent_increase}%向上させる新たなトーテムを追加します
+blessing.doubling_blessing.name,倍増の祝福
+blessing.doubling_blessing.description,クラウドリング、スピリット・トーム、ドルイドを召喚する際、2倍の数が召喚されます。
+blessing.dragon_blessing.name,ドラゴンの祝福
+blessing.dragon_blessing.description,ドラゴンがレベルアップすると、追加で{points}のドラゴンアビリティポイントを獲得します
+blessing.dragon_wisdom_blessing.name,ドラゴンの知恵の祝福
+blessing.dragon_wisdom_blessing.description,ドラゴンアビリティレベルが10上がるごとに、アビリティの効果値が{percent_increase}%の複利で増加します
+blessing.forest_keeper_blessing.name,森の番人の祝福
+blessing.forest_keeper_blessing.description,森の番人が{levels}のアップグレードレベルを持った状態で召喚されます
+blessing.forestry_blessing.name,森の祝福
+blessing.forestry_blessing.description,{wood_icon}の獲得量が{percent_increase}%増加します
+blessing.gorgon_blessing.name,ゴルゴンの祝福
+blessing.gorgon_blessing.description,壁の「弱体化」スタック{every}ごとに、ゴルゴンの与ダメージが{percent_increase}%増加します
+blessing.knowledge_blessing.name,知識の祝福
+blessing.knowledge_blessing.description,{knowledge_icon}の獲得量が{percent_increase}%増加します
+blessing.magic_gain_blessing.name,魔法の祝福
+blessing.magic_gain_blessing.description,{magic_icon}の獲得量が{percent_increase}%増加します
+blessing.midway_blessing.name,ダメージの祝福
+blessing.midway_blessing.description,{knowledge_icon}の獲得量が{knowledge_increase}%、壁へのダメージが{damage_increase}%増加します
+blessing.prestige_blessing.name,灯台の祝福
+blessing.prestige_blessing.description,タワーにプレステージの建物が存在する場合、{magic_icon}と{wood_icon}の獲得量が{percent_increase}%増加します
+blessing.refining_blessing.name,精錬の祝福
+blessing.refining_blessing.description,ルーンを複数回アップグレードできるようになります。
+blessing.research_blessing.name,研究の祝福
+blessing.research_blessing.description,"錬金術施設を建設すると、即座に{amount}個の{magic_gold_icon}を獲得します。
+
+- リソースボーナスの影響は受けません。"
+blessing.runecraft_blessing.name,ルーンクラフトの祝福
+blessing.runecraft_blessing.description,ルーンを1つ作成するたびに、追加で{amount}個のルーンを作成します
+blessing.sage_totem_blessing.name,賢者のトーテムの祝福
+blessing.sage_totem_blessing.description,アカデミーEXPの獲得量を{percent_increase}%の複利で増加させる新たなトーテムを追加します
+blessing.specialization_blessing.name,専門化の祝福
+blessing.specialization_blessing.description,"開始時にドラゴンアビリティポイントを{amount}獲得します
+
+ドラゴンアビリティのレベルが{every}上がるごとに、他の全てのドラゴンアビリティのレベルが{points}上昇します"
+blessing.spirit_debt.name,借金の祝福
+blessing.spirit_debt.description,開始時のスピリットが-{amount}{spirit_icon}になる代わりに、ソーサリー以外の全スピリットタイプが{start_amount}{spirit_icon}召喚された状態で始まります。
+button.autobuy_spirits,自動購入
+button.bought,購入済み
+button.build_tower,タワーを建設
+button.built,建設済み
+button.buy,購入
+button.cancel,キャンセル
+button.cannot_upgrade,アップグレード不可
+button.close,閉じる
+button.continue_anyway,問題なく続行
+button.craft,製作
+button.early_prestige,早期プレステージ
+button.email,barribobgames@gmail.com
+button.end_game,ゲーム終了
+button.exit,終了
+button.final_ascension,最終昇格
+button.fire_magic,ファイア・マジックビーム
+button.go_to_academy,アカデミーへ移動 (ショートカット: {shortcut})
+button.go_to_building,建物へ移動 (ショートカット: {shortcut})
+button.go_to_dragon,ドラゴンネストへ移動 (ショートカット: {shortcut})
+button.go_to_embassy,大使館へ移動 (ショートカット: {shortcut})
+button.go_to_forest,林業へ移動 (ショートカット: {shortcut})
+button.go_to_observatory,天文台へ移動 (ショートカット: {shortcut})
+button.go_to_orb,オーブへ移動 (ショートカット: {shortcut})
+button.go_to_prestige,プレステージへ移動 (ショートカット: {shortcut})
+button.go_to_relics,錬金術ラボへ移動 (ショートカット: {shortcut})
+button.go_to_runecraft,ルーンクラフトへ移動 (ショートカット: {shortcut})
+button.go_to_sorcery,ソーサリーへ移動 (ショートカット: {shortcut})
+button.go_to_sorcery_2,ソーサリーへ移動
+button.go_to_study,書斎へ移動 (ショートカット: {shortcut})
+button.go_to_temple,寺院へ移動 (ショートカット: {shortcut})
+button.go_to_wall_wizard,ウォールウィザードへ移動 (ショートカット: {shortcut})
+button.google_forms,Googleフォーム
+button.hide_maxed_skills,最大レベルの項目を隠す
+button.learn,習得
+button.maxed,最大
+button.new_game,ニューゲーム！
+button.next_run,次の周回へ
+button.ok,OK
+button.open_remap_menu,ショートカット再設定
+button.open_save_folder,セーブフォルダを開く
+button.preload_3,3 プレステージポイント
+button.preload_6,6 プレステージポイント
+button.preload_9,9 プレステージポイント
+button.preload_13,13 プレステージポイント
+button.preload_18,18 プレステージポイント
+button.preload_24,24 プレステージポイント
+button.prestige,プレステージ
+button.prestige_cancel,キャンセル
+button.prestige_confirm,実行
+button.refund_diplomats,外交官を払い戻す
+button.reset,リセット
+button.reset_blessings,全ての祝福を払い戻す
+button.sorcery_manual,ソーサリーマニュアル
+button.steam_forum,Steamフォーラム
+button.toggle_fullscreen,フルスクリーン切替
+button.unlocked,解放済み
+button.upgrade,アップグレード
+button.upgrade_tower,タワーを昇格
+button.view_blessings,祝福を見る
+button.we'll_see,いずれ分かるだろう
+damage_source.curse.name,呪い
+damage_source.curse.description,呪い
+damage_source.dragon.name,ドラゴン
+damage_source.dragon.description,ドラゴン
+damage_source.fire_arrows.name,火矢
+damage_source.fire_arrows.description,火矢
+damage_source.fireball_shrapnel.name,ファイアボールの破片
+damage_source.fireball_shrapnel.description,ファイアボールの破片
+damage_source.gorgon.name,ゴルゴン
+damage_source.gorgon.description,ゴルゴン
+damage_source.ice_arrows.name,氷矢
+damage_source.ice_arrows.description,氷矢
+damage_source.ifrit.name,イフリート
+damage_source.ifrit.description,イフリート
+damage_source.shaman.name,シャーマン
+damage_source.shaman.description,シャーマン
+damage_source.spirit_sage.name,スピリットセージ
+damage_source.spirit_sage.description,スピリットセージ
+damage_source.wall_repair.name,壁の修復
+damage_source.wall_repair.description,"壁の修復
+
+- 毎分最大{repair_rate}ダメージ分、壁を修復する"
+damage_source.zephyr.name,ゼファー
+damage_source.zephyr.description,ゼファー
+dragon_ability.fireballs.name,ファイアボール
+dragon_ability.fireballs.tooltip,壁が存在する場合、基礎ダメージ{main_value}のファイアボールを時々発射する。
+dragon_ability.magic_breath.name,マジックブレス
+dragon_ability.magic_breath.tooltip,時々、{main_value}体のクラウドリングの生産量に等しい{magic_icon}をオーブに吹き込む
+dragon_ability.next_value_tooltip,- アップグレードにより{next_value}に増加
+dragon_ability.pulse_of_knowledge.name,知識の波動
+dragon_ability.pulse_of_knowledge.tooltip,"時々、{main_value}冊分の{knowledge_icon}を獲得する。
+
+- ボタン長押し、またはShiftキーを押しながらクリックで複数購入できます"
+dragon_ability.telepathy.name,テレパシー
+dragon_ability.telepathy.tooltip,アカデミーの経験値獲得量が{main_value}%増加します
+dragon_ability.treasure_keeper.name,宝物の番人
+dragon_ability.treasure_keeper.tooltip,{magic_gold_icon}の生産速度が{main_value}%増加します
+header.abilities,アビリティ
+header.academy,アカデミー
+header.alchemists,錬金術ラボ
+header.blessing_locked,祝福はロックされています
+header.blessings,祝福
+header.blessings_view_only,祝福 (閲覧のみ)
+header.building,建物
+header.dragon_nest,ドラゴンネスト
+header.early_prestige,早期プレステージ
+header.embassy,大使館
+header.forestry,林業
+header.level,Lv.{level}
+header.milestone_blessings,マイルストーン祝福
+header.new_update,アップデート情報
+header.notice,お知らせ
+header.observatory,天文台
+header.orb,オーブ
+header.playtest,プレイテストへようこそ！
+header.prestige,プレステージ
+header.relics,レリック
+header.remap,再設定
+header.rune,ルーンクラフト
+header.skills,スキル
+header.small_buildings,スピリット住居
+header.sorcery,ソーサリー
+header.spirits,オーブ
+header.study,書斎
+header.temple,寺院
+header.this_run,今回の周回
+header.totems,トーテム
+header.tower_requirements,タワー要件
+header.training,研究
+header.unlockable_blessings,解放可能な祝福
+header.unspent_points,未使用のポイントがあります
+header.warden,ウォールウィザード
+label.assigned_points,割り振り済みポイント: {points}
+label.attention_icon_explanation,タワーを次のレベルへ昇格させることができます。
+label.build_tower_explanation,昇格にリソースは消費しません
+label.calculating,計算中...
+label.confirm_prestige,本当にプレステージを 実行しますか？
+label.cost,コスト:
+label.cost_icon,{cost} {icon}
+label.costs,- コスト
+label.crafting_cost,製作コスト:
+label.damage_exp_explanation,"このバーが満タンになると、プレステージポイントを1獲得します。
+
+- バーは壁に与えたダメージに応じて溜まります。
+
+- 残り時間: {eta}"
+label.damage_type_blessing,祝福効果:
+label.dragon_costs,- コスト {cost} {icon}
+label.dragon_level,"ドラゴンがレベルアップするたびに、アビリティを強化するためのアビリティポイントを1獲得します。
+
+- 残り時間: {eta}"
+label.effects,効果
+label.effects_description,現在、壁に適用されている効果です。
+label.ending_time,あなたは{hours}:{minutes}:{seconds}で最高のウィザードタワーを築き上げました
+label.feedback,フィードバック
+label.final_ascension_explanation,もう一度、タワーを昇格させられるか？
+label.fire_magic_explanation,占星術師は、適切なリソースをオーブと共に用いることで、壁を破壊できると突き止めました。
+label.go_to_sorcery,ソーサリーへ移動 (ショートカット: 8)
+label.go_to_spoiler,???へ移動
+label.hover,カーソルを合わせる
+label.less_than_minute,1分未満
+label.maxed,最大
+label.new_update_description.0_0_3,ゲームはメジャーアップデートされました！以前のセーブデータがある場合、進行状況のほとんどは引き継がれますが、新機能を存分に体験していただくために、新規でゲームを開始することをお勧めします。
+label.new_update_description.playtest,このバージョンでは、デモ版よりも多くのコンテンツが解放されています。新しいコンテンツに関するフィードバックをお待ちしています。また、「プレイテスト」メニューには、ゲームプレイの助けとなるユーティリティも用意されています。お楽しみください！
+label.new_update_description.previous_playtest,以前にプレイテスト版をプレイされたことがあるようですね。デモ版はクローズドプレイテスト版よりも解放されるコンテンツが少ない点にご注意ください。
+label.new_update_description.prototype,ゲームはメジャーアップデートされました！以前のセーブデータがある場合、プレステージポイントなどの一部の進行は引き継がれますが、多くの仕様変更や、システムの追加・削除が行われたため、新規でゲームを始めることを強くお勧めします。
+label.not_active,- 無効
+label.points,ポイント:{points}
+label.points_earned,獲得ポイント:{points}
+label.preloaded_saves,プリロードセーブ
+label.press_and_hold,長押し
+label.prestige_early_explanation,早期にプレステージを行うと、周回をリスタートしたり祝福を再設定したりできますが、特に大きなメリットはありません。
+label.prestige_exp_explanation,"このバーが満タンになると、プレステージポイントを1獲得します。
+
+- バーは{magic_icon}の獲得量に応じて溜まります。
+
+- 残り時間: {eta}"
+label.prestige_explanation,プレステージを行うと進行状況がリセットされますが、次の周回を有利に進めるための祝福を得ることができます。
+label.prestige_points_explanation,プレステージポイントを使って祝福を獲得します。
+label.relics,所有レリック
+label.relics_needed,(残り {needed}個)
+label.relics_owned,- {owned}個所有
+label.reset_blessings,右クリックで個別の祝福を払い戻すこともできます。
+label.restore_wall,ウォールウィザードに宇宙の壁を修復/無効化させる
+label.rune_exp,ルーン進行度
+label.rune_exp_eta,"ルーン進行度
+
+- 残り時間: {eta}"
+label.story_1,見事な文明を築いたようだが、 その塔をこれ以上高くすることは許さん。
+label.story_2,この大いなる壁が、 貴様の行く手を阻むだろう。
+label.story_3,どうやら貴様を侮っていたようだ。 だが、この壁を越えることはできんぞ。
+label.story_4,よかろう、取引だ。 もしこの壁を破壊できたなら、 もう貴様を止めはしない。
+label.story_5,その決意、感服した。 結末を見届けるため、 少しばかり力を貸してやろう。
+label.supervision_blessing,指導者の祝福
+label.temple_exp,コズミックダストEXP
+label.temple_exp_explanation,"コズミックダスト生成の進行度。満タンになるとコズミックダストを1つ獲得します。バーは宇宙の壁に与えたダメージに応じて溜まります。
+
+- 残り時間: {eta}"
+label.thanks_for_playing,Thanks for playing!
+label.the_end,The End
+label.tower_requirements_explanation,タワー要件を満たし、タワーを次のレベルへ昇格させましょう。
+label.tower_resource_explanation,"生涯合計で{cost}の{resource}を蓄積する。
+(現在までの蓄積量: {accumulated})"
+label.tower_resource_explanation_balance_blessing,このリソースには均衡の祝福が有効です
+label.unspent_points_warning,未使用のポイントがあります。ポイントを未使用のままにしておくメリットはありません。解放可能な祝福に全て割り振ることをお勧めします（祝福によっては2ポイント割り振れるものもあります）。
+label.utilities,ユーティリティ
+label.wall_0,雲の壁
+label.wall_1,太陽の壁
+label.wall_2,宇宙の壁
+label.wall_explanation,上の壁を破壊し、タワーを昇格させましょう。
+label.wall_health_bar,壁の残り耐久値: {value}
+nation.arcanis_nation.name,アルカニス
+nation.arcanis_nation.description,"名高い大学を有する国家
+
+- 関係ボーナス: アカデミーEXP獲得量が{percent_increase}%増加"
+nation.axel_nation.name,アクセル
+nation.axel_nation.description,"冒険者と広大な平原の王国
+
+- 関係ボーナス: ソーサリーとドラゴンネストに、知識ベースの新たなアップグレードを解放。"
+nation.ceha_nation.name,セハ
+nation.ceha_nation.description,"火山の地
+
+- 関係ボーナス: ドラゴンの番人がもたらすドラゴンEXPが{percent_increase}%増加"
+nation.chronara_nation.name,クロナラ
+nation.chronara_nation.description,"時折水中に沈む隠された国家
+
+- 関係ボーナス: 2秒ごとに、外交官の人口と同数の貿易協定を獲得。"
+nation.fel_nation.name,フェル
+nation.fel_nation.description,"古代魔法で知られる国家
+
+- 関係ボーナス: アカデミーEXP獲得量が{percent_increase}%増加"
+nation.istesha_nation.name,イステシャ
+nation.istesha_nation.description,"ドラゴンの国
+
+- 関係ボーナス: ドラゴンアビリティポイントを即座に{amount}ポイント獲得"
+nation.janand_nation.name,ジャナンド
+nation.janand_nation.description,"囚人と追放者の国
+
+- 関係ボーナス: 全ユニットのダメージが{percent_increase}%増加"
+nation.lapis_nation.name,ラピス
+nation.lapis_nation.description,"石柱と岩山が連なる国家
+
+- 関係ボーナス: 即座に{amount}個のコグナイトを獲得。"
+nation.lilon_nation.name,リロン
+nation.lilon_nation.description,"風と海岸の国
+
+- 関係ボーナス: クラウドリングの{magic_icon}獲得量が{percent_increase}%増加"
+nation.luscana_nation.name,ルスカナ
+nation.luscana_nation.description,"宝飾の国
+
+- 関係ボーナス: マナストーンを即座に{amount}個獲得。"
+nation.maristella_nation.name,マリステラ
+nation.maristella_nation.description,"貿易と航海の国。
+
+- 関係ボーナス: {knowledge_icon}の獲得量が{percent_increase}%増加"
+nation.netus_nation.name,ネトゥス
+nation.netus_nation.description,"職人の国
+
+- 関係ボーナス: 林業とアカデミーに、知識ベースの新たなアップグレードを解放"
+nation.odantis_nation.name,オダンティス
+nation.odantis_nation.description,"長い冬の国
+
+- 関係ボーナス: {knowledge_icon}の獲得量が{percent_increase}%増加"
+nation.peace_land_nation.name,ピースランド
+nation.peace_land_nation.description,"小人と精霊の国
+
+- 関係ボーナス: 即座に{amount}の{spirit_icon}を獲得。"
+nation.prismara_nation.name,プリズマラ
+nation.prismara_nation.description,"水晶と海の国
+
+- 関係ボーナス: {magic_gold_icon}の生産速度が{percent_increase}%増加"
+nation.starting_nation.name,あなたの国
+nation.starting_nation.description,ここはあなたの領地です。{trade_agreement_icon}が十分に溜まったら、隣国をクリックして国交を樹立しましょう。
+nation.tedora_nation.name,テドラ
+nation.tedora_nation.description,"古代の森の国
+
+- 関係ボーナス: {wood_icon}の獲得量が{percent_increase}%増加"
+nation.tempestus_nation.name,テンペスタス
+nation.tempestus_nation.description,"山と嵐の国
+
+- 関係ボーナス: クラウドリングの{magic_icon}獲得量が{percent_increase}%増加"
+nation.tenebris_nation.name,テネブリス
+nation.tenebris_nation.description,"広大な洞窟の国
+
+- 関係ボーナス: {magic_gold_icon}の生産速度が{percent_increase}%増加"
+nation.verdania_nation.name,ヴェルダニア
+nation.verdania_nation.description,"広大な森林の国
+
+- 関係ボーナス: {wood_icon}の獲得量が{percent_increase}%増加"
+nation.wedol_nation.name,ウェドル
+nation.wedol_nation.description,"熱帯雨林の帝国
+
+- 関係ボーナス: 即座に{amount}個のトーテムを獲得。"
+nation.xara_nation.name,ザラ
+nation.xara_nation.description,"砂漠と石の国
+
+- 関係ボーナス: 即座に{amount}個のドラゴナイトを獲得。"
+relic.cognite,コグナイト
+relic.cognite.tooltip,コグナイト1つにつき、{knowledge_icon}の獲得量が{percent_increase}%増加します
+relic.dragonite,ドラゴナイト
+relic.dragonite.tooltip,ドラゴナイト1つにつき、ドラゴンEXPの獲得量が{percent_increase}%増加します
+relic.holy_grail,聖杯
+relic.holy_grail.tooltip,聖杯1つにつき、{magic_icon}の獲得量が{magic_increase}%、ドラゴンEXPの獲得量が{dragon_exp_increase}%増加します
+relic.magic_gold,マジックゴールド
+relic.magic_gold.tooltip,マジックゴールド1つにつき、{magic_icon}の獲得量が{percent_increase}%増加します
+relic.mana_stone,マナストーン
+relic.mana_stone.tooltip,マナストーン1つにつき、{magic_icon}の獲得量が{percent_increase}%増加します
+relic.ouroboros,ウロボロス
+relic.ouroboros.tooltip,ウロボロス1つにつき、{knowledge_icon}の獲得量が{knowledge_increase}%、ドラゴンEXPの獲得量が{dragon_exp_increase}%増加します
+relic.philosopher_stone,賢者の石
+relic.philosopher_stone.tooltip,賢者の石1つにつき、{knowledge_icon}の獲得量が{knowledge_increase}%、{magic_icon}の獲得量が{magic_increase}%増加します
+resource.blank_rune,空のルーン
+resource.blank_rune_description,ルーンスミスにより生成
+resource.building_points,建物ポイント
+resource.building_points_description,タワーが昇格するたびに一定量を獲得。
+resource.cognite,コグナイト
+resource.cosmic_analysis,宇宙分析
+resource.cosmic_analysis_description,天文台で購入
+resource.cosmic_dust,コズミックダスト
+resource.cosmic_dust_description,寺院にて、宇宙の壁へのダメージにより生成
+resource.dragon_ability_points,ドラゴンアビリティポイント
+resource.dragon_ability_points_description,ドラゴンのレベルアップで獲得
+resource.dragonite,ドラゴナイト
+resource.holy_grail,聖杯
+resource.knowledge,知識
+resource.knowledge_description,スピリット・トームにより生成
+resource.magic,魔力
+resource.magic_description,クラウドリングにより生成
+resource.magic_gold,マジックゴールド
+resource.magic_gold_description,錬金術師により生成
+resource.mana_stone,マナストーン
+resource.ouroboros,ウロボロス
+resource.philosopher_stone,賢者の石
+resource.spirits,スピリット
+resource.spirits_description,オーブで購入
+resource.totems,トーテム
+resource.totems_description,林業ポータルで購入
+resource.trade_agreements,貿易協定
+resource.trade_agreements_description,外交官により生成
+resource.wood,木材
+resource.wood_description,ドルイドにより伐採
+skill.alchemy_lab,錬金術ラボ
+skill.alchemy_lab.tooltip,{training}の経験値獲得量が{percent_increase}%増加します
+skill.analyze_cursed,呪いの壁の分析
+skill.analyze_cursed.tooltip,「呪い」の基礎ダメージが{percent_increase}%増加します
+skill.analyze_molten,溶融の壁の分析
+skill.analyze_molten.tooltip,「溶融」の付与量が{percent_increase}%増加します
+skill.analyze_resonance,粉砕の壁の分析
+skill.analyze_resonance.tooltip,「粉砕」の付与量が{percent_increase}%増加します
+skill.analyze_wall,壁の分析
+skill.analyze_wall.tooltip,"宇宙の壁を分析し、破壊に必要なリソースを解放しましょう。
+
+- 要件はオーブに表示されます。"
+skill.analyze_weakened,弱体化の壁の分析
+skill.analyze_weakened.tooltip,「弱体化」の付与量が{percent_increase}%増加します
+skill.bigger_forest,森林拡大
+skill.bigger_forest_2,ドルイドパワー
+skill.bigger_forest_2.tooltip,{wood_icon}の獲得量が{percent_increase}%増加します
+skill.bigger_forest.tooltip,"森林の面積を拡大します。
+
+- 丸太1本から得られる{wood_icon}の量が{percent_increase}%増加します"
+skill.build_academy,アカデミー建設
+skill.build_academy.tooltip,魔法教育のためのアカデミーを建設する
+skill.build_book_house,書見の家を建てる
+skill.build_book_house.tooltip,書見の家は、合計で{knowledge_icon}の獲得量を{percent_increase}%の複利で増加させます
+skill.build_dragon_nest,ドラゴンネスト建設
+skill.build_dragon_nest.tooltip,ドラゴンネストを建設し、ドラゴンを孵化させましょう
+skill.build_embassy,大使館建設
+skill.build_embassy.tooltip,大使館を建設し、国際関係を築きましょう
+skill.build_house,スピリットハウスを建てる
+skill.build_house.tooltip,"スピリットハウスは、合計で{magic_icon}の獲得量を{percent_increase}%の複利で増加させます
+
+- タワーが昇格するたびに一定量の{building_points_icon}を獲得します"
+skill.build_tree_house,ツリーハウスを建てる
+skill.build_tree_house.tooltip,ツリーハウスは、合計で{wood_icon}の獲得量を{percent_increase}%の複利で増加させます
+skill.carve_crafting_totem,製作のトーテム
+skill.carve_crafting_totem.tooltip,"トーテム1つにつき、{blank_rune_icon}と{magic_gold_icon}の生成進行度が{percent_increase}%増加します。
+
+- 現在のボーナス: {total}%"
+skill.carve_forest_totem,森のトーテム
+skill.carve_forest_totem.tooltip,"トーテム1つにつき、{wood_icon}の獲得量が{percent_increase}%増加します
+
+- 現在のボーナス: {total}%
+
+- さらに、{amount}体の{spirit_icon}を生成します"
+skill.carve_knowledge_totem,知識のトーテム
+skill.carve_knowledge_totem.tooltip,"トーテム1つにつき、{knowledge_icon}の獲得量が{percent_increase}%増加します。
+
+- 現在のボーナス: {total}%"
+skill.carve_magic_totem,魔力のトーテム
+skill.carve_magic_totem.tooltip,"トーテム1つにつき、{magic_icon}の獲得量が{percent_increase}%増加します。
+
+- 現在のボーナス: {total}%"
+skill.carve_sage_totem,賢者のトーテム
+skill.carve_sage_totem.tooltip,"トーテム1つにつき、アカデミーEXPの獲得量が{percent_increase}%の複利で増加します。
+
+- 現在のボーナス: {total}%"
+skill.cloud_resonance,クラウドレゾナンス
+skill.cloud_resonance.tooltip,ドラゴンがマジックブレスを吐くたびに、全てのクラウドリングが魔力の雫を1滴生成します
+skill.cloudling_magic,クラウドリング・マジック
+skill.cloudling_potency,クラウドリングブースト
+skill.cloudling_potency.tooltip,クラウドリングの{magic_icon}生成量が{percent_increase}%増加します
+skill.combat_magic,戦闘魔術
+skill.combat_magic.tooltip,全てのダメージが{percent_increase}%増加します
+skill.craft_totem,トーテム製作
+skill.craft_totem.tooltip,{totem_icon}を製作します。トーテムは様々な種類に彫刻し、トーテムポールに設置することで多様なボーナスを得られます。
+skill.create_cosmic_analysis,宇宙分析の作成
+skill.create_cosmic_analysis.tooltip,分析アップグレードに使える宇宙分析を1つ作成します。
+skill.dragon_alphabet,ドラゴン・アルファベット
+skill.dragon_alphabet.tooltip,{training}の経験値獲得量が{percent_increase}%増加します
+skill.dragon_wisdom,ドラゴンの知識
+skill.dragon_wisdom.tooltip,ドラゴンキーパーのEXP獲得量が{percent_increase}%増加します
+skill.enchant_frost,フロストウォール・エンチャント
+skill.enchant_frost.tooltip,"「フロスト」のスタックごとに{wood_icon}の獲得量が{percent_increase}%増加します
+
+- さらに、{cosmic_dust_icon}の生成速度が{cosmic_percent_increase}%増加します"
+skill.enchant_molten,溶融ウォール・エンチャント
+skill.enchant_molten.tooltip,"「溶融」のスタックごとにドラゴンEXPの獲得量が{percent_increase}%増加します
+
+- さらに、{cosmic_dust_icon}の生成速度が{cosmic_percent_increase}%増加します"
+skill.enchant_shatter,粉砕ウォール・エンチャント
+skill.enchant_shatter.tooltip,"「粉砕」のスタックごとに{blank_rune_icon}の生成速度が{percent_increase}%増加します
+
+- さらに、{cosmic_dust_icon}の生成速度が{cosmic_percent_increase}%増加します"
+skill.herbology_textbooks,林業ノート
+skill.herbology_textbooks.tooltip,{training}の経験値獲得量が{percent_increase}%増加します
+skill.improved_facilities,アカデミーの改良
+skill.improved_facilities_2,偉大な大学
+skill.improved_facilities_2.tooltip,アカデミーの全研究教科の経験値獲得量が{percent_increase}%増加します
+skill.improved_facilities.tooltip,アカデミーの全研究教科の経験値獲得量が{percent_increase}%増加します
+skill.infinity_rune_upgrade,インフィニティルーン
+skill.infinity_rune_upgrade.tooltip,全ての基礎ダメージが{percent_increase}%増加します
+skill.library_spirits,書庫のスピリット
+skill.library_spirits.tooltip,書斎から{amount}体の{spirit_icon}を生成します
+skill.magic_textbooks,改良された杖
+skill.magic_textbooks.tooltip,{training}の経験値獲得量が{percent_increase}%増加します
+skill.rune_mastery,ルーンマスタリー
+skill.rune_mastery.tooltip,{blank_rune_icon}の生成速度が{percent_increase}%増加します
+skill.summon_alchemist,錬金術師召喚
+skill.summon_alchemist.tooltip,"{magic_gold_icon}の生成を手伝います。
+
+- アカデミーの新たなアップグレードを解放します。
+
+- ボタン長押し、またはShiftキーを押しながらクリックで複数購入できます。"
+skill.summon_astrologer,占星術師召喚
+skill.summon_astrologer.tooltip,"天文台を建設します。
+
+- 占星術師は宇宙の壁を観測し、その弱点と破壊する方法を探ります。"
+skill.summon_cloudling,クラウドリング召喚
+skill.summon_cloudling.tooltip,"{magic_icon}を生成するクラウドリングを召喚します
+
+- オーブを{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
+skill.summon_diplomat,外交官召喚
+skill.summon_diplomat.tooltip,"{trade_agreement_icon}を生成する外交官を召喚します。
+
+- 大使館を{press_and_hold}すると、速度が{speed_up_increase}%上昇します。
+
+- マップが完成すると、{spirit_icon}と引き換えに払い戻しができます。"
+skill.summon_dragon_keeper,ドラゴンの番人
+skill.summon_dragon_keeper.tooltip,"ドラゴンの番人を召喚し、ドラゴンのレベルアップを手伝わせましょう
+
+- ドラゴンネストを{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
+skill.summon_dragon_queen,ドラゴンクイーン召喚
+skill.summon_dragon_queen.tooltip,"ドラゴンクイーンは、全ドラゴンの番人の合計の{percent}%に相当する経験値をドラゴンに与えます。
+
+- さらに、ドラゴンクイーンはドラゴン・ファイアボールを2発に倍増させます。"
+skill.summon_druid,ドルイド召喚
+skill.summon_druid.tooltip,"ドルイドは森を維持し、{wood_icon}を伐採します。
+
+- 森を{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
+skill.summon_forest_keeper,森の番人召喚
+skill.summon_forest_keeper.tooltip,"森の番人は丸太を強化し、その{wood_icon}価値を{percent_increase}%増加させます
+
+- さらに、森の番人は{cosmic_dust_icon}の生成速度を{exp_percent_increase}%増加させます"
+skill.summon_gorgon,ゴルゴン召喚
+skill.summon_gorgon.tooltip,"壁に{base_damage}の基礎ダメージを与えます。
+
+- 所有するウロボロス1つにつき、基礎ダメージが{damage_increase}増加します。"
+skill.summon_ifrit,イフリート召喚
+skill.summon_ifrit.tooltip,"壁に{base_damage}の基礎ダメージを与えます。
+
+- ドラゴン・ファイアボールのアビリティレベルが10上がるごとに、基礎ダメージが{additional_damage}増加します。"
+skill.summon_rune_smith,ルーンスミス召喚
+skill.summon_rune_smith.tooltip,"ルーンスミスを召喚し、{blank_rune_icon}を生成させます
+
+- オベリスク/金床を{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
+skill.summon_shaman,シャーマン召喚
+skill.summon_shaman.tooltip,最も多く設置されている種類のトーテム数に応じて、壁に{base_damage}xトーテム数の基礎ダメージを与えます。
+skill.summon_smith_master,スミスマスター召喚
+skill.summon_smith_master.tooltip,"スミスマスターは、全ルーンスミスの合計に等しい力で{blank_rune_icon}の鍛造を手伝います。
+
+- さらに、スミスマスターは{magic_gold_icon}の生産速度を{alchemy_percent_increase}%増加させます"
+skill.summon_spirit,スピリット召喚
+skill.summon_spirit_sage,スピリットセージ召喚
+skill.summon_spirit_sage.tooltip,"スピリットセージを召喚し、様々な教科を研究させましょう
+
+- アカデミーを{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
+skill.summon_spirit_tome,スピリット・トーム召喚
+skill.summon_spirit_tome.tooltip,"{knowledge_icon}を生成するスピリット・トームを召喚します
+
+- 書斎を{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
+skill.summon_spirit.tooltip,"他の存在を召喚するために使用できる{spirit_icon}を召喚します
+
+- ボタン長押し、またはShiftキーを押しながらクリックで複数購入できます"
+skill.summon_tome_master,トームマスター召喚
+skill.summon_tome_master.tooltip,"トームマスターは生成された全ての{knowledge_icon}を吸収し、それを{percent_increase}%増幅させます。
+
+- 新たなプレステージポイントがない場合、トームマスターは波動ごとにダメージプレステージの進行バーを{prestige_percent_increase}%増加させます。"
+skill.summon_zephyr,ゼファー召喚
+skill.summon_zephyr.tooltip,"壁を弱体化させ、壁への被ダメージを増加させます。
+
+- 壁に{base_stacks}スタックの「弱体化」を付与し、さらに個体数が{summon_threshold}以上のスピリットタイプごとに{additional_stacks}スタックを追加します。"
+skill.text_enchantment,テキストエンチャント
+skill.text_enchantment.tooltip,{knowledge_icon}の獲得量が{percent_increase}%増加します
+skill.unlock_alchemy_101,錬金術研究
+skill.unlock_alchemy_101.tooltip,{training}は錬金術師がより速く{magic_gold_icon}を生成するのを助けます
+skill.unlock_dragon_bond,ドラゴン研究解放
+skill.unlock_dragon_bond.tooltip,{training}はドラゴンの番人がより多くのEXPをドラゴンに与えるのを助けます
+skill.unlock_herbology,森林研究解放
+skill.unlock_herbology.tooltip,{training}はドルイドがより多くの{wood_icon}を育てるのを助けます
+skill.unlock_magic_101,魔術研究解放
+skill.unlock_magic_101.tooltip,{training}はスピリットがより多くの{magic_icon}を生成するのを助けます
+skill.upgrade_dragon_queen,ドラゴンクイーンのアップグレード
+skill.upgrade_dragon_queen.tooltip,ドラゴンクイーンが与えるドラゴンEXPを{percent_increase}%の複利で増加させます
+skill.upgrade_forest_keeper,森の番人のアップグレード
+skill.upgrade_forest_keeper.tooltip,"{wood_icon}の獲得量が{percent_increase}%の複利で増加します
+
+- さらに、{cosmic_dust_icon}の生成速度も{exp_percent_increase}%の複利で増加します"
+skill.upgrade_smith_master,スミスマスターのアップグレード
+skill.upgrade_smith_master.tooltip,"スミスのハンマーの威力が{percent_increase}%の複利で増加します
+
+- さらに、{magic_gold_icon}の生産速度も{alchemy_percent_increase}%の複利で増加します"
+skill.upgrade_tome_master,トームマスターのアップグレード
+skill.upgrade_tome_master.tooltip,トームマスターが吸収する{knowledge_icon}の増幅率を{percent_increase}%の複利で増加させます
+skill.wizard_magic,ウィザードマジック
+skill.wizard_magic.tooltip,オーブを押すことで得られる{magic_icon}が{percent_increase}%増加します
+status_effect.cursed.name,呪い
+status_effect.cursed.description,スタックが100に達すると、全シャーマンの合計ダメージの{mult}倍に等しいダメージを壁に与えます。
+status_effect.frost.name,フロスト
+status_effect.frost.description,壁に付与された他の全てのステータス効果の減少量を、スタックごとに{reduction}抑制します
+status_effect.molten.name,溶融
+status_effect.molten.description,スタックごとに、壁が受けるドラゴン・ファイアボールのダメージが{percent_increase}%増加する
+status_effect.resonance.name,粉砕
+status_effect.resonance.description,スタックごとに、壁が受けるドラゴン・ファイアボールと「呪い」のダメージが{percent_increase}%増加する
+status_effect.weakened.name,弱体化
+status_effect.weakened.description,スタックごとに、壁が受けるダメージが{percent_increase}%増加する
+tooltip.blessing_locked,"以下の祝福は合計ポイントが{points}に達するまでロックされています。
+
+- 現在の合計ポイント: {total_points}"
+tooltip.damage_chart_button,ダメージチャート切替
+tooltip.knowledge,知識
+tooltip.magic,魔力
+tooltip.milestone_blessings,マイルストーン祝福は、プレステージポイントが一定数に達すると自動的に解放されます
+training.alchemy_101,錬金術研究
+training.alchemy_101.tooltip,{magic_gold_icon}の生産速度が{percent_increase}%増加します
+training.dragon_bond,ドラゴン研究
+training.dragon_bond.tooltip,ドラゴンEXPの獲得量が{percent_increase}%増加します
+training.herbology,林業研究
+training.herbology.tooltip,{wood_icon}の獲得量が{percent_increase}%増加します
+training.magic_101,魔術研究
+training.magic_101.tooltip,クラウドリングが提供する{magic_icon}が{percent_increase}%増加します
+tree.academy_exp_rune.name,アカデミーブースト
+tree.academy_exp_rune.description,アカデミーEXPの獲得量が{percent_increase}%増加します
+tree.alchemy.name,錬金術ブースト
+tree.alchemy.description,{magic_gold_icon}の生産速度が{percent_increase}%増加します
+tree.alloy.name,合金
+tree.alloy.description,ゴルゴン、シャーマン、ゼファーそれぞれ1体につき、イフリートの基礎ダメージが{percent_increase}%増加します。
+tree.arc.name,アーク
+tree.arc.description,ゼファーまたはクラウドリング1体につき、ゴルゴンのダメージが{percent_increase}%増加します。
+tree.charge.name,チャージ
+tree.charge.description,「稲妻」がダメージを与えるたびに、その基礎ダメージが永続的に{damage_increase}増加します。
+tree.class_of_destruction.name,破壊の賢者
+tree.class_of_destruction.description,スピリットセージが壁に{base_damage}のダメージを与えます。
+tree.cloud.name,魔力ブースト
+tree.cloud.description,{magic_icon}の獲得量が{percent_increase}%増加します
+tree.create_gorgons.name,ゴルゴン召喚
+tree.create_gorgons.description,ゴルゴンを{amount}体召喚する
+tree.create_ifrits.name,イフリート召喚
+tree.create_ifrits.description,イフリートを{amount}体召喚する
+tree.create_shamans.name,シャーマン召喚
+tree.create_shamans.description,シャーマンを{amount}体召喚する
+tree.curse_resonance.name,呪いのオーラ
+tree.curse_resonance.description,"壁に呪いが現れると、全てのゴルゴンがオーラをまとい、次の攻撃ダメージが{percent_increase}%増加します。
+
+- この効果は複数回スタックします。"
+tree.cursed_fire.name,呪われし炎
+tree.cursed_fire.description,壁の「溶融」効果が、「呪い」にも{percent_of}%の効果で適用されるようになります。
+tree.cursed_shards.name,呪われし破片
+tree.cursed_shards.description,「呪い」の基礎ダメージが「破片」の基礎ダメージに加算されます
+tree.diversity.name,多様性
+tree.diversity.description,「弱体化」以外のステータス効果が1スタックするごとに、スピリットセージの基礎ダメージが{damage_increase}%増加します。
+tree.dragon_wands.name,ドラゴンワンド
+tree.dragon_wands.description,ドラゴン・ファイアボールの基礎ダメージの{percent_of}%が、スピリットセージの基礎ダメージに加算されます。
+tree.dragon.name,ドラゴンの番人ブースト
+tree.dragon.description,ドラゴンEXPの獲得量が{percent_increase}%増加します
+tree.fire_arrows.name,火矢
+tree.fire_arrows.description,シャーマンが火矢を放てるようになり、壁にシャーマンの矢の{damage}倍のダメージを与えます。
+tree.fire_damage.name,溶融の矢
+tree.fire_damage.description,壁の「溶融」効果が、「火矢」にも{percent_of}%の効果で適用されるようになります。
+tree.fireball_shrapnel.name,ファイアボールの破片
+tree.fireball_shrapnel.description,"ファイアボールが爆発して{amount}個の「破片」になり、それぞれが壁に{base_damage}のダメージを与えます。
+
+- このダメージはファイアボールのダメージとしてカウントされません。"
+tree.fusion.name,融合
+tree.fusion.description,イフリートの基礎ダメージ1ごとに、ファイアボールの基礎ダメージが{percent_increase}%増加します。
+tree.hot_blooded.name,熱血
+tree.hot_blooded.description,壁の「溶融」効果がイフリートのファイアボールに適用されるようになります。
+tree.hot_runes.name,ホットルーン
+tree.hot_runes.description,解放済みのルーン1つにつき、「破片」の基礎ダメージが{percent_increase}%増加します。
+tree.ice_arrow_damage.name,氷矢ダメージ
+tree.ice_arrow_damage.description,氷矢が、{mult}体のゴルゴンの基礎ダメージに等しいダメージを与えます。
+tree.ice_arrows.name,氷矢
+tree.ice_arrows.description,シャーマンが氷矢を放てるようになります。これにより壁に{stacks}スタックの「フロスト」が付与され、ステータス効果の減少が抑制されます。
+tree.infinity_resonance.name,無限共鳴
+tree.infinity_resonance.description,所有するインフィニティルーン1つにつき、ゴルゴンのダメージが{percent_increase}%増加します。
+tree.infinity.name,無限
+tree.infinity.description,{blank_rune_icon}と引き換えに、全ての種類のダメージを増加させるアップグレードを解放します。
+tree.instructions.name,説明
+tree.instructions.description,{image}個の「空のルーン」を消費してアップグレードを解放します。
+tree.relics.name,レリック
+tree.relics.description,所有する「聖杯」または「賢者の石」1つにつき、ゴルゴンの基礎ダメージがさらに{damage_increase}増加します。
+tree.shrapnel_count.name,破片の数
+tree.shrapnel_count.description,ファイアボールから生じる「破片」の数が{amount}個増加します。
+tree.shrapnel_molten.name,溶融の破片
+tree.shrapnel_molten.description,各「破片」が壁に{stacks}スタックの「溶融」を付与するようになります。
+tree.shrapnel_weakness.name,弱体化の破片
+tree.shrapnel_weakness.description,各「破片」が壁に{stacks}スタックの「弱体化」を付与するようになります。
+tree.sound_pulse.name,サウンドパルス
+tree.sound_pulse.description,ゴルゴンがサウンドパルスを発するようになり、壁に「粉砕」を付与します。「粉砕」のスタックごとに、壁が受けるドラゴン・ファイアボールと「呪い」のダメージが{percent_increase}%増加します
+tree.strike_twice.name,二度撃ち
+tree.strike_twice.description,「稲妻」が{chance}%の確率で壁に2回落雷します。
+tree.wisps.name,ウィスプ
+tree.wisps.description,ゴルゴンがウィスプを発するようになり、壁に「呪い」を付与します。
+tree.wood.name,ドルイドブースト
+tree.wood.description,{wood_icon}の獲得量が{percent_increase}%増加します
+tree.zephyr_damage.name,稲妻
+tree.zephyr_damage.description,ゼファーが時々「稲妻」を召喚し、壁に{damage_increase}のダメージを与えます。
+blessing.spoiler,祝福が解放されるまで非表示
+button.view_tower_requirements,要件まで移動
+label.needs_trade_agreements,- 要求 {amount} {trade_agreement_icon}

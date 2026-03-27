@@ -1,922 +1,773 @@
-"key","en","ja"
-"theme.environmental.name","Earthen","自然"
-"theme.gilded.name","Gilded","金メッキ"
-"theme.inverted.name","Inverted","反転"
-"theme.magical.name","Magical","魔法"
-"theme.sunset.name","Sunset","日没"
-"theme.twilight.name","Twilight","黄昏"
-"action.area_press.name","Area Press","エリアプレス"
-"action.buy_many.name","Buy Many Modifier","まとめ買い"
-"action.fps.name","Toggle FPS","FPS表示切替"
-"action.fullscreen.name","Fullscreen","フルスクリーン"
-"action.go_to_academy.name","Go To Academy","アカデミーへ移動"
-"action.go_to_building.name","Go To Building","建物へ移動"
-"action.go_to_dragon_nest.name","Go To Dragon Nest","ドラゴンネストへ移動"
-"action.go_to_embassy.name","Go To Embassy","大使館へ移動"
-"action.go_to_forestry.name","Go To Forestry","林業へ移動"
-"action.go_to_observatory.name","Go To Observatory","天文台へ移動"
-"action.go_to_orb.name","Go To Orb","オーブへ移動"
-"action.go_to_prestige.name","Go To Prestige","プレステージへ移動"
-"action.go_to_relics.name","Go To Alchemy Lab","錬金術ラボへ移動"
-"action.go_to_runecraft.name","Go To Runecraft","ルーンクラフトへ移動"
-"action.go_to_sorcery.name","Go To Sorcery","ソーサリーへ移動"
-"action.go_to_study.name","Go To Study","書斎へ移動"
-"action.go_to_temple.name","Go To Temple","寺院へ移動"
-"action.go_to_wall_wizard.name","Go To Wall Wizard","ウォールウィザードへ移動"
-"action.joypad_zoom_in.name","Zoom In (Joypad)","ズームイン (ゲームパッド)"
-"action.joypad_zoom_out.name","Zoom Out (Joypad)","ズームアウト (ゲームパッド)"
-"action.keyboard_zoom_in.name","Zoom In (Keyboard)","ズームイン (キーボード)"
-"action.keyboard_zoom_out.name","Zoom Out (Keyboard)","ズームアウト (キーボード)"
-"action.up.name","Move Up","上へ移動"
-"action.down.name","Move Down","下へ移動"
-"action.left.name","Move Left","左へ移動"
-"action.right.name","Move Right","右へ移動"
-"blessing.academy_blessing.name","Blessing of Research","研究の祝福"
-"blessing.academy_blessing.description","When research subjects in The Academy level up, they gain {mult} extra level(s)","アカデミーの研究対象がレベルアップするたび、追加で{mult}レベルを獲得する"
-"blessing.alchemy_blessing.name","Blessing of Alchemy","錬金術の祝福"
-"blessing.alchemy_blessing.description","Every time one {magic_gold_icon} is created, create an extra {add} {magic_gold_icon}","{magic_gold_icon}が1つ生成されるたびに、追加で{add}個の{magic_gold_icon}を生成する"
-"blessing.balance_blessing.name","Blessing of Balance","均衡の祝福"
-"blessing.balance_blessing.description","The tower requirement that is the furthest from being met by will have its resource gain increased by {percent_increase}% 
+key,en
+theme.environmental.name,Earthen
+theme.gilded.name,Gilded
+theme.inverted.name,Inverted
+theme.magical.name,Magical
+theme.sunset.name,Sunset
+theme.twilight.name,Twilight
+action.area_press.name,Area Press
+action.buy_many.name,Buy Many Modifier
+action.fps.name,Toggle FPS
+action.fullscreen.name,Fullscreen
+action.go_to_academy.name,Go To Academy
+action.go_to_building.name,Go To Building
+action.go_to_dragon_nest.name,Go To Dragon Nest
+action.go_to_embassy.name,Go To Embassy
+action.go_to_forestry.name,Go To Forestry
+action.go_to_observatory.name,Go To Observatory
+action.go_to_orb.name,Go To Orb
+action.go_to_prestige.name,Go To Prestige
+action.go_to_relics.name,Go To Alchemy Lab
+action.go_to_runecraft.name,Go To Runecraft
+action.go_to_sorcery.name,Go To Sorcery
+action.go_to_study.name,Go To Study
+action.go_to_temple.name,Go To Temple
+action.go_to_wall_wizard.name,Go To Wall Wizard
+action.joypad_zoom_in.name,Zoom In (Joypad)
+action.joypad_zoom_out.name,Zoom Out (Joypad)
+action.keyboard_zoom_in.name,Zoom In (Keyboard)
+action.keyboard_zoom_out.name,Zoom Out (Keyboard)
+action.up.name,Move Up
+action.down.name,Move Down
+action.left.name,Move Left
+action.right.name,Move Right
+blessing.academy_blessing.name,Blessing of Research
+blessing.academy_blessing.description,"When research subjects in The Academy level up, they gain {mult} extra level(s)"
+blessing.alchemy_blessing.name,Blessing of Alchemy
+blessing.alchemy_blessing.description,"Every time one {magic_gold_icon} is created, create an extra {add} {magic_gold_icon}"
+blessing.balance_blessing.name,Blessing of Balance
+blessing.balance_blessing.description,"The tower requirement that is the furthest from being met by will have its resource gain increased by {percent_increase}% 
 
-- If all tower requirements are met, or there are no tower requirements, increase all tower requirement resource gains by {all_increase}% instead.","達成から最も遠いタワー要件のリソース獲得量が{percent_increase}%増加します。
+- If all tower requirements are met, or there are no tower requirements, increase all tower requirement resource gains by {all_increase}% instead."
+blessing.balance_blessing_exception.description,- Does not apply to {cosmic_dust_icon}
+blessing.blessing_of_carving.name,Blessing of Carving
+blessing.blessing_of_carving.description,Unlocks the option to auto-buy Totems.
+blessing.blessing_of_compounding.name,Blessing of Compounding
+blessing.blessing_of_compounding.description,The Blessing of Destruction bonuses will increase by a compounding {percent_increase}%
+blessing.blessing_of_curses.name,Blessing of Curses
+blessing.blessing_of_curses.description,"Shamans will apply {effect} to the wall. When 100 stacks are reached, deals damage to the wall equal to {mult} times the damage of all Shamans combined."
+blessing.blessing_of_destruction.name,Blessing of Destruction
+blessing.blessing_of_destruction.description,Non-sorcery Spirit productivity will increase by {percent_increase}% for every order of magnitude of damage per minute.
+blessing.blessing_of_destruction.active_description,"Non-sorcery Spirit productivity will increase by {percent_increase}%
 
-- 全てのタワー要件が満たされている、またはタワー要件が存在しない場合、代わりに全てのタワー要件のリソース獲得量が{all_increase}%増加します。"
-"blessing.balance_blessing_exception.description","- Does not apply to {cosmic_dust_icon}","- {cosmic_dust_icon}には適用されません"
-"blessing.blessing_of_carving.name","Blessing of Carving","彫刻の祝福"
-"blessing.blessing_of_carving.description","Unlocks the option to auto-buy Totems.","トーテムの自動購入オプションを解放します。"
-"blessing.blessing_of_compounding.name","Blessing of Compounding","複利の祝福"
-"blessing.blessing_of_compounding.description","The Blessing of Destruction bonuses will increase by a compounding {percent_increase}%","「破壊の祝福」のボーナスが{percent_increase}%の複利で増加する"
-"blessing.blessing_of_curses.name","Blessing of Curses","呪いの祝福"
-"blessing.blessing_of_curses.description","Shamans will apply {effect} to the wall. When 100 stacks are reached, deals damage to the wall equal to {mult} times the damage of all Shamans combined.","シャーマンが壁に{effect}を付与します。スタックが100に達すると、全シャーマンの合計ダメージの{mult}倍のダメージを壁に与えます。"
-"blessing.blessing_of_destruction.name","Blessing of Destruction","破壊の祝福"
-"blessing.blessing_of_destruction.description","Non-sorcery Spirit productivity will increase by {percent_increase}% for every order of magnitude of damage per minute.","ソーサリー以外のスピリットの生産性が、毎分ダメージの桁が1つ上がるごとに{percent_increase}%増加する。"
-"blessing.blessing_of_destruction.active_description","Non-sorcery Spirit productivity will increase by {percent_increase}%
+ - Next level at {damage} damage per minute."
+blessing.blessing_of_diplomacy.name,Blessing of Diplomacy
+blessing.blessing_of_diplomacy.description,"Every time you establish relations with a nation, gain {amount} {magic_gold_icon}.
 
- - Next level at {damage} damage per minute.","ソーサリー以外のスピリットの生産性が{percent_increase}%増加します
+- Not affected by resource bonuses."
+blessing.blessing_of_effects.name,Blessing of Effects
+blessing.blessing_of_effects.description,Each status effect on the wall will only decay after it reaches {decay} stacks
+blessing.blessing_of_exploration.name,Blessing of Exploration
+blessing.blessing_of_exploration.description,Reveals a new nation that will provide Trade Agreements equal to your diplomat population when relations are established.
+blessing.blessing_of_few.name,Blessing of Few
+blessing.blessing_of_few.description,All Spirit Types that do not have the Blessing of 60 or Blessing of Population active will become {percent_increase}% more productive.
+blessing.blessing_of_fire.name,Blessing of Fire
+blessing.blessing_of_fire.description,"Ifrits will apply {effect} to the wall. For every stack of Molten, the Wall takes {percent_increase}% more damage from Dragon Fireballs.
 
-- 次のレベル: 毎分{damage}ダメージ。"
-"blessing.blessing_of_diplomacy.name","Blessing of Diplomacy","外交の祝福"
-"blessing.blessing_of_diplomacy.description","Every time you establish relations with a nation, gain {amount} {magic_gold_icon}.
+- Also Dragon EXP gain increases by {exp_increase}%"
+blessing.blessing_of_fire_abridged.description,"Ifrits will apply {effect} to the wall. For every stack of Molten, the Wall takes {percent_increase}% more damage from Dragon Fireballs."
+blessing.blessing_of_hovering.name,Blessing of Hovering
+blessing.blessing_of_hovering.description,Just hovering over a place will speed up spirits instead of clicking.
+blessing.blessing_of_multitasking.name,Blessing of Multitasking
+blessing.blessing_of_multitasking.description,Spirit Sages will research all subjects in The Academy at once.
+blessing.blessing_of_n.name,Blessing of 60
+blessing.blessing_of_n.description,"Spirits with a population of {threshold} or more will become {percent_increase}% more productive.
 
-- Not affected by resource bonuses.","国家と国交を樹立するたびに、{amount}個の{magic_gold_icon}を獲得します。
+-'Productive' means the primary function of the spirit type is boosted."
+blessing.blessing_of_population.name,Blessing of Population
+blessing.blessing_of_population.description,"The Spirit Type that has the largest population will become {percent_increase}% more productive.
 
-- リソースボーナスの影響は受けません。"
-"blessing.blessing_of_effects.name","Blessing of Effects","効果の祝福"
-"blessing.blessing_of_effects.description","Each status effect on the wall will only decay after it reaches {decay} stacks","壁の各ステータス効果は、スタックが{decay}に達するまで減少しなくなります"
-"blessing.blessing_of_exploration.name","Blessing of Exploration","探検の祝福"
-"blessing.blessing_of_exploration.description","Reveals a new nation that will provide Trade Agreements equal to your diplomat population when relations are established.","国交を樹立すると、外交官の人口と同数の貿易協定をもたらす新たな国家を発見します。"
-"blessing.blessing_of_few.name","Blessing of Few","少数精鋭の祝福"
-"blessing.blessing_of_few.description","All Spirit Types that do not have the Blessing of 60 or Blessing of Population active will become {percent_increase}% more productive.","「60の祝福」または「人口の祝福」が有効でない全てのスピリットタイプの生産性が{percent_increase}%向上します。"
-"blessing.blessing_of_fire.name","Blessing of Fire","火の祝福"
-"blessing.blessing_of_fire.description","Ifrits will apply {effect} to the wall. For every stack of Molten, the Wall takes {percent_increase}% more damage from Dragon Fireballs.
+-'Productive' means the primary function of the spirit type is boosted."
+blessing.blessing_of_summoning.name,Blessing of Summoning
+blessing.blessing_of_summoning.description,Unlocks the option to auto-buy {spirit_icon}.
+blessing.blessing_of_supervision.name,Blessing of Supervision
+blessing.blessing_of_supervision.description,Whichever clickable place you clicked last gets a speed boost of {percent_increase}% until a different area is clicked
+blessing.blessing_of_supervision_units.description,- Sorcery units gain only half of the speed increase
+blessing.blessing_of_the_tower.name,Blessing of the Tower
+blessing.blessing_of_the_tower.description,"When starting a new run, the tower will be built with the study, {cloudlings} cloudlings, and {tomes} tomes"
+blessing.blessing_of_the_tower_2.name,Greater Blessing of the Tower
+blessing.blessing_of_the_tower_2.description,"When starting a new run, the tower will be built with Forestry, {druids} Druids, Prestige, and {spirit_tomes} additional Spirit Tomes."
+blessing.blessing_of_the_tower_3.name,Final Blessing of the Tower
+blessing.blessing_of_the_tower_3.description,"When starting a new run, the tower will be built with all buildings up to and including Sorcery."
+blessing.blessing_of_totems.name,Blessing of Totems
+blessing.blessing_of_totems.description,"For every {totems} totems of a certain type are carved, increase the passive effect of the that totem type by a compounding {percent_increase}%"
+blessing.build_academy.name,Blessing of Tomes
+blessing.build_academy.description,"When there are at least {requirement} Spirit Tomes, {knowledge_icon} and {magic_icon} gain is increased by {percent_increase}%"
+blessing.crafting_totem_blessing.name,Blessing of the Crafting Totem
+blessing.crafting_totem_blessing.description,Adds a new Totem that speeds up {blank_rune_icon} and {magic_gold_icon} creation by {percent_increase}%
+blessing.doubling_blessing.name,Blessing of Doubling
+blessing.doubling_blessing.description,"When a Cloudling, Spirit Tome, or Druid is summoned, it will be summoned twice."
+blessing.dragon_blessing.name,Blessing of the Dragon
+blessing.dragon_blessing.description,"When the Dragon levels up, gain an additional {points} dragon ability points"
+blessing.dragon_wisdom_blessing.name,Blessing of the Dragon Wisdom
+blessing.dragon_wisdom_blessing.description,Every 10th level of a Dragon ability will boost the ability value by a compounding {percent_increase}%
+blessing.forest_keeper_blessing.name,Blessing of the Forest Keeper
+blessing.forest_keeper_blessing.description,The Forest Keeper will be summoned with {levels} upgrade levels
+blessing.forestry_blessing.name,Blessing of the Forest
+blessing.forestry_blessing.description,Increases {wood_icon} gain by {percent_increase}%
+blessing.gorgon_blessing.name,Blessing of the Gorgon
+blessing.gorgon_blessing.description,Gorgons deal {percent_increase}% more damage for every {every} stacks of Weakness on the wall
+blessing.knowledge_blessing.name,Blessing of Knowledge
+blessing.knowledge_blessing.description,Increases {knowledge_icon} gain by {percent_increase}%
+blessing.magic_gain_blessing.name,Blessing of Magic
+blessing.magic_gain_blessing.description,Increases {magic_icon} gain by {percent_increase}%
+blessing.midway_blessing.name,Blessing of the Damage
+blessing.midway_blessing.description,{knowledge_icon} gain increases by {knowledge_increase}% and wall damage increases by {damage_increase}%
+blessing.prestige_blessing.name,Blessing of the Beacon
+blessing.prestige_blessing.description,"When the tower has the prestige building built, {magic_icon} and {wood_icon} gain is increased by {percent_increase}%"
+blessing.refining_blessing.name,Blessing of Refining
+blessing.refining_blessing.description,Runes can be upgraded multiple times.
+blessing.research_blessing.name,Blessing of Research
+blessing.research_blessing.description,"When Alchemy is built, instantly gain {amount} {magic_gold_icon}.
 
-- Also Dragon EXP gain increases by {exp_increase}%","イフリートが壁に{effect}を付与します。「溶融」のスタックごとに、壁が受けるドラゴン・ファイアボールのダメージが{percent_increase}%増加します。
+- Is not affected by resource bonuses."
+blessing.runecraft_blessing.name,Blessing of Runecraft
+blessing.runecraft_blessing.description,"Every time a Rune is created, create an extra {amount} Rune(s)"
+blessing.sage_totem_blessing.name,Blessing of the Sage Totem
+blessing.sage_totem_blessing.description,Adds a new Totem that increases Academy EXP gain by a compounding {percent_increase}%
+blessing.specialization_blessing.name,Blessing of Specialization
+blessing.specialization_blessing.description,"Gain {amount} Dragon Ability Points initially
 
-- さらに、ドラゴンEXPの獲得量が{exp_increase}%増加します"
-"blessing.blessing_of_fire_abridged.description","Ifrits will apply {effect} to the wall. For every stack of Molten, the Wall takes {percent_increase}% more damage from Dragon Fireballs.","イフリートが壁に{effect}を付与します。「溶融」のスタックごとに、壁が受けるドラゴン・ファイアボールのダメージが{percent_increase}%増加します。"
-"blessing.blessing_of_hovering.name","Blessing of Hovering","ホバリングの祝福"
-"blessing.blessing_of_hovering.description","Just hovering over a place will speed up spirits instead of clicking.","クリックの代わりに、対象エリアの上にカーソルを置くだけでスピリットの速度が上昇します。"
-"blessing.blessing_of_multitasking.name","Blessing of Multitasking","マルチタスクの祝福"
-"blessing.blessing_of_multitasking.description","Spirit Sages will research all subjects in The Academy at once.","スピリットセージがアカデミーの全教科を同時に研究するようになります。"
-"blessing.blessing_of_n.name","Blessing of 60","60の祝福"
-"blessing.blessing_of_n.description","Spirits with a population of {threshold} or more will become {percent_increase}% more productive.
+Every {every} levels a Dragon ability gains, increase all other Dragon abilities by {points} levels"
+blessing.spirit_debt.name,Blessing of Debt
+blessing.spirit_debt.description,Start with negative {amount} {spirit_icon}. Every non-sorcery Spirit type will start with {start_amount} {spirit_icon} summoned.
+button.autobuy_spirits,Autobuy
+button.bought,Bought
+button.build_tower,Build Tower
+button.built,Built
+button.buy,Buy
+button.cancel,Cancel
+button.cannot_upgrade,Cannot Upgrade
+button.close,Close
+button.continue_anyway,Continue Anyways
+button.craft,Craft
+button.early_prestige,Early Prestige
+button.email,barribobgames@gmail.com
+button.end_game,End Game
+button.exit,Exit
+button.final_ascension,The Final Ascension
+button.fire_magic,Fire Magic Beam
+button.go_to_academy,Go To Academy (Shortcut {shortcut})
+button.go_to_building,Go To Building (Shortcut {shortcut})
+button.go_to_dragon,Go To Dragon Nest (Shortcut {shortcut})
+button.go_to_embassy,Go To Embassy (Shortcut {shortcut})
+button.go_to_forest,Go To Forestry (Shortcut {shortcut})
+button.go_to_observatory,Go To Observatory (Shortcut {shortcut})
+button.go_to_orb,Go To Orb (Shortcut {shortcut})
+button.go_to_prestige,Go To Prestige (Shortcut {shortcut})
+button.go_to_relics,Go To Alchemy Lab (Shortcut {shortcut})
+button.go_to_runecraft,Go To Runecraft (Shortcut {shortcut})
+button.go_to_sorcery,Go To Sorcery (Shortcut {shortcut})
+button.go_to_sorcery_2,Go To Sorcery
+button.go_to_study,Go To Study (Shortcut {shortcut})
+button.go_to_temple,Go To Temple (Shortcut {shortcut})
+button.go_to_wall_wizard,Go To Wall Wizard (Shortcut {shortcut})
+button.google_forms,Google Forms
+button.hide_maxed_skills,Hide Maxed
+button.learn,Learn
+button.maxed,Maxed
+button.new_game,New Game!
+button.next_run,Next Run
+button.ok,OK
+button.open_remap_menu,Remap Shortcuts
+button.open_save_folder,Open Save Folder
+button.preload_3,3 Prestige Points
+button.preload_6,6 Prestige Points
+button.preload_9,9 Prestige Points
+button.preload_13,13 Prestige Points
+button.preload_18,18 Prestige Points
+button.preload_24,24 Prestige Points
+button.prestige,Prestige
+button.prestige_cancel,Cancel
+button.prestige_confirm,Confirm
+button.refund_diplomats,Refund Diplomats
+button.reset,Reset
+button.reset_blessings,Refund All Blessings
+button.sorcery_manual,Sorcery Manual
+button.steam_forum,Steam Forum
+button.toggle_fullscreen,Toggle Fullscreen
+button.unlocked,Unlocked
+button.upgrade,Upgrade
+button.upgrade_tower,Ascend Tower
+button.view_blessings,View Blessings
+button.we'll_see,We'll See About That
+damage_source.curse.name,Curse
+damage_source.curse.description,Curse
+damage_source.dragon.name,Dragon
+damage_source.dragon.description,Dragon
+damage_source.fire_arrows.name,Fire Arrows
+damage_source.fire_arrows.description,Fire Arrows
+damage_source.fireball_shrapnel.name,Fireball Shrapnel
+damage_source.fireball_shrapnel.description,Fireball Shrapnel
+damage_source.gorgon.name,Gorgon
+damage_source.gorgon.description,Gorgon
+damage_source.ice_arrows.name,Ice Arrows
+damage_source.ice_arrows.description,Ice Arrows
+damage_source.ifrit.name,Ifrit
+damage_source.ifrit.description,Ifrit
+damage_source.shaman.name,Shaman
+damage_source.shaman.description,Shaman
+damage_source.spirit_sage.name,Spirit Sage
+damage_source.spirit_sage.description,Spirit Sage
+damage_source.wall_repair.name,Wall Repair
+damage_source.wall_repair.description,"Wall Repair
 
--'Productive' means the primary function of the spirit type is boosted.","個体数が{threshold}以上のスピリットは、生産性が{percent_increase}%向上します。
+- Repairs wall by up to {repair_rate} damage per minute"
+damage_source.zephyr.name,Zephyr
+damage_source.zephyr.description,Zephyr
+dragon_ability.fireballs.name,Fireballs
+dragon_ability.fireballs.tooltip,"If there is a wall, occasionally shoot a fireball that deals {main_value} base damage."
+dragon_ability.magic_breath.name,Magic Breath
+dragon_ability.magic_breath.tooltip,"Occasionally breathe {magic_icon} to The Orb, equal to the output of {main_value} Cloudlings"
+dragon_ability.next_value_tooltip,- Upgrade increases this to {next_value}
+dragon_ability.pulse_of_knowledge.name,Pulse of Knowledge
+dragon_ability.pulse_of_knowledge.tooltip,"Occasionally gain {knowledge_icon} equal to {main_value} tomes.
 
--「生産性」とは、そのスピリットの持つ主要な能力を指します。"
-"blessing.blessing_of_population.name","Blessing of Population","人口の祝福"
-"blessing.blessing_of_population.description","The Spirit Type that has the largest population will become {percent_increase}% more productive.
-
--'Productive' means the primary function of the spirit type is boosted.","最も個体数の多いスピリットタイプの生産性が{percent_increase}%向上します。
-
--「生産性」とは、そのスピリットの持つ主要な能力を指します。"
-"blessing.blessing_of_summoning.name","Blessing of Summoning","召喚の祝福"
-"blessing.blessing_of_summoning.description","Unlocks the option to auto-buy {spirit_icon}.","{spirit_icon}の自動購入オプションを解放します。"
-"blessing.blessing_of_supervision.name","Blessing of Supervision","指導者の祝福"
-"blessing.blessing_of_supervision.description","Whichever clickable place you clicked last gets a speed boost of {percent_increase}% until a different area is clicked","最後にクリックした場所は、次に別の場所をクリックするまで、作業速度が{percent_increase}%向上します"
-"blessing.blessing_of_supervision_units.description","- Sorcery units gain only half of the speed increase","- ソーサリーユニットが得られる速度ボーナスは半分になります"
-"blessing.blessing_of_the_tower.name","Blessing of the Tower","塔の祝福"
-"blessing.blessing_of_the_tower.description","When starting a new run, the tower will be built with the study, {cloudlings} cloudlings, and {tomes} tomes","新たな周回を開始すると、「書斎」、{cloudlings}体の「クラウドリング」、{tomes}冊の「トーム」を所持した状態でタワーが建設されます"
-"blessing.blessing_of_the_tower_2.name","Greater Blessing of the Tower","塔の大いなる祝福"
-"blessing.blessing_of_the_tower_2.description","When starting a new run, the tower will be built with Forestry, {druids} Druids, Prestige, and {spirit_tomes} additional Spirit Tomes.","新たな周回を開始すると、「林業」「プレステージ」が解放され、{druids}体の「ドルイド」と{spirit_tomes}冊の「スピリット・トーム」を追加で所持した状態でタワーが建設されます。"
-"blessing.blessing_of_the_tower_3.name","Final Blessing of the Tower","塔の最終祝福"
-"blessing.blessing_of_the_tower_3.description","When starting a new run, the tower will be built with all buildings up to and including Sorcery.","新たな周回を開始すると、「ソーサリー」までの全ての建物が建設された状態でタワーが始まります。"
-"blessing.blessing_of_totems.name","Blessing of Totems","トーテムの祝福"
-"blessing.blessing_of_totems.description","For every {totems} totems of a certain type are carved, increase the passive effect of the that totem type by a compounding {percent_increase}%","特定の種類のトーテムが{totems}個彫られるごとに、そのトーテムのパッシブ効果が{percent_increase}%の複利で増加します"
-"blessing.build_academy.name","Blessing of Tomes","書物の祝福"
-"blessing.build_academy.description","When there are at least {requirement} Spirit Tomes, {knowledge_icon} and {magic_icon} gain is increased by {percent_increase}%","スピリット・トームが{requirement}冊以上ある場合、{knowledge_icon}と{magic_icon}の獲得量が{percent_increase}%増加します"
-"blessing.crafting_totem_blessing.name","Blessing of the Crafting Totem","製作トーテムの祝福"
-"blessing.crafting_totem_blessing.description","Adds a new Totem that speeds up {blank_rune_icon} and {magic_gold_icon} creation by {percent_increase}%","{blank_rune_icon}と{magic_gold_icon}の生成速度を{percent_increase}%向上させる新たなトーテムを追加します"
-"blessing.doubling_blessing.name","Blessing of Doubling","倍増の祝福"
-"blessing.doubling_blessing.description","When a Cloudling, Spirit Tome, or Druid is summoned, it will be summoned twice.","クラウドリング、スピリット・トーム、ドルイドを召喚する際、2倍の数が召喚されます。"
-"blessing.dragon_blessing.name","Blessing of the Dragon","ドラゴンの祝福"
-"blessing.dragon_blessing.description","When the Dragon levels up, gain an additional {points} dragon ability points","ドラゴンがレベルアップすると、追加で{points}のドラゴンアビリティポイントを獲得します"
-"blessing.dragon_wisdom_blessing.name","Blessing of the Dragon Wisdom","ドラゴンの知恵の祝福"
-"blessing.dragon_wisdom_blessing.description","Every 10th level of a Dragon ability will boost the ability value by a compounding {percent_increase}%","ドラゴンアビリティレベルが10上がるごとに、アビリティの効果値が{percent_increase}%の複利で増加します"
-"blessing.forest_keeper_blessing.name","Blessing of the Forest Keeper","森の番人の祝福"
-"blessing.forest_keeper_blessing.description","The Forest Keeper will be summoned with {levels} upgrade levels","森の番人が{levels}のアップグレードレベルを持った状態で召喚されます"
-"blessing.forestry_blessing.name","Blessing of the Forest","森の祝福"
-"blessing.forestry_blessing.description","Increases {wood_icon} gain by {percent_increase}%","{wood_icon}の獲得量が{percent_increase}%増加します"
-"blessing.gorgon_blessing.name","Blessing of the Gorgon","ゴルゴンの祝福"
-"blessing.gorgon_blessing.description","Gorgons deal {percent_increase}% more damage for every {every} stacks of Weakness on the wall","壁の「弱体化」スタック{every}ごとに、ゴルゴンの与ダメージが{percent_increase}%増加します"
-"blessing.knowledge_blessing.name","Blessing of Knowledge","知識の祝福"
-"blessing.knowledge_blessing.description","Increases {knowledge_icon} gain by {percent_increase}%","{knowledge_icon}の獲得量が{percent_increase}%増加します"
-"blessing.magic_gain_blessing.name","Blessing of Magic","魔法の祝福"
-"blessing.magic_gain_blessing.description","Increases {magic_icon} gain by {percent_increase}%","{magic_icon}の獲得量が{percent_increase}%増加します"
-"blessing.midway_blessing.name","Blessing of the Damage","ダメージの祝福"
-"blessing.midway_blessing.description","{knowledge_icon} gain increases by {knowledge_increase}% and wall damage increases by {damage_increase}%","{knowledge_icon}の獲得量が{knowledge_increase}%、壁へのダメージが{damage_increase}%増加します"
-"blessing.prestige_blessing.name","Blessing of the Beacon","灯台の祝福"
-"blessing.prestige_blessing.description","When the tower has the prestige building built, {magic_icon} and {wood_icon} gain is increased by {percent_increase}%","タワーにプレステージの建物が存在する場合、{magic_icon}と{wood_icon}の獲得量が{percent_increase}%増加します"
-"blessing.refining_blessing.name","Blessing of Refining","精錬の祝福"
-"blessing.refining_blessing.description","Runes can be upgraded multiple times.","ルーンを複数回アップグレードできるようになります。"
-"blessing.research_blessing.name","Blessing of Research","研究の祝福"
-"blessing.research_blessing.description","When Alchemy is built, instantly gain {amount} {magic_gold_icon}.
-
-- Is not affected by resource bonuses.","錬金術施設を建設すると、即座に{amount}個の{magic_gold_icon}を獲得します。
-
-- リソースボーナスの影響は受けません。"
-"blessing.runecraft_blessing.name","Blessing of Runecraft","ルーンクラフトの祝福"
-"blessing.runecraft_blessing.description","Every time a Rune is created, create an extra {amount} Rune(s)","ルーンを1つ作成するたびに、追加で{amount}個のルーンを作成します"
-"blessing.sage_totem_blessing.name","Blessing of the Sage Totem","賢者のトーテムの祝福"
-"blessing.sage_totem_blessing.description","Adds a new Totem that increases Academy EXP gain by a compounding {percent_increase}%","アカデミーEXPの獲得量を{percent_increase}%の複利で増加させる新たなトーテムを追加します"
-"blessing.specialization_blessing.name","Blessing of Specialization","専門化の祝福"
-"blessing.specialization_blessing.description","Gain {amount} Dragon Ability Points initially
-
-Every {every} levels a Dragon ability gains, increase all other Dragon abilities by {points} levels","開始時にドラゴンアビリティポイントを{amount}獲得します
-
-ドラゴンアビリティのレベルが{every}上がるごとに、他の全てのドラゴンアビリティのレベルが{points}上昇します"
-"blessing.spirit_debt.name","Blessing of Debt","借金の祝福"
-"blessing.spirit_debt.description","Start with negative {amount} {spirit_icon}. Every non-sorcery Spirit type will start with {start_amount} {spirit_icon} summoned.","開始時のスピリットが-{amount}{spirit_icon}になる代わりに、ソーサリー以外の全スピリットタイプが{start_amount}{spirit_icon}召喚された状態で始まります。"
-"button.autobuy_spirits","Autobuy","自動購入"
-"button.bought","Bought","購入済み"
-"button.build_tower","Build Tower","タワーを建設"
-"button.built","Built","建設済み"
-"button.buy","Buy","購入"
-"button.cancel","Cancel","キャンセル"
-"button.cannot_upgrade","Cannot Upgrade","アップグレード不可"
-"button.close","Close","閉じる"
-"button.continue_anyway","Continue Anyways","問題なく続行"
-"button.craft","Craft","製作"
-"button.early_prestige","Early Prestige","早期プレステージ"
-"button.email","barribobgames@gmail.com","barribobgames@gmail.com"
-"button.end_game","End Game","ゲーム終了"
-"button.exit","Exit","終了"
-"button.final_ascension","The Final Ascension","最終昇格"
-"button.fire_magic","Fire Magic Beam","ファイア・マジックビーム"
-"button.go_to_academy","Go To Academy (Shortcut {shortcut})","アカデミーへ移動 (ショートカット: {shortcut})"
-"button.go_to_building","Go To Building (Shortcut {shortcut})","建物へ移動 (ショートカット: {shortcut})"
-"button.go_to_dragon","Go To Dragon Nest (Shortcut {shortcut})","ドラゴンネストへ移動 (ショートカット: {shortcut})"
-"button.go_to_embassy","Go To Embassy (Shortcut {shortcut})","大使館へ移動 (ショートカット: {shortcut})"
-"button.go_to_forest","Go To Forestry (Shortcut {shortcut})","林業へ移動 (ショートカット: {shortcut})"
-"button.go_to_observatory","Go To Observatory (Shortcut {shortcut})","天文台へ移動 (ショートカット: {shortcut})"
-"button.go_to_orb","Go To Orb (Shortcut {shortcut})","オーブへ移動 (ショートカット: {shortcut})"
-"button.go_to_prestige","Go To Prestige (Shortcut {shortcut})","プレステージへ移動 (ショートカット: {shortcut})"
-"button.go_to_relics","Go To Alchemy Lab (Shortcut {shortcut})","錬金術ラボへ移動 (ショートカット: {shortcut})"
-"button.go_to_runecraft","Go To Runecraft (Shortcut {shortcut})","ルーンクラフトへ移動 (ショートカット: {shortcut})"
-"button.go_to_sorcery","Go To Sorcery (Shortcut {shortcut})","ソーサリーへ移動 (ショートカット: {shortcut})"
-"button.go_to_sorcery_2","Go To Sorcery","ソーサリーへ移動"
-"button.go_to_study","Go To Study (Shortcut {shortcut})","書斎へ移動 (ショートカット: {shortcut})"
-"button.go_to_temple","Go To Temple (Shortcut {shortcut})","寺院へ移動 (ショートカット: {shortcut})"
-"button.go_to_wall_wizard","Go To Wall Wizard (Shortcut {shortcut})","ウォールウィザードへ移動 (ショートカット: {shortcut})"
-"button.google_forms","Google Forms","Googleフォーム"
-"button.hide_maxed_skills","Hide Maxed","最大レベルの項目を隠す"
-"button.learn","Learn","習得"
-"button.maxed","Maxed","最大"
-"button.new_game","New Game!","ニューゲーム！"
-"button.next_run","Next Run","次の周回へ"
-"button.ok","OK","OK"
-"button.open_remap_menu","Remap Shortcuts","ショートカット再設定"
-"button.open_save_folder","Open Save Folder","セーブフォルダを開く"
-"button.preload_3","3 Prestige Points","3 プレステージポイント"
-"button.preload_6","6 Prestige Points","6 プレステージポイント"
-"button.preload_9","9 Prestige Points","9 プレステージポイント"
-"button.preload_13","13 Prestige Points","13 プレステージポイント"
-"button.preload_18","18 Prestige Points","18 プレステージポイント"
-"button.preload_24","24 Prestige Points","24 プレステージポイント"
-"button.prestige","Prestige","プレステージ"
-"button.prestige_cancel","Cancel","キャンセル"
-"button.prestige_confirm","Confirm","実行"
-"button.refund_diplomats","Refund Diplomats","外交官を払い戻す"
-"button.reset","Reset","リセット"
-"button.reset_blessings","Refund All Blessings","全ての祝福を払い戻す"
-"button.sorcery_manual","Sorcery Manual","ソーサリーマニュアル"
-"button.steam_forum","Steam Forum","Steamフォーラム"
-"button.toggle_fullscreen","Toggle Fullscreen","フルスクリーン切替"
-"button.unlocked","Unlocked","解放済み"
-"button.upgrade","Upgrade","アップグレード"
-"button.upgrade_tower","Ascend Tower","タワーを昇格"
-"button.view_blessings","View Blessings","祝福を見る"
-"button.we'll_see","We'll See About That","いずれ分かるだろう"
-"damage_source.curse.name","Curse","呪い"
-"damage_source.curse.description","Curse","呪い"
-"damage_source.dragon.name","Dragon","ドラゴン"
-"damage_source.dragon.description","Dragon","ドラゴン"
-"damage_source.fire_arrows.name","Fire Arrows","火矢"
-"damage_source.fire_arrows.description","Fire Arrows","火矢"
-"damage_source.fireball_shrapnel.name","Fireball Shrapnel","ファイアボールの破片"
-"damage_source.fireball_shrapnel.description","Fireball Shrapnel","ファイアボールの破片"
-"damage_source.gorgon.name","Gorgon","ゴルゴン"
-"damage_source.gorgon.description","Gorgon","ゴルゴン"
-"damage_source.ice_arrows.name","Ice Arrows","氷矢"
-"damage_source.ice_arrows.description","Ice Arrows","氷矢"
-"damage_source.ifrit.name","Ifrit","イフリート"
-"damage_source.ifrit.description","Ifrit","イフリート"
-"damage_source.shaman.name","Shaman","シャーマン"
-"damage_source.shaman.description","Shaman","シャーマン"
-"damage_source.spirit_sage.name","Spirit Sage","スピリットセージ"
-"damage_source.spirit_sage.description","Spirit Sage","スピリットセージ"
-"damage_source.wall_repair.name","Wall Repair","壁の修復"
-"damage_source.wall_repair.description","Wall Repair
-
-- Repairs wall by up to {repair_rate} damage per minute","壁の修復
-
-- 毎分最大{repair_rate}ダメージ分、壁を修復する"
-"damage_source.zephyr.name","Zephyr","ゼファー"
-"damage_source.zephyr.description","Zephyr","ゼファー"
-"dragon_ability.fireballs.name","Fireballs","ファイアボール"
-"dragon_ability.fireballs.tooltip","If there is a wall, occasionally shoot a fireball that deals {main_value} base damage.","壁が存在する場合、基礎ダメージ{main_value}のファイアボールを時々発射する。"
-"dragon_ability.magic_breath.name","Magic Breath","マジックブレス"
-"dragon_ability.magic_breath.tooltip","Occasionally breathe {magic_icon} to The Orb, equal to the output of {main_value} Cloudlings","時々、{main_value}体のクラウドリングの生産量に等しい{magic_icon}をオーブに吹き込む"
-"dragon_ability.next_value_tooltip","- Upgrade increases this to {next_value}","- アップグレードにより{next_value}に増加"
-"dragon_ability.pulse_of_knowledge.name","Pulse of Knowledge","知識の波動"
-"dragon_ability.pulse_of_knowledge.tooltip","Occasionally gain {knowledge_icon} equal to {main_value} tomes.
-
-- Hold the button or press shift to buy multiple","時々、{main_value}冊分の{knowledge_icon}を獲得する。
-
-- ボタン長押し、またはShiftキーを押しながらクリックで複数購入できます"
-"dragon_ability.telepathy.name","Telepathy","テレパシー"
-"dragon_ability.telepathy.tooltip","Increases Academy experience gain by {main_value}%","アカデミーの経験値獲得量が{main_value}%増加します"
-"dragon_ability.treasure_keeper.name","Treasure Keeper","宝物の番人"
-"dragon_ability.treasure_keeper.tooltip","Increases {magic_gold_icon} production speed by {main_value}%","{magic_gold_icon}の生産速度が{main_value}%増加します"
-"header.abilities","Abilities","アビリティ"
-"header.academy","Academy","アカデミー"
-"header.alchemists","Alchemy Lab","錬金術ラボ"
-"header.blessing_locked","Blessings Locked","祝福はロックされています"
-"header.blessings","Blessings","祝福"
-"header.blessings_view_only","Blessings (View Only)","祝福 (閲覧のみ)"
-"header.building","Building","建物"
-"header.dragon_nest","Dragon Nest","ドラゴンネスト"
-"header.early_prestige","Early Prestige","早期プレステージ"
-"header.embassy","Embassy","大使館"
-"header.forestry","Forestry","林業"
-"header.level","Lv.{level}","Lv.{level}"
-"header.milestone_blessings","Milestone Blessings","マイルストーン祝福"
-"header.new_update","New Update","アップデート情報"
-"header.notice","Notice","お知らせ"
-"header.observatory","Observatory","天文台"
-"header.orb","The Orb","オーブ"
-"header.playtest","Welcome to the Playtest!","プレイテストへようこそ！"
-"header.prestige","Prestige","プレステージ"
-"header.relics","Relics","レリック"
-"header.remap","Remap","再設定"
-"header.rune","Runecraft","ルーンクラフト"
-"header.skills","Skills","スキル"
-"header.small_buildings","Spirit Housing","スピリット住居"
-"header.sorcery","Sorcery","ソーサリー"
-"header.spirits","The Orb","オーブ"
-"header.study","Study","書斎"
-"header.temple","Temple","寺院"
-"header.this_run","This Run","今回の周回"
-"header.totems","Totems","トーテム"
-"header.tower_requirements","Tower Requirements","タワー要件"
-"header.training","Research","研究"
-"header.unlockable_blessings","Unlockable Blessings","解放可能な祝福"
-"header.unspent_points","You Have Unspent Points","未使用のポイントがあります"
-"header.warden","Wall Wizard","ウォールウィザード"
-"label.assigned_points","Assigned Points: {points}","割り振り済みポイント: {points}"
-"label.attention_icon_explanation","The Tower can be Ascended to the next level.","タワーを次のレベルへ昇格させることができます。"
-"label.build_tower_explanation","Does not use any resources to ascend","昇格にリソースは消費しません"
-"label.calculating","Calculating...","計算中..."
-"label.confirm_prestige","Are you sure you want to prestige?","本当にプレステージを 実行しますか？"
-"label.cost","Cost:","コスト:"
-"label.cost_icon","{cost} {icon}","{cost} {icon}"
-"label.costs","- costs","- コスト"
-"label.crafting_cost","Crafting Cost:","製作コスト:"
-"label.damage_exp_explanation","When this bar is full, you gain a prestige point.
+- Hold the button or press shift to buy multiple"
+dragon_ability.telepathy.name,Telepathy
+dragon_ability.telepathy.tooltip,Increases Academy experience gain by {main_value}%
+dragon_ability.treasure_keeper.name,Treasure Keeper
+dragon_ability.treasure_keeper.tooltip,Increases {magic_gold_icon} production speed by {main_value}%
+header.abilities,Abilities
+header.academy,Academy
+header.alchemists,Alchemy Lab
+header.blessing_locked,Blessings Locked
+header.blessings,Blessings
+header.blessings_view_only,Blessings (View Only)
+header.building,Building
+header.dragon_nest,Dragon Nest
+header.early_prestige,Early Prestige
+header.embassy,Embassy
+header.forestry,Forestry
+header.level,Lv.{level}
+header.milestone_blessings,Milestone Blessings
+header.new_update,New Update
+header.notice,Notice
+header.observatory,Observatory
+header.orb,The Orb
+header.playtest,Welcome to the Playtest!
+header.prestige,Prestige
+header.relics,Relics
+header.remap,Remap
+header.rune,Runecraft
+header.skills,Skills
+header.small_buildings,Spirit Housing
+header.sorcery,Sorcery
+header.spirits,The Orb
+header.study,Study
+header.temple,Temple
+header.this_run,This Run
+header.totems,Totems
+header.tower_requirements,Tower Requirements
+header.training,Research
+header.unlockable_blessings,Unlockable Blessings
+header.unspent_points,You Have Unspent Points
+header.warden,Wall Wizard
+label.assigned_points,Assigned Points: {points}
+label.attention_icon_explanation,The Tower can be Ascended to the next level.
+label.build_tower_explanation,Does not use any resources to ascend
+label.calculating,Calculating...
+label.confirm_prestige,Are you sure you want to prestige?
+label.cost,Cost:
+label.cost_icon,{cost} {icon}
+label.costs,- costs
+label.crafting_cost,Crafting Cost:
+label.damage_exp_explanation,"When this bar is full, you gain a prestige point.
 
 - The bar fills based on the damage dealt to the wall.
 
-- ETA: {eta}","このバーが満タンになると、プレステージポイントを1獲得します。
+- ETA: {eta}"
+label.damage_type_blessing,Blessing Effect:
+label.dragon_costs,- costs {cost} {icon}
+label.dragon_level,"Every time the Dragon levels up, you get an ability point to upgrade abilities
 
-- バーは壁に与えたダメージに応じて溜まります。
-
-- 残り時間: {eta}"
-"label.damage_type_blessing","Blessing Effect:","祝福効果:"
-"label.dragon_costs","- costs {cost} {icon}","- コスト {cost} {icon}"
-"label.dragon_level","Every time the Dragon levels up, you get an ability point to upgrade abilities
-
-- ETA: {eta}","ドラゴンがレベルアップするたびに、アビリティを強化するためのアビリティポイントを1獲得します。
-
-- 残り時間: {eta}"
-"label.effects","Effects","効果"
-"label.effects_description","These are the effects that are currently applied to the wall.","現在、壁に適用されている効果です。"
-"label.ending_time","You built the greatest Wizard Tower in {hours}:{minutes}:{seconds}","あなたは{hours}:{minutes}:{seconds}で最高のウィザードタワーを築き上げました"
-"label.feedback","Feedback","フィードバック"
-"label.final_ascension_explanation","Can you ascend the tower one more time?","もう一度、タワーを昇格させられるか？"
-"label.fire_magic_explanation","The Astrologer has determined that the wall can be destroyed using The Orb with the right resources.","占星術師は、適切なリソースをオーブと共に用いることで、壁を破壊できると突き止めました。"
-"label.go_to_sorcery","Go To Sorcery (Shortcut 8)","ソーサリーへ移動 (ショートカット: 8)"
-"label.go_to_spoiler","Go To ???","???へ移動"
-"label.hover","Hover over","カーソルを合わせる"
-"label.less_than_minute","Less than 1 minute","1分未満"
-"label.maxed","Maxed","最大"
-"label.new_update_description.0_0_3","The game has been given a major update! If you had a previous save, most progress will carry over, but consider starting a new game to properly experience some of the new features.","ゲームはメジャーアップデートされました！以前のセーブデータがある場合、進行状況のほとんどは引き継がれますが、新機能を存分に体験していただくために、新規でゲームを開始することをお勧めします。"
-"label.new_update_description.playtest","This version has more content unlocked beyond what the demo provides. I am looking for feedback about the new content. Also, there are some utilities in the 'playtest' menu that may aid you. Have fun!","このバージョンでは、デモ版よりも多くのコンテンツが解放されています。新しいコンテンツに関するフィードバックをお待ちしています。また、「プレイテスト」メニューには、ゲームプレイの助けとなるユーティリティも用意されています。お楽しみください！"
-"label.new_update_description.previous_playtest","It seems that you have possibly played the playtest version before. Note that the demo version is going to have less content unlocked than the closed playtest version.","以前にプレイテスト版をプレイされたことがあるようですね。デモ版はクローズドプレイテスト版よりも解放されるコンテンツが少ない点にご注意ください。"
-"label.new_update_description.prototype","The game has been given a major update! If you had a previous save, some progress (like prestige points) will carry over, but I recommend starting a new game because many things have changed, and mechanics have been added/removed.","ゲームはメジャーアップデートされました！以前のセーブデータがある場合、プレステージポイントなどの一部の進行は引き継がれますが、多くの仕様変更や、システムの追加・削除が行われたため、新規でゲームを始めることを強くお勧めします。"
-"label.not_active","- Not active","- 無効"
-"label.points","Points:{points}","ポイント:{points}"
-"label.points_earned","Points Earned:{points}","獲得ポイント:{points}"
-"label.preloaded_saves","Preloaded Saves","プリロードセーブ"
-"label.press_and_hold","Press and hold","長押し"
-"label.prestige_early_explanation","Prestige early to restart the run or reconfigure your blessings, but there is no significant benefit.","早期にプレステージを行うと、周回をリスタートしたり祝福を再設定したりできますが、特に大きなメリットはありません。"
-"label.prestige_exp_explanation","When this bar is full, you gain a prestige point.
+- ETA: {eta}"
+label.effects,Effects
+label.effects_description,These are the effects that are currently applied to the wall.
+label.ending_time,You built the greatest Wizard Tower in {hours}:{minutes}:{seconds}
+label.feedback,Feedback
+label.final_ascension_explanation,Can you ascend the tower one more time?
+label.fire_magic_explanation,The Astrologer has determined that the wall can be destroyed using The Orb with the right resources.
+label.go_to_sorcery,Go To Sorcery (Shortcut 8)
+label.go_to_spoiler,Go To ???
+label.hover,Hover over
+label.less_than_minute,Less than 1 minute
+label.maxed,Maxed
+label.new_update_description.0_0_3,"The game has been given a major update! If you had a previous save, most progress will carry over, but consider starting a new game to properly experience some of the new features."
+label.new_update_description.playtest,"This version has more content unlocked beyond what the demo provides. I am looking for feedback about the new content. Also, there are some utilities in the 'playtest' menu that may aid you. Have fun!"
+label.new_update_description.previous_playtest,It seems that you have possibly played the playtest version before. Note that the demo version is going to have less content unlocked than the closed playtest version.
+label.new_update_description.prototype,"The game has been given a major update! If you had a previous save, some progress (like prestige points) will carry over, but I recommend starting a new game because many things have changed, and mechanics have been added/removed."
+label.not_active,- Not active
+label.points,Points:{points}
+label.points_earned,Points Earned:{points}
+label.preloaded_saves,Preloaded Saves
+label.press_and_hold,Press and hold
+label.prestige_early_explanation,"Prestige early to restart the run or reconfigure your blessings, but there is no significant benefit."
+label.prestige_exp_explanation,"When this bar is full, you gain a prestige point.
 
 - The bar fills based on the amount of {magic_icon} gained.
 
-- ETA: {eta}","このバーが満タンになると、プレステージポイントを1獲得します。
+- ETA: {eta}"
+label.prestige_explanation,"Prestiging resets your progress, but allows you to gain blessings to make your next run better."
+label.prestige_points_explanation,Prestige points are used to gain blessings.
+label.relics,Owned Relics
+label.relics_needed,(need {needed} more)
+label.relics_owned,- You own {owned}
+label.reset_blessings,You can also right-click to refund individual blessings.
+label.restore_wall,Have the Wall Wizard restore/disable the Cosmic Wall
+label.rune_exp,Rune Progress
+label.rune_exp_eta,"Rune Progress
 
-- バーは{magic_icon}の獲得量に応じて溜まります。
+- ETA: {eta}"
+label.story_1,"I see you've built quite the civilization, but that tower must go no higher."
+label.story_2,This great wall will stop you from ascending further.
+label.story_3,"I seem to have underestimated you. However, you shall not pass this wall."
+label.story_4,"Fine, I'll make a deal. If you can destroy this wall, I won't stop you anymore."
+label.story_5,I am impressed by your determination. I may even stay and help a bit to see the final result.
+label.supervision_blessing,Supervision Blessing
+label.temple_exp,Cosmic Dust EXP
+label.temple_exp_explanation,"Cosmic Dust creation progress. When full, you get 1 Cosmic Dust. The bar fills based on damage dealt to the Cosmic Wall.
 
-- 残り時間: {eta}"
-"label.prestige_explanation","Prestiging resets your progress, but allows you to gain blessings to make your next run better.","プレステージを行うと進行状況がリセットされますが、次の周回を有利に進めるための祝福を得ることができます。"
-"label.prestige_points_explanation","Prestige points are used to gain blessings.","プレステージポイントを使って祝福を獲得します。"
-"label.relics","Owned Relics","所有レリック"
-"label.relics_needed","(need {needed} more)","(残り {needed}個)"
-"label.relics_owned","- You own {owned}","- {owned}個所有"
-"label.reset_blessings","You can also right-click to refund individual blessings.","右クリックで個別の祝福を払い戻すこともできます。"
-"label.restore_wall","Have the Wall Wizard restore/disable the Cosmic Wall","ウォールウィザードに宇宙の壁を修復/無効化させる"
-"label.rune_exp","Rune Progress","ルーン進行度"
-"label.rune_exp_eta","Rune Progress
+- ETA: {eta}"
+label.thanks_for_playing,Thanks for playing!
+label.the_end,The End
+label.tower_requirements_explanation,Fulfill the tower requirements to ascend the tower to the next level.
+label.tower_resource_explanation,"Accumulate a lifetime total of {cost} {resource}.
+({accumulated} accumulated so far)"
+label.tower_resource_explanation_balance_blessing,The balance blessing is active for this resource
+label.unspent_points_warning,You have unspent points. There is no advantage in keeping points unspent. It is recommended to assign them all to unlockable blessings (some blessings can have two points).
+label.utilities,Utilities
+label.wall_0,Cloud Wall
+label.wall_1,Solar Wall
+label.wall_2,Cosmic Wall
+label.wall_explanation,Break the wall above to ascend the tower.
+label.wall_health_bar,Wall has {value} health remaining
+nation.arcanis_nation.name,Arcanis
+nation.arcanis_nation.description,"Nation with a respected university
 
-- ETA: {eta}","ルーン進行度
+- Relations bonus: Increases Academy EXP gain by {percent_increase}%"
+nation.axel_nation.name,Axel
+nation.axel_nation.description,"Kingdom of adventurers and vast plains
 
-- 残り時間: {eta}"
-"label.story_1","I see you've built quite the civilization, but that tower must go no higher.","見事な文明を築いたようだが、 その塔をこれ以上高くすることは許さん。"
-"label.story_2","This great wall will stop you from ascending further.","この大いなる壁が、 貴様の行く手を阻むだろう。"
-"label.story_3","I seem to have underestimated you. However, you shall not pass this wall.","どうやら貴様を侮っていたようだ。 だが、この壁を越えることはできんぞ。"
-"label.story_4","Fine, I'll make a deal. If you can destroy this wall, I won't stop you anymore.","よかろう、取引だ。 もしこの壁を破壊できたなら、 もう貴様を止めはしない。"
-"label.story_5","I am impressed by your determination. I may even stay and help a bit to see the final result.","その決意、感服した。 結末を見届けるため、 少しばかり力を貸してやろう。"
-"label.supervision_blessing","Supervision Blessing","指導者の祝福"
-"label.temple_exp","Cosmic Dust EXP","コズミックダストEXP"
-"label.temple_exp_explanation","Cosmic Dust creation progress. When full, you get 1 Cosmic Dust. The bar fills based on damage dealt to the Cosmic Wall.
+- Relations bonus: Unlock new Knowledge-based upgrades for Sorcery and Dragon Nest."
+nation.ceha_nation.name,Ceha
+nation.ceha_nation.description,"Land of volcanoes 
 
-- ETA: {eta}","コズミックダスト生成の進行度。満タンになるとコズミックダストを1つ獲得します。バーは宇宙の壁に与えたダメージに応じて溜まります。
+- Relations bonus: Dragon Keepers provide {percent_increase}% more Dragon EXP"
+nation.chronara_nation.name,Chronara
+nation.chronara_nation.description,"Hidden nation that occasionally submerges
 
-- 残り時間: {eta}"
-"label.thanks_for_playing","Thanks for playing!","Thanks for playing!"
-"label.the_end","The End","The End"
-"label.tower_requirements_explanation","Fulfill the tower requirements to ascend the tower to the next level.","タワー要件を満たし、タワーを次のレベルへ昇格させましょう。"
-"label.tower_resource_explanation","Accumulate a lifetime total of {cost} {resource}.
-({accumulated} accumulated so far)","生涯合計で{cost}の{resource}を蓄積する。
-(現在までの蓄積量: {accumulated})"
-"label.tower_resource_explanation_balance_blessing","The balance blessing is active for this resource","このリソースには均衡の祝福が有効です"
-"label.unspent_points_warning","You have unspent points. There is no advantage in keeping points unspent. It is recommended to assign them all to unlockable blessings (some blessings can have two points).","未使用のポイントがあります。ポイントを未使用のままにしておくメリットはありません。解放可能な祝福に全て割り振ることをお勧めします（祝福によっては2ポイント割り振れるものもあります）。"
-"label.utilities","Utilities","ユーティリティ"
-"label.wall_0","Cloud Wall","雲の壁"
-"label.wall_1","Solar Wall","太陽の壁"
-"label.wall_2","Cosmic Wall","宇宙の壁"
-"label.wall_explanation","Break the wall above to ascend the tower.","上の壁を破壊し、タワーを昇格させましょう。"
-"label.wall_health_bar","Wall has {value} health remaining","壁の残り耐久値: {value}"
-"nation.arcanis_nation.name","Arcanis","アルカニス"
-"nation.arcanis_nation.description","Nation with a respected university
+- Relations bonus: Every 2 seconds gain Trade Agreements equal to your diplomat population."
+nation.fel_nation.name,Fel
+nation.fel_nation.description,"Nation known for ancient magic
 
-- Relations bonus: Increases Academy EXP gain by {percent_increase}%","名高い大学を有する国家
+- Relations bonus: Increases Academy EXP gain by {percent_increase}%"
+nation.istesha_nation.name,Istesha
+nation.istesha_nation.description,"Nation of dragons
 
-- 関係ボーナス: アカデミーEXP獲得量が{percent_increase}%増加"
-"nation.axel_nation.name","Axel","アクセル"
-"nation.axel_nation.description","Kingdom of adventurers and vast plains
+- Relations bonus: Instantly gain {amount} dragon ability points"
+nation.janand_nation.name,Janand
+nation.janand_nation.description,"Nation of prisoners and exiles
 
-- Relations bonus: Unlock new Knowledge-based upgrades for Sorcery and Dragon Nest.","冒険者と広大な平原の王国
+- Relations bonus: Increases all unit damage by {percent_increase}%"
+nation.lapis_nation.name,Lapis
+nation.lapis_nation.description,"Nation with stone pillars and buttes
 
-- 関係ボーナス: ソーサリーとドラゴンネストに、知識ベースの新たなアップグレードを解放。"
-"nation.ceha_nation.name","Ceha","セハ"
-"nation.ceha_nation.description","Land of volcanoes 
+- Relations bonus: Instantly gain {amount} Cognite."
+nation.lilon_nation.name,Lilon
+nation.lilon_nation.description,"Nation of wind and coasts
 
-- Relations bonus: Dragon Keepers provide {percent_increase}% more Dragon EXP","火山の地
+- Relations bonus: Increases Cloudling {magic_icon} gain by {percent_increase}%"
+nation.luscana_nation.name,Luscana
+nation.luscana_nation.description,"Nation of the jewelry
 
-- 関係ボーナス: ドラゴンの番人がもたらすドラゴンEXPが{percent_increase}%増加"
-"nation.chronara_nation.name","Chronara","クロナラ"
-"nation.chronara_nation.description","Hidden nation that occasionally submerges
+- Relations bonus: Instantly gain {amount} Mana Stones."
+nation.maristella_nation.name,Maristella
+nation.maristella_nation.description,"Nation of trade and seafaring.
 
-- Relations bonus: Every 2 seconds gain Trade Agreements equal to your diplomat population.","時折水中に沈む隠された国家
+- Relations bonus: Increases {knowledge_icon} gain by {percent_increase}%"
+nation.netus_nation.name,Netus
+nation.netus_nation.description,"Nation of crafters
 
-- 関係ボーナス: 2秒ごとに、外交官の人口と同数の貿易協定を獲得。"
-"nation.fel_nation.name","Fel","フェル"
-"nation.fel_nation.description","Nation known for ancient magic
+- Relations bonus: Unlocks new Knowledge-based upgrades for the forest and academy"
+nation.odantis_nation.name,Odantis
+nation.odantis_nation.description,"Nation of long winters
 
-- Relations bonus: Increases Academy EXP gain by {percent_increase}%","古代魔法で知られる国家
+- Relations bonus: Increases {knowledge_icon} gain by {percent_increase}%"
+nation.peace_land_nation.name,Peace Land
+nation.peace_land_nation.description,"Nation of small humans and spirits
 
-- 関係ボーナス: アカデミーEXP獲得量が{percent_increase}%増加"
-"nation.istesha_nation.name","Istesha","イステシャ"
-"nation.istesha_nation.description","Nation of dragons
+- Relations bonus: Instantly gain {amount} {spirit_icon}."
+nation.prismara_nation.name,Prismara
+nation.prismara_nation.description,"Nation of the crystal and sea
 
-- Relations bonus: Instantly gain {amount} dragon ability points","ドラゴンの国
+- Relations bonus: Increases {magic_gold_icon} production speed by {percent_increase}%"
+nation.starting_nation.name,Your Nation
+nation.starting_nation.description,"This is your domain. Once you have enough {trade_agreement_icon}, click on a neighboring nation to establish relations."
+nation.tedora_nation.name,Tedora
+nation.tedora_nation.description,"Nation of Ancient Forests
 
-- 関係ボーナス: ドラゴンアビリティポイントを即座に{amount}ポイント獲得"
-"nation.janand_nation.name","Janand","ジャナンド"
-"nation.janand_nation.description","Nation of prisoners and exiles
+- Relations bonus: Increases {wood_icon} gain by {percent_increase}%"
+nation.tempestus_nation.name,Tempestus
+nation.tempestus_nation.description,"Nation of mountains and storms
 
-- Relations bonus: Increases all unit damage by {percent_increase}%","囚人と追放者の国
+- Relations bonus: Increases Cloudling {magic_icon} gain by {percent_increase}%"
+nation.tenebris_nation.name,Tenebris
+nation.tenebris_nation.description,"Nation of vast caves
 
-- 関係ボーナス: 全ユニットのダメージが{percent_increase}%増加"
-"nation.lapis_nation.name","Lapis","ラピス"
-"nation.lapis_nation.description","Nation with stone pillars and buttes
+- Relations bonus: Increases {magic_gold_icon} production speed by {percent_increase}%"
+nation.verdania_nation.name,Verdania
+nation.verdania_nation.description,"Nation of vast forests
 
-- Relations bonus: Instantly gain {amount} Cognite.","石柱と岩山が連なる国家
+- Relations bonus: Increases {wood_icon} gain by {percent_increase}%"
+nation.wedol_nation.name,Wedol
+nation.wedol_nation.description,"Empire of the rainforest
 
-- 関係ボーナス: 即座に{amount}個のコグナイトを獲得。"
-"nation.lilon_nation.name","Lilon","リロン"
-"nation.lilon_nation.description","Nation of wind and coasts
+- Relations bonus: Instantly gain {amount} totems."
+nation.xara_nation.name,Xara
+nation.xara_nation.description,"Nation of the desert and stone
 
-- Relations bonus: Increases Cloudling {magic_icon} gain by {percent_increase}%","風と海岸の国
+- Relations bonus: Instantly gain {amount} Dragonite."
+relic.cognite,Cognite
+relic.cognite.tooltip,Each Cognite increases {knowledge_icon} gain by {percent_increase}%
+relic.dragonite,Dragonite
+relic.dragonite.tooltip,Each Dragonite increases Dragon EXP gain by {percent_increase}%
+relic.holy_grail,Holy Grail
+relic.holy_grail.tooltip,Each Holy Grail increases {magic_icon} gain by {magic_increase}% and Dragon EXP gain by {dragon_exp_increase}%
+relic.magic_gold,Magic Gold
+relic.magic_gold.tooltip,Each Magic Gold increases {magic_icon} gain by {percent_increase}%
+relic.mana_stone,Mana Stone
+relic.mana_stone.tooltip,Each Mana Stone increases {magic_icon} gain by {percent_increase}%
+relic.ouroboros,Ouroboros
+relic.ouroboros.tooltip,Each Ouroboros increases {knowledge_icon} gain by {knowledge_increase}% and Dragon EXP gain by {dragon_exp_increase}%
+relic.philosopher_stone,Philosopher's Stone
+relic.philosopher_stone.tooltip,Each Philosopher's Stone increases {knowledge_icon} gain by {knowledge_increase}% and {magic_icon} gain by {magic_increase}%
+resource.blank_rune,Blank Rune
+resource.blank_rune_description,Created by Runesmiths
+resource.building_points,Building Points
+resource.building_points_description,Every Tower Ascension grants a fixed amount.
+resource.cognite,Cognite
+resource.cosmic_analysis,Cosmic Analysis
+resource.cosmic_analysis_description,Bought at The Observatory
+resource.cosmic_dust,Cosmic Dust
+resource.cosmic_dust_description,Generated at the Temple from Cosmic Wall Damage
+resource.dragon_ability_points,Dragon Ability Points
+resource.dragon_ability_points_description,Gained from the leveling up the Dragon
+resource.dragonite,Dragonite
+resource.holy_grail,Holy Grail
+resource.knowledge,Knowledge
+resource.knowledge_description,Created by Spirit Tomes
+resource.magic,Magic
+resource.magic_description,Created by Cloudlings
+resource.magic_gold,Magic Gold
+resource.magic_gold_description,Created by Alchemists
+resource.mana_stone,Mana Stone
+resource.ouroboros,Ouroboros
+resource.philosopher_stone,Philosopher's Stone
+resource.spirits,Spirits
+resource.spirits_description,Purchased at The Orb
+resource.totems,Totems
+resource.totems_description,Purchased at The Forestry Portal
+resource.trade_agreements,Trade Agreements
+resource.trade_agreements_description,Created by Diplomats
+resource.wood,Wood
+resource.wood_description,Harvested by Druids
+skill.alchemy_lab,Alchemy Lab
+skill.alchemy_lab.tooltip,Increase the experience gain for {training} by {percent_increase}%
+skill.analyze_cursed,Cursed Wall Analysis
+skill.analyze_cursed.tooltip,Increase the base damage of Curses by {percent_increase}%
+skill.analyze_molten,Molten Wall Analysis
+skill.analyze_molten.tooltip,Increase the amount of Molten applied by {percent_increase}%
+skill.analyze_resonance,Shattering Wall Analysis
+skill.analyze_resonance.tooltip,Increase the amount of Shatter applied by {percent_increase}%
+skill.analyze_wall,Analyze Wall
+skill.analyze_wall.tooltip,"Analyze the Cosmic Wall, unlocking the set of resources required to break the wall.
 
-- 関係ボーナス: クラウドリングの{magic_icon}獲得量が{percent_increase}%増加"
-"nation.luscana_nation.name","Luscana","ルスカナ"
-"nation.luscana_nation.description","Nation of the jewelry
+- The requirements will be displayed in The Orb."
+skill.analyze_weakened,Weakened Wall Analysis
+skill.analyze_weakened.tooltip,Increase the amount of Weakened applied by {percent_increase}%
+skill.bigger_forest,Bigger Forest
+skill.bigger_forest_2,Druid Power
+skill.bigger_forest_2.tooltip,Increase {wood_icon} gain by {percent_increase}%
+skill.bigger_forest.tooltip,"Increases the forest size.
 
-- Relations bonus: Instantly gain {amount} Mana Stones.","宝飾の国
+- Increase the amount of {wood_icon} each log provides by {percent_increase}%"
+skill.build_academy,Build Academy
+skill.build_academy.tooltip,Build an Academy for magic education
+skill.build_book_house,Build Book House
+skill.build_book_house.tooltip,Book Houses collectively increase {knowledge_icon} gain by a compounding {percent_increase}%
+skill.build_dragon_nest,Build Dragon Nest
+skill.build_dragon_nest.tooltip,Build a dragon nest to hatch a dragon
+skill.build_embassy,Build Embassy
+skill.build_embassy.tooltip,Build an embassy to gain international relations
+skill.build_house,Build Spirit House
+skill.build_house.tooltip,"Spirit Houses collectively increase {magic_icon} gain by a compounding {percent_increase}%
 
-- 関係ボーナス: マナストーンを即座に{amount}個獲得。"
-"nation.maristella_nation.name","Maristella","マリステラ"
-"nation.maristella_nation.description","Nation of trade and seafaring.
+- Every Tower Ascension grants a fixed amount of {building_points_icon}"
+skill.build_tree_house,Build Tree House
+skill.build_tree_house.tooltip,Tree Houses collectively increase {wood_icon} gain by a compounding {percent_increase}%
+skill.carve_crafting_totem,Crafting Totem
+skill.carve_crafting_totem.tooltip,"Each Totem increases {blank_rune_icon} and {magic_gold_icon} creation progress by {percent_increase}%
 
-- Relations bonus: Increases {knowledge_icon} gain by {percent_increase}%","貿易と航海の国。
-
-- 関係ボーナス: {knowledge_icon}の獲得量が{percent_increase}%増加"
-"nation.netus_nation.name","Netus","ネトゥス"
-"nation.netus_nation.description","Nation of crafters
-
-- Relations bonus: Unlocks new Knowledge-based upgrades for the forest and academy","職人の国
-
-- 関係ボーナス: 林業とアカデミーに、知識ベースの新たなアップグレードを解放"
-"nation.odantis_nation.name","Odantis","オダンティス"
-"nation.odantis_nation.description","Nation of long winters
-
-- Relations bonus: Increases {knowledge_icon} gain by {percent_increase}%","長い冬の国
-
-- 関係ボーナス: {knowledge_icon}の獲得量が{percent_increase}%増加"
-"nation.peace_land_nation.name","Peace Land","ピースランド"
-"nation.peace_land_nation.description","Nation of small humans and spirits
-
-- Relations bonus: Instantly gain {amount} {spirit_icon}.","小人と精霊の国
-
-- 関係ボーナス: 即座に{amount}の{spirit_icon}を獲得。"
-"nation.prismara_nation.name","Prismara","プリズマラ"
-"nation.prismara_nation.description","Nation of the crystal and sea
-
-- Relations bonus: Increases {magic_gold_icon} production speed by {percent_increase}%","水晶と海の国
-
-- 関係ボーナス: {magic_gold_icon}の生産速度が{percent_increase}%増加"
-"nation.starting_nation.name","Your Nation","あなたの国"
-"nation.starting_nation.description","This is your domain. Once you have enough {trade_agreement_icon}, click on a neighboring nation to establish relations.","ここはあなたの領地です。{trade_agreement_icon}が十分に溜まったら、隣国をクリックして国交を樹立しましょう。"
-"nation.tedora_nation.name","Tedora","テドラ"
-"nation.tedora_nation.description","Nation of Ancient Forests
-
-- Relations bonus: Increases {wood_icon} gain by {percent_increase}%","古代の森の国
-
-- 関係ボーナス: {wood_icon}の獲得量が{percent_increase}%増加"
-"nation.tempestus_nation.name","Tempestus","テンペスタス"
-"nation.tempestus_nation.description","Nation of mountains and storms
-
-- Relations bonus: Increases Cloudling {magic_icon} gain by {percent_increase}%","山と嵐の国
-
-- 関係ボーナス: クラウドリングの{magic_icon}獲得量が{percent_increase}%増加"
-"nation.tenebris_nation.name","Tenebris","テネブリス"
-"nation.tenebris_nation.description","Nation of vast caves
-
-- Relations bonus: Increases {magic_gold_icon} production speed by {percent_increase}%","広大な洞窟の国
-
-- 関係ボーナス: {magic_gold_icon}の生産速度が{percent_increase}%増加"
-"nation.verdania_nation.name","Verdania","ヴェルダニア"
-"nation.verdania_nation.description","Nation of vast forests
-
-- Relations bonus: Increases {wood_icon} gain by {percent_increase}%","広大な森林の国
-
-- 関係ボーナス: {wood_icon}の獲得量が{percent_increase}%増加"
-"nation.wedol_nation.name","Wedol","ウェドル"
-"nation.wedol_nation.description","Empire of the rainforest
-
-- Relations bonus: Instantly gain {amount} totems.","熱帯雨林の帝国
-
-- 関係ボーナス: 即座に{amount}個のトーテムを獲得。"
-"nation.xara_nation.name","Xara","ザラ"
-"nation.xara_nation.description","Nation of the desert and stone
-
-- Relations bonus: Instantly gain {amount} Dragonite.","砂漠と石の国
-
-- 関係ボーナス: 即座に{amount}個のドラゴナイトを獲得。"
-"relic.cognite","Cognite","コグナイト"
-"relic.cognite.tooltip","Each Cognite increases {knowledge_icon} gain by {percent_increase}%","コグナイト1つにつき、{knowledge_icon}の獲得量が{percent_increase}%増加します"
-"relic.dragonite","Dragonite","ドラゴナイト"
-"relic.dragonite.tooltip","Each Dragonite increases Dragon EXP gain by {percent_increase}%","ドラゴナイト1つにつき、ドラゴンEXPの獲得量が{percent_increase}%増加します"
-"relic.holy_grail","Holy Grail","聖杯"
-"relic.holy_grail.tooltip","Each Holy Grail increases {magic_icon} gain by {magic_increase}% and Dragon EXP gain by {dragon_exp_increase}%","聖杯1つにつき、{magic_icon}の獲得量が{magic_increase}%、ドラゴンEXPの獲得量が{dragon_exp_increase}%増加します"
-"relic.magic_gold","Magic Gold","マジックゴールド"
-"relic.magic_gold.tooltip","Each Magic Gold increases {magic_icon} gain by {percent_increase}%","マジックゴールド1つにつき、{magic_icon}の獲得量が{percent_increase}%増加します"
-"relic.mana_stone","Mana Stone","マナストーン"
-"relic.mana_stone.tooltip","Each Mana Stone increases {magic_icon} gain by {percent_increase}%","マナストーン1つにつき、{magic_icon}の獲得量が{percent_increase}%増加します"
-"relic.ouroboros","Ouroboros","ウロボロス"
-"relic.ouroboros.tooltip","Each Ouroboros increases {knowledge_icon} gain by {knowledge_increase}% and Dragon EXP gain by {dragon_exp_increase}%","ウロボロス1つにつき、{knowledge_icon}の獲得量が{knowledge_increase}%、ドラゴンEXPの獲得量が{dragon_exp_increase}%増加します"
-"relic.philosopher_stone","Philosopher's Stone","賢者の石"
-"relic.philosopher_stone.tooltip","Each Philosopher's Stone increases {knowledge_icon} gain by {knowledge_increase}% and {magic_icon} gain by {magic_increase}%","賢者の石1つにつき、{knowledge_icon}の獲得量が{knowledge_increase}%、{magic_icon}の獲得量が{magic_increase}%増加します"
-"resource.blank_rune","Blank Rune","空のルーン"
-"resource.blank_rune_description","Created by Runesmiths","ルーンスミスにより生成"
-"resource.building_points","Building Points","建物ポイント"
-"resource.building_points_description","Every Tower Ascension grants a fixed amount.","タワーが昇格するたびに一定量を獲得。"
-"resource.cognite","Cognite","コグナイト"
-"resource.cosmic_analysis","Cosmic Analysis","宇宙分析"
-"resource.cosmic_analysis_description","Bought at The Observatory","天文台で購入"
-"resource.cosmic_dust","Cosmic Dust","コズミックダスト"
-"resource.cosmic_dust_description","Generated at the Temple from Cosmic Wall Damage","寺院にて、宇宙の壁へのダメージにより生成"
-"resource.dragon_ability_points","Dragon Ability Points","ドラゴンアビリティポイント"
-"resource.dragon_ability_points_description","Gained from the leveling up the Dragon","ドラゴンのレベルアップで獲得"
-"resource.dragonite","Dragonite","ドラゴナイト"
-"resource.holy_grail","Holy Grail","聖杯"
-"resource.knowledge","Knowledge","知識"
-"resource.knowledge_description","Created by Spirit Tomes","スピリット・トームにより生成"
-"resource.magic","Magic","魔力"
-"resource.magic_description","Created by Cloudlings","クラウドリングにより生成"
-"resource.magic_gold","Magic Gold","マジックゴールド"
-"resource.magic_gold_description","Created by Alchemists","錬金術師により生成"
-"resource.mana_stone","Mana Stone","マナストーン"
-"resource.ouroboros","Ouroboros","ウロボロス"
-"resource.philosopher_stone","Philosopher's Stone","賢者の石"
-"resource.spirits","Spirits","スピリット"
-"resource.spirits_description","Purchased at The Orb","オーブで購入"
-"resource.totems","Totems","トーテム"
-"resource.totems_description","Purchased at The Forestry Portal","林業ポータルで購入"
-"resource.trade_agreements","Trade Agreements","貿易協定"
-"resource.trade_agreements_description","Created by Diplomats","外交官により生成"
-"resource.wood","Wood","木材"
-"resource.wood_description","Harvested by Druids","ドルイドにより伐採"
-"skill.alchemy_lab","Alchemy Lab","錬金術ラボ"
-"skill.alchemy_lab.tooltip","Increase the experience gain for {training} by {percent_increase}%","{training}の経験値獲得量が{percent_increase}%増加します"
-"skill.analyze_cursed","Cursed Wall Analysis","呪いの壁の分析"
-"skill.analyze_cursed.tooltip","Increase the base damage of Curses by {percent_increase}%","「呪い」の基礎ダメージが{percent_increase}%増加します"
-"skill.analyze_molten","Molten Wall Analysis","溶融の壁の分析"
-"skill.analyze_molten.tooltip","Increase the amount of Molten applied by {percent_increase}%","「溶融」の付与量が{percent_increase}%増加します"
-"skill.analyze_resonance","Shattering Wall Analysis","粉砕の壁の分析"
-"skill.analyze_resonance.tooltip","Increase the amount of Shatter applied by {percent_increase}%","「粉砕」の付与量が{percent_increase}%増加します"
-"skill.analyze_wall","Analyze Wall","壁の分析"
-"skill.analyze_wall.tooltip","Analyze the Cosmic Wall, unlocking the set of resources required to break the wall.
-
-- The requirements will be displayed in The Orb.","宇宙の壁を分析し、破壊に必要なリソースを解放しましょう。
-
-- 要件はオーブに表示されます。"
-"skill.analyze_weakened","Weakened Wall Analysis","弱体化の壁の分析"
-"skill.analyze_weakened.tooltip","Increase the amount of Weakened applied by {percent_increase}%","「弱体化」の付与量が{percent_increase}%増加します"
-"skill.bigger_forest","Bigger Forest","森林拡大"
-"skill.bigger_forest_2","Druid Power","ドルイドパワー"
-"skill.bigger_forest_2.tooltip","Increase {wood_icon} gain by {percent_increase}%","{wood_icon}の獲得量が{percent_increase}%増加します"
-"skill.bigger_forest.tooltip","Increases the forest size.
-
-- Increase the amount of {wood_icon} each log provides by {percent_increase}%","森林の面積を拡大します。
-
-- 丸太1本から得られる{wood_icon}の量が{percent_increase}%増加します"
-"skill.build_academy","Build Academy","アカデミー建設"
-"skill.build_academy.tooltip","Build an Academy for magic education","魔法教育のためのアカデミーを建設する"
-"skill.build_book_house","Build Book House","書見の家を建てる"
-"skill.build_book_house.tooltip","Book Houses collectively increase {knowledge_icon} gain by a compounding {percent_increase}%","書見の家は、合計で{knowledge_icon}の獲得量を{percent_increase}%の複利で増加させます"
-"skill.build_dragon_nest","Build Dragon Nest","ドラゴンネスト建設"
-"skill.build_dragon_nest.tooltip","Build a dragon nest to hatch a dragon","ドラゴンネストを建設し、ドラゴンを孵化させましょう"
-"skill.build_embassy","Build Embassy","大使館建設"
-"skill.build_embassy.tooltip","Build an embassy to gain international relations","大使館を建設し、国際関係を築きましょう"
-"skill.build_house","Build Spirit House","スピリットハウスを建てる"
-"skill.build_house.tooltip","Spirit Houses collectively increase {magic_icon} gain by a compounding {percent_increase}%
-
-- Every Tower Ascension grants a fixed amount of {building_points_icon}","スピリットハウスは、合計で{magic_icon}の獲得量を{percent_increase}%の複利で増加させます
-
-- タワーが昇格するたびに一定量の{building_points_icon}を獲得します"
-"skill.build_tree_house","Build Tree House","ツリーハウスを建てる"
-"skill.build_tree_house.tooltip","Tree Houses collectively increase {wood_icon} gain by a compounding {percent_increase}%","ツリーハウスは、合計で{wood_icon}の獲得量を{percent_increase}%の複利で増加させます"
-"skill.carve_crafting_totem","Crafting Totem","製作のトーテム"
-"skill.carve_crafting_totem.tooltip","Each Totem increases {blank_rune_icon} and {magic_gold_icon} creation progress by {percent_increase}%
-
-- Current bonus: {total}%","トーテム1つにつき、{blank_rune_icon}と{magic_gold_icon}の生成進行度が{percent_increase}%増加します。
-
-- 現在のボーナス: {total}%"
-"skill.carve_forest_totem","Forest Totem","森のトーテム"
-"skill.carve_forest_totem.tooltip","Each Totem increases {wood_icon} gain by {percent_increase}%
+- Current bonus: {total}%"
+skill.carve_forest_totem,Forest Totem
+skill.carve_forest_totem.tooltip,"Each Totem increases {wood_icon} gain by {percent_increase}%
 
 - Current bonus: {total}%
 
-- Also creates {amount} {spirit_icon}","トーテム1つにつき、{wood_icon}の獲得量が{percent_increase}%増加します
+- Also creates {amount} {spirit_icon}"
+skill.carve_knowledge_totem,Knowledge Totem
+skill.carve_knowledge_totem.tooltip,"Each Totem increases {knowledge_icon} gain by {percent_increase}%
 
-- 現在のボーナス: {total}%
+- Current bonus: {total}%"
+skill.carve_magic_totem,Magic Totem
+skill.carve_magic_totem.tooltip,"Each Totem increases {magic_icon} gain by {percent_increase}%
 
-- さらに、{amount}体の{spirit_icon}を生成します"
-"skill.carve_knowledge_totem","Knowledge Totem","知識のトーテム"
-"skill.carve_knowledge_totem.tooltip","Each Totem increases {knowledge_icon} gain by {percent_increase}%
+- Current bonus: {total}%"
+skill.carve_sage_totem,Sage Totem
+skill.carve_sage_totem.tooltip,"Each Totem increases Academy EXP gain by a compounding {percent_increase}%
 
-- Current bonus: {total}%","トーテム1つにつき、{knowledge_icon}の獲得量が{percent_increase}%増加します。
+- Current bonus: {total}%"
+skill.cloud_resonance,Cloud Resonance
+skill.cloud_resonance.tooltip,"Every time the Dragon breathes Magic, all Cloudlings will create one drop of Magic"
+skill.cloudling_magic,Cloudling Magic
+skill.cloudling_potency,Cloudling Boost
+skill.cloudling_potency.tooltip,Increase Cloudling {magic_icon} creation by {percent_increase}%
+skill.combat_magic,Combat Magic
+skill.combat_magic.tooltip,Increase all damage by {percent_increase}%
+skill.craft_totem,Craft Totem
+skill.craft_totem.tooltip,Craft {totem_icon}. Totems can be carved into different types and placed on the totem pole for various bonuses.
+skill.create_cosmic_analysis,Cosmic Analysis
+skill.create_cosmic_analysis.tooltip,Creates 1 Cosmic Analysis to be spent on analysis upgrades.
+skill.dragon_alphabet,Dragon Alphabet
+skill.dragon_alphabet.tooltip,Increase the experience gain for {training} by {percent_increase}%
+skill.dragon_wisdom,Dragon Knowledge
+skill.dragon_wisdom.tooltip,Increase Dragon Keeper EXP gain by {percent_increase}%
+skill.enchant_frost,Frost Wall Enchantment
+skill.enchant_frost.tooltip,"Each stack of Frost increases {wood_icon} gain by {percent_increase}%
 
-- 現在のボーナス: {total}%"
-"skill.carve_magic_totem","Magic Totem","魔力のトーテム"
-"skill.carve_magic_totem.tooltip","Each Totem increases {magic_icon} gain by {percent_increase}%
+- Also increases {cosmic_dust_icon} creation speed by {cosmic_percent_increase}%"
+skill.enchant_molten,Molten Wall Enchantment
+skill.enchant_molten.tooltip,"Each stack of Molten increases Dragon EXP gain by {percent_increase}%
 
-- Current bonus: {total}%","トーテム1つにつき、{magic_icon}の獲得量が{percent_increase}%増加します。
+- Also increases the speed of {cosmic_dust_icon} creation by {cosmic_percent_increase}%"
+skill.enchant_shatter,Shatter Wall Enchantment
+skill.enchant_shatter.tooltip,"Each stack of Shatter increases {blank_rune_icon} creation speed by {percent_increase}%
 
-- 現在のボーナス: {total}%"
-"skill.carve_sage_totem","Sage Totem","賢者のトーテム"
-"skill.carve_sage_totem.tooltip","Each Totem increases Academy EXP gain by a compounding {percent_increase}%
-
-- Current bonus: {total}%","トーテム1つにつき、アカデミーEXPの獲得量が{percent_increase}%の複利で増加します。
-
-- 現在のボーナス: {total}%"
-"skill.cloud_resonance","Cloud Resonance","クラウドレゾナンス"
-"skill.cloud_resonance.tooltip","Every time the Dragon breathes Magic, all Cloudlings will create one drop of Magic","ドラゴンがマジックブレスを吐くたびに、全てのクラウドリングが魔力の雫を1滴生成します"
-"skill.cloudling_magic","Cloudling Magic","クラウドリング・マジック"
-"skill.cloudling_potency","Cloudling Boost","クラウドリングブースト"
-"skill.cloudling_potency.tooltip","Increase Cloudling {magic_icon} creation by {percent_increase}%","クラウドリングの{magic_icon}生成量が{percent_increase}%増加します"
-"skill.combat_magic","Combat Magic","戦闘魔術"
-"skill.combat_magic.tooltip","Increase all damage by {percent_increase}%","全てのダメージが{percent_increase}%増加します"
-"skill.craft_totem","Craft Totem","トーテム製作"
-"skill.craft_totem.tooltip","Craft {totem_icon}. Totems can be carved into different types and placed on the totem pole for various bonuses.","{totem_icon}を製作します。トーテムは様々な種類に彫刻し、トーテムポールに設置することで多様なボーナスを得られます。"
-"skill.create_cosmic_analysis","Cosmic Analysis","宇宙分析の作成"
-"skill.create_cosmic_analysis.tooltip","Creates 1 Cosmic Analysis to be spent on analysis upgrades.","分析アップグレードに使える宇宙分析を1つ作成します。"
-"skill.dragon_alphabet","Dragon Alphabet","ドラゴン・アルファベット"
-"skill.dragon_alphabet.tooltip","Increase the experience gain for {training} by {percent_increase}%","{training}の経験値獲得量が{percent_increase}%増加します"
-"skill.dragon_wisdom","Dragon Knowledge","ドラゴンの知識"
-"skill.dragon_wisdom.tooltip","Increase Dragon Keeper EXP gain by {percent_increase}%","ドラゴンキーパーのEXP獲得量が{percent_increase}%増加します"
-"skill.enchant_frost","Frost Wall Enchantment","フロストウォール・エンチャント"
-"skill.enchant_frost.tooltip","Each stack of Frost increases {wood_icon} gain by {percent_increase}%
-
-- Also increases {cosmic_dust_icon} creation speed by {cosmic_percent_increase}%","「フロスト」のスタックごとに{wood_icon}の獲得量が{percent_increase}%増加します
-
-- さらに、{cosmic_dust_icon}の生成速度が{cosmic_percent_increase}%増加します"
-"skill.enchant_molten","Molten Wall Enchantment","溶融ウォール・エンチャント"
-"skill.enchant_molten.tooltip","Each stack of Molten increases Dragon EXP gain by {percent_increase}%
-
-- Also increases the speed of {cosmic_dust_icon} creation by {cosmic_percent_increase}%","「溶融」のスタックごとにドラゴンEXPの獲得量が{percent_increase}%増加します
-
-- さらに、{cosmic_dust_icon}の生成速度が{cosmic_percent_increase}%増加します"
-"skill.enchant_shatter","Shatter Wall Enchantment","粉砕ウォール・エンチャント"
-"skill.enchant_shatter.tooltip","Each stack of Shatter increases {blank_rune_icon} creation speed by {percent_increase}%
-
-- Also increases {cosmic_dust_icon} creation speed by {cosmic_percent_increase}%","「粉砕」のスタックごとに{blank_rune_icon}の生成速度が{percent_increase}%増加します
-
-- さらに、{cosmic_dust_icon}の生成速度が{cosmic_percent_increase}%増加します"
-"skill.herbology_textbooks","Forestry Notebooks","林業ノート"
-"skill.herbology_textbooks.tooltip","Increase the experience gain for {training} by {percent_increase}%","{training}の経験値獲得量が{percent_increase}%増加します"
-"skill.improved_facilities","Improved Academy","アカデミーの改良"
-"skill.improved_facilities_2","Great University","偉大な大学"
-"skill.improved_facilities_2.tooltip","Increase the experience gain for all research subjects in the Academy by {percent_increase}%","アカデミーの全研究教科の経験値獲得量が{percent_increase}%増加します"
-"skill.improved_facilities.tooltip","Increase the experience gain for all research subjects in the Academy by {percent_increase}%","アカデミーの全研究教科の経験値獲得量が{percent_increase}%増加します"
-"skill.infinity_rune_upgrade","Infinity Rune","インフィニティルーン"
-"skill.infinity_rune_upgrade.tooltip","Increase all base damage by {percent_increase}%","全ての基礎ダメージが{percent_increase}%増加します"
-"skill.library_spirits","Library Spirits","書庫のスピリット"
-"skill.library_spirits.tooltip","Creates {amount} {spirit_icon} from the study","書斎から{amount}体の{spirit_icon}を生成します"
-"skill.magic_textbooks","Improved Wands","改良された杖"
-"skill.magic_textbooks.tooltip","Increase the experience gain for {training} by {percent_increase}%","{training}の経験値獲得量が{percent_increase}%増加します"
-"skill.rune_mastery","Rune Mastery","ルーンマスタリー"
-"skill.rune_mastery.tooltip","Increase {blank_rune_icon} creation speed by {percent_increase}%","{blank_rune_icon}の生成速度が{percent_increase}%増加します"
-"skill.summon_alchemist","Summon Alchemist","錬金術師召喚"
-"skill.summon_alchemist.tooltip","Helps create {magic_gold_icon}.
+- Also increases {cosmic_dust_icon} creation speed by {cosmic_percent_increase}%"
+skill.herbology_textbooks,Forestry Notebooks
+skill.herbology_textbooks.tooltip,Increase the experience gain for {training} by {percent_increase}%
+skill.improved_facilities,Improved Academy
+skill.improved_facilities_2,Great University
+skill.improved_facilities_2.tooltip,Increase the experience gain for all research subjects in the Academy by {percent_increase}%
+skill.improved_facilities.tooltip,Increase the experience gain for all research subjects in the Academy by {percent_increase}%
+skill.infinity_rune_upgrade,Infinity Rune
+skill.infinity_rune_upgrade.tooltip,Increase all base damage by {percent_increase}%
+skill.library_spirits,Library Spirits
+skill.library_spirits.tooltip,Creates {amount} {spirit_icon} from the study
+skill.magic_textbooks,Improved Wands
+skill.magic_textbooks.tooltip,Increase the experience gain for {training} by {percent_increase}%
+skill.rune_mastery,Rune Mastery
+skill.rune_mastery.tooltip,Increase {blank_rune_icon} creation speed by {percent_increase}%
+skill.summon_alchemist,Summon Alchemist
+skill.summon_alchemist.tooltip,"Helps create {magic_gold_icon}.
 
 - Unlocks new Academy upgrades
 
-- Hold the button or press shift to buy multiple.","{magic_gold_icon}の生成を手伝います。
+- Hold the button or press shift to buy multiple."
+skill.summon_astrologer,Summon Astrologer
+skill.summon_astrologer.tooltip,"Builds the Observatory
 
-- アカデミーの新たなアップグレードを解放します。
+- The Astrologer will observe the Cosmic Wall, finding weaknesses and the way to possibly break it."
+skill.summon_cloudling,Summon Cloudling
+skill.summon_cloudling.tooltip,"Summon a Cloudling that creates {magic_icon}
 
-- ボタン長押し、またはShiftキーを押しながらクリックで複数購入できます。"
-"skill.summon_astrologer","Summon Astrologer","占星術師召喚"
-"skill.summon_astrologer.tooltip","Builds the Observatory
-
-- The Astrologer will observe the Cosmic Wall, finding weaknesses and the way to possibly break it.","天文台を建設します。
-
-- 占星術師は宇宙の壁を観測し、その弱点と破壊する方法を探ります。"
-"skill.summon_cloudling","Summon Cloudling","クラウドリング召喚"
-"skill.summon_cloudling.tooltip","Summon a Cloudling that creates {magic_icon}
-
-- {press_and_hold} the orb to speed them up by {speed_up_increase}%","{magic_icon}を生成するクラウドリングを召喚します
-
-- オーブを{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
-"skill.summon_diplomat","Summon Diplomat","外交官召喚"
-"skill.summon_diplomat.tooltip","Summons a diplomat that creates {trade_agreement_icon}.
+- {press_and_hold} the orb to speed them up by {speed_up_increase}%"
+skill.summon_diplomat,Summon Diplomat
+skill.summon_diplomat.tooltip,"Summons a diplomat that creates {trade_agreement_icon}.
 
 - {press_and_hold} the Embassy to speed them up by {speed_up_increase}%
 
-- Can be refunded for {spirit_icon} when the map is complete.","{trade_agreement_icon}を生成する外交官を召喚します。
+- Can be refunded for {spirit_icon} when the map is complete."
+skill.summon_dragon_keeper,Dragon Keeper
+skill.summon_dragon_keeper.tooltip,"Summon a Dragon Keeper to help level up the Dragon
 
-- 大使館を{press_and_hold}すると、速度が{speed_up_increase}%上昇します。
+- {press_and_hold} the Dragon nest to speed them up by {speed_up_increase}%"
+skill.summon_dragon_queen,Summon Dragon Queen
+skill.summon_dragon_queen.tooltip,"The Dragon Queen will level up the Dragon equal to {percent}% of all Dragon Keepers combined.
 
-- マップが完成すると、{spirit_icon}と引き換えに払い戻しができます。"
-"skill.summon_dragon_keeper","Dragon Keeper","ドラゴンの番人"
-"skill.summon_dragon_keeper.tooltip","Summon a Dragon Keeper to help level up the Dragon
+- The Dragon Queen will also double any Dragon Fireball into two."
+skill.summon_druid,Summon Druid
+skill.summon_druid.tooltip,"Druids maintain the forest and harvest {wood_icon}.
 
-- {press_and_hold} the Dragon nest to speed them up by {speed_up_increase}%","ドラゴンの番人を召喚し、ドラゴンのレベルアップを手伝わせましょう
+- {press_and_hold} the forest to speed them up by {speed_up_increase}%"
+skill.summon_forest_keeper,Summon Forest Keeper
+skill.summon_forest_keeper.tooltip,"The Forest Keeper will enhance logs increasing their {wood_icon} value by {percent_increase}%
 
-- ドラゴンネストを{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
-"skill.summon_dragon_queen","Summon Dragon Queen","ドラゴンクイーン召喚"
-"skill.summon_dragon_queen.tooltip","The Dragon Queen will level up the Dragon equal to {percent}% of all Dragon Keepers combined.
+- The Forest Keeper will also increase the speed of {cosmic_dust_icon} creation by {exp_percent_increase}%"
+skill.summon_gorgon,Summon Gorgon
+skill.summon_gorgon.tooltip,"Deals {base_damage} base damage to the wall.
 
-- The Dragon Queen will also double any Dragon Fireball into two.","ドラゴンクイーンは、全ドラゴンの番人の合計の{percent}%に相当する経験値をドラゴンに与えます。
+- Base damage increases by {damage_increase} for each Ouroboros you have."
+skill.summon_ifrit,Summon Ifrit
+skill.summon_ifrit.tooltip,"Deals {base_damage} base damage to the wall.
 
-- さらに、ドラゴンクイーンはドラゴン・ファイアボールを2発に倍増させます。"
-"skill.summon_druid","Summon Druid","ドルイド召喚"
-"skill.summon_druid.tooltip","Druids maintain the forest and harvest {wood_icon}.
+- Base damage increases by {additional_damage} every 10 Dragon's Fireball ability levels."
+skill.summon_rune_smith,Summon Rune Smith
+skill.summon_rune_smith.tooltip,"Summon a Rune Smith to create {blank_rune_icon}
 
-- {press_and_hold} the forest to speed them up by {speed_up_increase}%","ドルイドは森を維持し、{wood_icon}を伐採します。
+- {press_and_hold} the Obelisk/Anvil to speed them up by {speed_up_increase}%"
+skill.summon_shaman,Summon Shaman
+skill.summon_shaman.tooltip,Deals {base_damage} base damage to the wall multiplied by the count of the Totem Type with most Totems.
+skill.summon_smith_master,Summon Smith Master
+skill.summon_smith_master.tooltip,"The Smith Master will help forge {blank_rune_icon} with strikes equal to all Rune Smiths combined.
 
-- 森を{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
-"skill.summon_forest_keeper","Summon Forest Keeper","森の番人召喚"
-"skill.summon_forest_keeper.tooltip","The Forest Keeper will enhance logs increasing their {wood_icon} value by {percent_increase}%
+- The Smith Master will also increase {magic_gold_icon} production speed by {alchemy_percent_increase}%"
+skill.summon_spirit,Summon Spirit
+skill.summon_spirit_sage,Summon Spirit Sage
+skill.summon_spirit_sage.tooltip,"Summon a Spirit Sage to research various subjects
 
-- The Forest Keeper will also increase the speed of {cosmic_dust_icon} creation by {exp_percent_increase}%","森の番人は丸太を強化し、その{wood_icon}価値を{percent_increase}%増加させます
+- {press_and_hold} the Academy to speed them up by {speed_up_increase}%"
+skill.summon_spirit_tome,Summon Spirit Tome
+skill.summon_spirit_tome.tooltip,"Summon a Spirit Tome that creates {knowledge_icon}
 
-- さらに、森の番人は{cosmic_dust_icon}の生成速度を{exp_percent_increase}%増加させます"
-"skill.summon_gorgon","Summon Gorgon","ゴルゴン召喚"
-"skill.summon_gorgon.tooltip","Deals {base_damage} base damage to the wall.
+- {press_and_hold} the study room to speed them up by {speed_up_increase}%"
+skill.summon_spirit.tooltip,"Summon {spirit_icon} that can be used to summon other beings
 
-- Base damage increases by {damage_increase} for each Ouroboros you have.","壁に{base_damage}の基礎ダメージを与えます。
+- Hold the button or press shift to buy multiple"
+skill.summon_tome_master,Summon Tome Master
+skill.summon_tome_master.tooltip,"The Tome Master will absorb all created {knowledge_icon} and amplify it by {percent_increase}%
 
-- 所有するウロボロス1つにつき、基礎ダメージが{damage_increase}増加します。"
-"skill.summon_ifrit","Summon Ifrit","イフリート召喚"
-"skill.summon_ifrit.tooltip","Deals {base_damage} base damage to the wall.
+- If you have no new prestige points, the Tome Master will also increase the damage prestige progress bar by {prestige_percent_increase}% every pulse."
+skill.summon_zephyr,Summon Zephyr
+skill.summon_zephyr.tooltip,"Weakens the wall, increasing damage dealt to the wall.
 
-- Base damage increases by {additional_damage} every 10 Dragon's Fireball ability levels.","壁に{base_damage}の基礎ダメージを与えます。
+- Applies {base_stacks} stacks of weakness to the wall plus {additional_stacks} stack for every Spirit Type with a population at least {summon_threshold}."
+skill.text_enchantment,Text Enchantment
+skill.text_enchantment.tooltip,Increase {knowledge_icon} gain by {percent_increase}%
+skill.unlock_alchemy_101,Alchemy Research
+skill.unlock_alchemy_101.tooltip,{training} helps Alchemists create {magic_gold_icon} faster
+skill.unlock_dragon_bond,Unlock Dragon Research
+skill.unlock_dragon_bond.tooltip,{training} helps Dragon Keepers provide more EXP to the Dragon
+skill.unlock_herbology,Unlock Forest Research
+skill.unlock_herbology.tooltip,{training} helps Druids grow more {wood_icon}
+skill.unlock_magic_101,Unlock Magic Research
+skill.unlock_magic_101.tooltip,{training} helps Spirits produce more {magic_icon}
+skill.upgrade_dragon_queen,Upgrade Dragon Queen
+skill.upgrade_dragon_queen.tooltip,Increase the Dragon EXP the Dragon Queen provides by a compounding {percent_increase}%
+skill.upgrade_forest_keeper,Upgrade Forest Keeper
+skill.upgrade_forest_keeper.tooltip,"Increase {wood_icon} gain by a compounding {percent_increase}%
 
-- ドラゴン・ファイアボールのアビリティレベルが10上がるごとに、基礎ダメージが{additional_damage}増加します。"
-"skill.summon_rune_smith","Summon Rune Smith","ルーンスミス召喚"
-"skill.summon_rune_smith.tooltip","Summon a Rune Smith to create {blank_rune_icon}
+- Also increases {cosmic_dust_icon} creation speed by a compounding {exp_percent_increase}%"
+skill.upgrade_smith_master,Upgrade Smith Master
+skill.upgrade_smith_master.tooltip,"Increase the Smith's hammer power by a compounding {percent_increase}%
 
-- {press_and_hold} the Obelisk/Anvil to speed them up by {speed_up_increase}%","ルーンスミスを召喚し、{blank_rune_icon}を生成させます
+- Also increases {magic_gold_icon} production speed by compounding {alchemy_percent_increase}%"
+skill.upgrade_tome_master,Upgrade Tome Master
+skill.upgrade_tome_master.tooltip,Increase the amplification of {knowledge_icon} absorbed by the Tome Master by a compounding {percent_increase}%
+skill.wizard_magic,Wizard Magic
+skill.wizard_magic.tooltip,Increases {magic_icon} gained by pressing The Orb by {percent_increase}%
+status_effect.cursed.name,Cursed
+status_effect.cursed.description,"When 100 stacks are reached, deals damage to the wall equal to {mult} times the damage of all Shamans combined."
+status_effect.frost.name,Frost
+status_effect.frost.description,Reduces the decay of all other status effects on the wall by {reduction} per stack
+status_effect.molten.name,Molten
+status_effect.molten.description,"For every stack, the Wall takes {percent_increase}% more damage from Dragon Fireballs"
+status_effect.resonance.name,Shatter
+status_effect.resonance.description,"For every stack, the Wall takes {percent_increase}% more damage from Dragon Fireballs and Curses"
+status_effect.weakened.name,Weakened
+status_effect.weakened.description,"For every stack, the Wall takes {percent_increase}% more damage"
+tooltip.blessing_locked,"Blessings below are locked until you have {points} total points
 
-- オベリスク/金床を{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
-"skill.summon_shaman","Summon Shaman","シャーマン召喚"
-"skill.summon_shaman.tooltip","Deals {base_damage} base damage to the wall multiplied by the count of the Totem Type with most Totems.","最も多く設置されている種類のトーテム数に応じて、壁に{base_damage}xトーテム数の基礎ダメージを与えます。"
-"skill.summon_smith_master","Summon Smith Master","スミスマスター召喚"
-"skill.summon_smith_master.tooltip","The Smith Master will help forge {blank_rune_icon} with strikes equal to all Rune Smiths combined.
+- You currently have {total_points} total points"
+tooltip.damage_chart_button,Toggle Damage Chart
+tooltip.knowledge,Knowledge
+tooltip.magic,Magic
+tooltip.milestone_blessings,Milestone Blessings are automatically unlocked when you reach a certain number of prestige points
+training.alchemy_101,Alchemy Research
+training.alchemy_101.tooltip,Increases {magic_gold_icon} production speed by {percent_increase}%
+training.dragon_bond,Dragon Research
+training.dragon_bond.tooltip,Increase Dragon EXP gain by {percent_increase}%
+training.herbology,Forestry Research
+training.herbology.tooltip,Increase {wood_icon} gain by {percent_increase}%
+training.magic_101,Magic Research
+training.magic_101.tooltip,Increase {magic_icon} provided by Cloudlings by {percent_increase}%
+tree.academy_exp_rune.name,Academy Boost
+tree.academy_exp_rune.description,Increases the Academy EXP gain by {percent_increase}%
+tree.alchemy.name,Alchemy Boost
+tree.alchemy.description,Increases {magic_gold_icon} production speed by {percent_increase}%
+tree.alloy.name,Alloy
+tree.alloy.description,"The base damage of Ifrits increases by {percent_increase}% for each Gorgon, Shaman, and Zephyr."
+tree.arc.name,Arc
+tree.arc.description,Increase Gorgon damage by {percent_increase}% for every Zephyr or Cloudling.
+tree.charge.name,Charge
+tree.charge.description,"Every time Lightning deals damage, the base damage of Lightning is permanently increased by {damage_increase}."
+tree.class_of_destruction.name,Sages of Destruction
+tree.class_of_destruction.description,Spirit Sages deal {base_damage} damage to the wall.
+tree.cloud.name,Magic Boost
+tree.cloud.description,Increases {magic_icon} gain by {percent_increase}%
+tree.create_gorgons.name,Summon Gorgons
+tree.create_gorgons.description,Summon {amount} Gorgons
+tree.create_ifrits.name,Summon Ifrits
+tree.create_ifrits.description,Summon {amount} Ifrits
+tree.create_shamans.name,Summon Shamans
+tree.create_shamans.description,Summon {amount} Shamans
+tree.curse_resonance.name,Curse Aura
+tree.curse_resonance.description,"When a curse appears on the wall, all Gorgons will gain an aura, increasing their next damage by {percent_increase}%
 
-- The Smith Master will also increase {magic_gold_icon} production speed by {alchemy_percent_increase}%","スミスマスターは、全ルーンスミスの合計に等しい力で{blank_rune_icon}の鍛造を手伝います。
+- Can stack multiple times."
+tree.cursed_fire.name,Cursed Fire
+tree.cursed_fire.description,The Molten effects on the wall will apply to Curses at {percent_of}% of the effect.
+tree.cursed_shards.name,Cursed Shards
+tree.cursed_shards.description,The base damage of Curses is added to Shrapnel base damage
+tree.diversity.name,Diversity
+tree.diversity.description,Spirit Sage base damage increases by {damage_increase}% per stack of any status effect other than Weakened.
+tree.dragon_wands.name,Dragon Wands
+tree.dragon_wands.description,{percent_of}% of dragon fireball base damage is added to Spirit Sage base damage.
+tree.dragon.name,Dragon Keeper Boost
+tree.dragon.description,Increases Dragon EXP gain by {percent_increase}%
+tree.fire_arrows.name,Fire Arrows
+tree.fire_arrows.description,"Shamans can now shoot fire arrows, dealing {damage}x of Shaman arrow damage to the wall."
+tree.fire_damage.name,Molten Arrows
+tree.fire_damage.description,The Molten effects on the wall will apply to Fire arrows at {percent_of}% of the effect.
+tree.fireball_shrapnel.name,Fireball Shrapnel
+tree.fireball_shrapnel.description,"Fireballs explode into {amount} Shrapnel, which each deal {base_damage} damage to the wall.
 
-- さらに、スミスマスターは{magic_gold_icon}の生産速度を{alchemy_percent_increase}%増加させます"
-"skill.summon_spirit","Summon Spirit","スピリット召喚"
-"skill.summon_spirit_sage","Summon Spirit Sage","スピリットセージ召喚"
-"skill.summon_spirit_sage.tooltip","Summon a Spirit Sage to research various subjects
-
-- {press_and_hold} the Academy to speed them up by {speed_up_increase}%","スピリットセージを召喚し、様々な教科を研究させましょう
-
-- アカデミーを{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
-"skill.summon_spirit_tome","Summon Spirit Tome","スピリット・トーム召喚"
-"skill.summon_spirit_tome.tooltip","Summon a Spirit Tome that creates {knowledge_icon}
-
-- {press_and_hold} the study room to speed them up by {speed_up_increase}%","{knowledge_icon}を生成するスピリット・トームを召喚します
-
-- 書斎を{press_and_hold}すると、速度が{speed_up_increase}%上昇します"
-"skill.summon_spirit.tooltip","Summon {spirit_icon} that can be used to summon other beings
-
-- Hold the button or press shift to buy multiple","他の存在を召喚するために使用できる{spirit_icon}を召喚します
-
-- ボタン長押し、またはShiftキーを押しながらクリックで複数購入できます"
-"skill.summon_tome_master","Summon Tome Master","トームマスター召喚"
-"skill.summon_tome_master.tooltip","The Tome Master will absorb all created {knowledge_icon} and amplify it by {percent_increase}%
-
-- If you have no new prestige points, the Tome Master will also increase the damage prestige progress bar by {prestige_percent_increase}% every pulse.","トームマスターは生成された全ての{knowledge_icon}を吸収し、それを{percent_increase}%増幅させます。
-
-- 新たなプレステージポイントがない場合、トームマスターは波動ごとにダメージプレステージの進行バーを{prestige_percent_increase}%増加させます。"
-"skill.summon_zephyr","Summon Zephyr","ゼファー召喚"
-"skill.summon_zephyr.tooltip","Weakens the wall, increasing damage dealt to the wall.
-
-- Applies {base_stacks} stacks of weakness to the wall plus {additional_stacks} stack for every Spirit Type with a population at least {summon_threshold}.","壁を弱体化させ、壁への被ダメージを増加させます。
-
-- 壁に{base_stacks}スタックの「弱体化」を付与し、さらに個体数が{summon_threshold}以上のスピリットタイプごとに{additional_stacks}スタックを追加します。"
-"skill.text_enchantment","Text Enchantment","テキストエンチャント"
-"skill.text_enchantment.tooltip","Increase {knowledge_icon} gain by {percent_increase}%","{knowledge_icon}の獲得量が{percent_increase}%増加します"
-"skill.unlock_alchemy_101","Alchemy Research","錬金術研究"
-"skill.unlock_alchemy_101.tooltip","{training} helps Alchemists create {magic_gold_icon} faster","{training}は錬金術師がより速く{magic_gold_icon}を生成するのを助けます"
-"skill.unlock_dragon_bond","Unlock Dragon Research","ドラゴン研究解放"
-"skill.unlock_dragon_bond.tooltip","{training} helps Dragon Keepers provide more EXP to the Dragon","{training}はドラゴンの番人がより多くのEXPをドラゴンに与えるのを助けます"
-"skill.unlock_herbology","Unlock Forest Research","森林研究解放"
-"skill.unlock_herbology.tooltip","{training} helps Druids grow more {wood_icon}","{training}はドルイドがより多くの{wood_icon}を育てるのを助けます"
-"skill.unlock_magic_101","Unlock Magic Research","魔術研究解放"
-"skill.unlock_magic_101.tooltip","{training} helps Spirits produce more {magic_icon}","{training}はスピリットがより多くの{magic_icon}を生成するのを助けます"
-"skill.upgrade_dragon_queen","Upgrade Dragon Queen","ドラゴンクイーンのアップグレード"
-"skill.upgrade_dragon_queen.tooltip","Increase the Dragon EXP the Dragon Queen provides by a compounding {percent_increase}%","ドラゴンクイーンが与えるドラゴンEXPを{percent_increase}%の複利で増加させます"
-"skill.upgrade_forest_keeper","Upgrade Forest Keeper","森の番人のアップグレード"
-"skill.upgrade_forest_keeper.tooltip","Increase {wood_icon} gain by a compounding {percent_increase}%
-
-- Also increases {cosmic_dust_icon} creation speed by a compounding {exp_percent_increase}%","{wood_icon}の獲得量が{percent_increase}%の複利で増加します
-
-- さらに、{cosmic_dust_icon}の生成速度も{exp_percent_increase}%の複利で増加します"
-"skill.upgrade_smith_master","Upgrade Smith Master","スミスマスターのアップグレード"
-"skill.upgrade_smith_master.tooltip","Increase the Smith's hammer power by a compounding {percent_increase}%
-
-- Also increases {magic_gold_icon} production speed by compounding {alchemy_percent_increase}%","スミスのハンマーの威力が{percent_increase}%の複利で増加します
-
-- さらに、{magic_gold_icon}の生産速度も{alchemy_percent_increase}%の複利で増加します"
-"skill.upgrade_tome_master","Upgrade Tome Master","トームマスターのアップグレード"
-"skill.upgrade_tome_master.tooltip","Increase the amplification of {knowledge_icon} absorbed by the Tome Master by a compounding {percent_increase}%","トームマスターが吸収する{knowledge_icon}の増幅率を{percent_increase}%の複利で増加させます"
-"skill.wizard_magic","Wizard Magic","ウィザードマジック"
-"skill.wizard_magic.tooltip","Increases {magic_icon} gained by pressing The Orb by {percent_increase}%","オーブを押すことで得られる{magic_icon}が{percent_increase}%増加します"
-"status_effect.cursed.name","Cursed","呪い"
-"status_effect.cursed.description","When 100 stacks are reached, deals damage to the wall equal to {mult} times the damage of all Shamans combined.","スタックが100に達すると、全シャーマンの合計ダメージの{mult}倍に等しいダメージを壁に与えます。"
-"status_effect.frost.name","Frost","フロスト"
-"status_effect.frost.description","Reduces the decay of all other status effects on the wall by {reduction} per stack","壁に付与された他の全てのステータス効果の減少量を、スタックごとに{reduction}抑制します"
-"status_effect.molten.name","Molten","溶融"
-"status_effect.molten.description","For every stack, the Wall takes {percent_increase}% more damage from Dragon Fireballs","スタックごとに、壁が受けるドラゴン・ファイアボールのダメージが{percent_increase}%増加する"
-"status_effect.resonance.name","Shatter","粉砕"
-"status_effect.resonance.description","For every stack, the Wall takes {percent_increase}% more damage from Dragon Fireballs and Curses","スタックごとに、壁が受けるドラゴン・ファイアボールと「呪い」のダメージが{percent_increase}%増加する"
-"status_effect.weakened.name","Weakened","弱体化"
-"status_effect.weakened.description","For every stack, the Wall takes {percent_increase}% more damage","スタックごとに、壁が受けるダメージが{percent_increase}%増加する"
-"tooltip.blessing_locked","Blessings below are locked until you have {points} total points
-
-- You currently have {total_points} total points","以下の祝福は合計ポイントが{points}に達するまでロックされています。
-
-- 現在の合計ポイント: {total_points}"
-"tooltip.damage_chart_button","Toggle Damage Chart","ダメージチャート切替"
-"tooltip.knowledge","Knowledge","知識"
-"tooltip.magic","Magic","魔力"
-"tooltip.milestone_blessings","Milestone Blessings are automatically unlocked when you reach a certain number of prestige points","マイルストーン祝福は、プレステージポイントが一定数に達すると自動的に解放されます"
-"training.alchemy_101","Alchemy Research","錬金術研究"
-"training.alchemy_101.tooltip","Increases {magic_gold_icon} production speed by {percent_increase}%","{magic_gold_icon}の生産速度が{percent_increase}%増加します"
-"training.dragon_bond","Dragon Research","ドラゴン研究"
-"training.dragon_bond.tooltip","Increase Dragon EXP gain by {percent_increase}%","ドラゴンEXPの獲得量が{percent_increase}%増加します"
-"training.herbology","Forestry Research","林業研究"
-"training.herbology.tooltip","Increase {wood_icon} gain by {percent_increase}%","{wood_icon}の獲得量が{percent_increase}%増加します"
-"training.magic_101","Magic Research","魔術研究"
-"training.magic_101.tooltip","Increase {magic_icon} provided by Cloudlings by {percent_increase}%","クラウドリングが提供する{magic_icon}が{percent_increase}%増加します"
-"tree.academy_exp_rune.name","Academy Boost","アカデミーブースト"
-"tree.academy_exp_rune.description","Increases the Academy EXP gain by {percent_increase}%","アカデミーEXPの獲得量が{percent_increase}%増加します"
-"tree.alchemy.name","Alchemy Boost","錬金術ブースト"
-"tree.alchemy.description","Increases {magic_gold_icon} production speed by {percent_increase}%","{magic_gold_icon}の生産速度が{percent_increase}%増加します"
-"tree.alloy.name","Alloy","合金"
-"tree.alloy.description","The base damage of Ifrits increases by {percent_increase}% for each Gorgon, Shaman, and Zephyr.","ゴルゴン、シャーマン、ゼファーそれぞれ1体につき、イフリートの基礎ダメージが{percent_increase}%増加します。"
-"tree.arc.name","Arc","アーク"
-"tree.arc.description","Increase Gorgon damage by {percent_increase}% for every Zephyr or Cloudling.","ゼファーまたはクラウドリング1体につき、ゴルゴンのダメージが{percent_increase}%増加します。"
-"tree.charge.name","Charge","チャージ"
-"tree.charge.description","Every time Lightning deals damage, the base damage of Lightning is permanently increased by {damage_increase}.","「稲妻」がダメージを与えるたびに、その基礎ダメージが永続的に{damage_increase}増加します。"
-"tree.class_of_destruction.name","Sages of Destruction","破壊の賢者"
-"tree.class_of_destruction.description","Spirit Sages deal {base_damage} damage to the wall.","スピリットセージが壁に{base_damage}のダメージを与えます。"
-"tree.cloud.name","Magic Boost","魔力ブースト"
-"tree.cloud.description","Increases {magic_icon} gain by {percent_increase}%","{magic_icon}の獲得量が{percent_increase}%増加します"
-"tree.create_gorgons.name","Summon Gorgons","ゴルゴン召喚"
-"tree.create_gorgons.description","Summon {amount} Gorgons","ゴルゴンを{amount}体召喚する"
-"tree.create_ifrits.name","Summon Ifrits","イフリート召喚"
-"tree.create_ifrits.description","Summon {amount} Ifrits","イフリートを{amount}体召喚する"
-"tree.create_shamans.name","Summon Shamans","シャーマン召喚"
-"tree.create_shamans.description","Summon {amount} Shamans","シャーマンを{amount}体召喚する"
-"tree.curse_resonance.name","Curse Aura","呪いのオーラ"
-"tree.curse_resonance.description","When a curse appears on the wall, all Gorgons will gain an aura, increasing their next damage by {percent_increase}%
-
-- Can stack multiple times.","壁に呪いが現れると、全てのゴルゴンがオーラをまとい、次の攻撃ダメージが{percent_increase}%増加します。
-
-- この効果は複数回スタックします。"
-"tree.cursed_fire.name","Cursed Fire","呪われし炎"
-"tree.cursed_fire.description","The Molten effects on the wall will apply to Curses at {percent_of}% of the effect.","壁の「溶融」効果が、「呪い」にも{percent_of}%の効果で適用されるようになります。"
-"tree.cursed_shards.name","Cursed Shards","呪われし破片"
-"tree.cursed_shards.description","The base damage of Curses is added to Shrapnel base damage","「呪い」の基礎ダメージが「破片」の基礎ダメージに加算されます"
-"tree.diversity.name","Diversity","多様性"
-"tree.diversity.description","Spirit Sage base damage increases by {damage_increase}% per stack of any status effect other than Weakened.","「弱体化」以外のステータス効果が1スタックするごとに、スピリットセージの基礎ダメージが{damage_increase}%増加します。"
-"tree.dragon_wands.name","Dragon Wands","ドラゴンワンド"
-"tree.dragon_wands.description","{percent_of}% of dragon fireball base damage is added to Spirit Sage base damage.","ドラゴン・ファイアボールの基礎ダメージの{percent_of}%が、スピリットセージの基礎ダメージに加算されます。"
-"tree.dragon.name","Dragon Keeper Boost","ドラゴンの番人ブースト"
-"tree.dragon.description","Increases Dragon EXP gain by {percent_increase}%","ドラゴンEXPの獲得量が{percent_increase}%増加します"
-"tree.fire_arrows.name","Fire Arrows","火矢"
-"tree.fire_arrows.description","Shamans can now shoot fire arrows, dealing {damage}x of Shaman arrow damage to the wall.","シャーマンが火矢を放てるようになり、壁にシャーマンの矢の{damage}倍のダメージを与えます。"
-"tree.fire_damage.name","Molten Arrows","溶融の矢"
-"tree.fire_damage.description","The Molten effects on the wall will apply to Fire arrows at {percent_of}% of the effect.","壁の「溶融」効果が、「火矢」にも{percent_of}%の効果で適用されるようになります。"
-"tree.fireball_shrapnel.name","Fireball Shrapnel","ファイアボールの破片"
-"tree.fireball_shrapnel.description","Fireballs explode into {amount} Shrapnel, which each deal {base_damage} damage to the wall.
-
-- Does not count as Fireball damage.","ファイアボールが爆発して{amount}個の「破片」になり、それぞれが壁に{base_damage}のダメージを与えます。
-
-- このダメージはファイアボールのダメージとしてカウントされません。"
-"tree.fusion.name","Fusion","融合"
-"tree.fusion.description","Fireball base damage increases by {percent_increase}% for each base damage Ifrits have.","イフリートの基礎ダメージ1ごとに、ファイアボールの基礎ダメージが{percent_increase}%増加します。"
-"tree.hot_blooded.name","Hot Blooded","熱血"
-"tree.hot_blooded.description","The Molten effects on the wall will apply to Ifrit fireballs.","壁の「溶融」効果がイフリートのファイアボールに適用されるようになります。"
-"tree.hot_runes.name","Hot Runes","ホットルーン"
-"tree.hot_runes.description","Shrapnel base damage increases by {percent_increase}% for each rune unlocked.","解放済みのルーン1つにつき、「破片」の基礎ダメージが{percent_increase}%増加します。"
-"tree.ice_arrow_damage.name","Ice Arrow Damage","氷矢ダメージ"
-"tree.ice_arrow_damage.description","Ice arrows deal damage equal to the base damage of {mult} Gorgons.","氷矢が、{mult}体のゴルゴンの基礎ダメージに等しいダメージを与えます。"
-"tree.ice_arrows.name","Ice Arrows","氷矢"
-"tree.ice_arrows.description","Shamans can now shoot ice arrows, which will apply {stacks} Frost to the wall, reducing the decay of status effects on the wall.","シャーマンが氷矢を放てるようになります。これにより壁に{stacks}スタックの「フロスト」が付与され、ステータス効果の減少が抑制されます。"
-"tree.infinity_resonance.name","Infinity Resonance","無限共鳴"
-"tree.infinity_resonance.description","Gorgons gain {percent_increase}% damage for each Infinity Rune you have.","所有するインフィニティルーン1つにつき、ゴルゴンのダメージが{percent_increase}%増加します。"
-"tree.infinity.name","Infinity","無限"
-"tree.infinity.description","Unlocks an upgrade to increase all types of damage in exchange for {blank_rune_icon}.","{blank_rune_icon}と引き換えに、全ての種類のダメージを増加させるアップグレードを解放します。"
-"tree.instructions.name","Instructions","説明"
-"tree.instructions.description","Spend {image} Blank Runes to unlock upgrades.","{image}個の「空のルーン」を消費してアップグレードを解放します。"
-"tree.relics.name","Relics","レリック"
-"tree.relics.description","Gorgon base damage will also increase by {damage_increase} for each Holy Grail or Philosopher's Stone you have.","所有する「聖杯」または「賢者の石」1つにつき、ゴルゴンの基礎ダメージがさらに{damage_increase}増加します。"
-"tree.shrapnel_count.name","Shrapnel Count","破片の数"
-"tree.shrapnel_count.description","Increase the number of Shrapnel from Fireballs by {amount}.","ファイアボールから生じる「破片」の数が{amount}個増加します。"
-"tree.shrapnel_molten.name","Molten Shrapnel","溶融の破片"
-"tree.shrapnel_molten.description","Each Shrapnel now applies {stacks} Molten to the wall.","各「破片」が壁に{stacks}スタックの「溶融」を付与するようになります。"
-"tree.shrapnel_weakness.name","Shrapnel Weakness","弱体化の破片"
-"tree.shrapnel_weakness.description","Each Shrapnel now applies {stacks} Weakness to the wall.","各「破片」が壁に{stacks}スタックの「弱体化」を付与するようになります。"
-"tree.sound_pulse.name","Sound Pulse","サウンドパルス"
-"tree.sound_pulse.description","Gorgons can now emit Sound Pulses, which will apply Shatter to the wall. For every stack of Shatter, the Wall takes {percent_increase}% more damage from Dragon Fireballs and Curses","ゴルゴンがサウンドパルスを発するようになり、壁に「粉砕」を付与します。「粉砕」のスタックごとに、壁が受けるドラゴン・ファイアボールと「呪い」のダメージが{percent_increase}%増加します"
-"tree.strike_twice.name","Strike Twice","二度撃ち"
-"tree.strike_twice.description","Lightning has a {chance}% chance to strike the wall twice.","「稲妻」が{chance}%の確率で壁に2回落雷します。"
-"tree.wisps.name","Wisps","ウィスプ"
-"tree.wisps.description","Gorgons can now emit Wisps, which will apply Cursed to the wall.","ゴルゴンがウィスプを発するようになり、壁に「呪い」を付与します。"
-"tree.wood.name","Druid Boost","ドルイドブースト"
-"tree.wood.description","Increases {wood_icon} gain by {percent_increase}%","{wood_icon}の獲得量が{percent_increase}%増加します"
-"tree.zephyr_damage.name","Lightning","稲妻"
-"tree.zephyr_damage.description","Zephyrs occasionally summon Lightning, which deals {damage_increase} damage to the wall.","ゼファーが時々「稲妻」を召喚し、壁に{damage_increase}のダメージを与えます。"
-"blessing.spoiler","Hidden until the blessings above are unlocked","祝福が解放されるまで非表示"
-"button.view_tower_requirements","Jump to Requirements","要件まで移動"
-"label.needs_trade_agreements","- Need {amount} {trade_agreement_icon}","- 要求 {amount} {trade_agreement_icon}"
+- Does not count as Fireball damage."
+tree.fusion.name,Fusion
+tree.fusion.description,Fireball base damage increases by {percent_increase}% for each base damage Ifrits have.
+tree.hot_blooded.name,Hot Blooded
+tree.hot_blooded.description,The Molten effects on the wall will apply to Ifrit fireballs.
+tree.hot_runes.name,Hot Runes
+tree.hot_runes.description,Shrapnel base damage increases by {percent_increase}% for each rune unlocked.
+tree.ice_arrow_damage.name,Ice Arrow Damage
+tree.ice_arrow_damage.description,Ice arrows deal damage equal to the base damage of {mult} Gorgons.
+tree.ice_arrows.name,Ice Arrows
+tree.ice_arrows.description,"Shamans can now shoot ice arrows, which will apply {stacks} Frost to the wall, reducing the decay of status effects on the wall."
+tree.infinity_resonance.name,Infinity Resonance
+tree.infinity_resonance.description,Gorgons gain {percent_increase}% damage for each Infinity Rune you have.
+tree.infinity.name,Infinity
+tree.infinity.description,Unlocks an upgrade to increase all types of damage in exchange for {blank_rune_icon}.
+tree.instructions.name,Instructions
+tree.instructions.description,Spend {image} Blank Runes to unlock upgrades.
+tree.relics.name,Relics
+tree.relics.description,Gorgon base damage will also increase by {damage_increase} for each Holy Grail or Philosopher's Stone you have.
+tree.shrapnel_count.name,Shrapnel Count
+tree.shrapnel_count.description,Increase the number of Shrapnel from Fireballs by {amount}.
+tree.shrapnel_molten.name,Molten Shrapnel
+tree.shrapnel_molten.description,Each Shrapnel now applies {stacks} Molten to the wall.
+tree.shrapnel_weakness.name,Shrapnel Weakness
+tree.shrapnel_weakness.description,Each Shrapnel now applies {stacks} Weakness to the wall.
+tree.sound_pulse.name,Sound Pulse
+tree.sound_pulse.description,"Gorgons can now emit Sound Pulses, which will apply Shatter to the wall. For every stack of Shatter, the Wall takes {percent_increase}% more damage from Dragon Fireballs and Curses"
+tree.strike_twice.name,Strike Twice
+tree.strike_twice.description,Lightning has a {chance}% chance to strike the wall twice.
+tree.wisps.name,Wisps
+tree.wisps.description,"Gorgons can now emit Wisps, which will apply Cursed to the wall."
+tree.wood.name,Druid Boost
+tree.wood.description,Increases {wood_icon} gain by {percent_increase}%
+tree.zephyr_damage.name,Lightning
+tree.zephyr_damage.description,"Zephyrs occasionally summon Lightning, which deals {damage_increase} damage to the wall."
+blessing.spoiler,Hidden until the blessings above are unlocked
+button.view_tower_requirements,Jump to Requirements
+label.needs_trade_agreements,- Need {amount} {trade_agreement_icon}

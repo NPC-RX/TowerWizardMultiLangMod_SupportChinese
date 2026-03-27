@@ -1,0 +1,624 @@
+key,en
+theme.environmental.name,Terroso
+theme.gilded.name,Dourado
+theme.inverted.name,Invertido
+theme.magical.name,Mágico
+theme.sunset.name,Pôr do Sol
+theme.twilight.name,Crepúsculo
+action.area_press.name,Pressionar Área
+action.buy_many.name,Modificador de Compra Múltipla
+action.fps.name,Alternar FPS
+action.fullscreen.name,Tela Cheia
+action.go_to_academy.name,Ir para a Academia
+action.go_to_building.name,Ir para a Construção
+action.go_to_dragon_nest.name,Ir para o Ninho do Dragão
+action.go_to_embassy.name,Ir para a Embaixada
+action.go_to_forestry.name,Ir para a Silvicultura
+action.go_to_observatory.name,Ir para o Observatório
+action.go_to_orb.name,Ir para a Orbe
+action.go_to_prestige.name,Ir para o Prestígio
+action.go_to_relics.name,Ir para o Laboratório de Alquimia
+action.go_to_runecraft.name,Ir para a Forja de Runas
+action.go_to_sorcery.name,Ir para a Feitiçaria
+action.go_to_study.name,Ir para o Estudo
+action.go_to_temple.name,Ir para o Templo
+action.go_to_wall_wizard.name,Ir para o Mago da Muralha
+action.joypad_zoom_in.name,Aproximar (Controle)
+action.joypad_zoom_out.name,Afastar (Controle)
+action.keyboard_zoom_in.name,Aproximar (Teclado)
+action.keyboard_zoom_out.name,Afastar (Teclado)
+action.up.name,Mover para Cima
+action.down.name,Mover para Baixo
+action.left.name,Mover para a Esquerda
+action.right.name,Mover para a Direita
+blessing.academy_blessing.name,Bênção da Pesquisa
+blessing.academy_blessing.description,"Quando os temas de pesquisa na Academia sobem de nível, eles ganham {mult} nível(is) extra(s)"
+blessing.alchemy_blessing.name,Bênção da Alquimia
+blessing.alchemy_blessing.description,"Cada vez que um {magic_gold_icon} é criado, cria-se {add} {magic_gold_icon} extra(s)"
+blessing.balance_blessing.name,Bênção do Equilíbrio
+blessing.balance_blessing.description,"O requisito da torre que estiver mais longe de ser atingido terá seu ganho de recurso aumentado em {percent_increase}% - Se todos os requisitos da torre forem atingidos, ou se não houver requisitos, aumenta os ganhos de todos os recursos de requisitos da torre em {all_increase}%."
+blessing.balance_blessing_exception.description,- Não se aplica a {cosmic_dust_icon}
+blessing.blessing_of_carving.name,Bênção do Entalhe
+blessing.blessing_of_carving.description,Desbloqueia a opção de comprar Totens automaticamente.
+blessing.blessing_of_compounding.name,Bênção dos Juros Compostos
+blessing.blessing_of_compounding.description,Os bônus da Bênção da Destruição aumentarão de forma composta em {percent_increase}%
+blessing.blessing_of_curses.name,Bênção das Maldições
+blessing.blessing_of_curses.description,"Xamãs aplicarão {effect} na muralha. Ao atingir 100 acúmulos, causa dano à muralha igual a {mult} vezes o dano de todos os Xamãs combinados."
+blessing.blessing_of_destruction.name,Bênção da Destruição
+blessing.blessing_of_destruction.description,A produtividade de Espíritos não-feitiçaria aumentará em {percent_increase}% para cada ordem de magnitude de dano por minuto.
+blessing.blessing_of_destruction.active_description,A produtividade de Espíritos não-feitiçaria aumentará em {percent_increase}% - Próximo nível em {damage} de dano por minuto.
+blessing.blessing_of_diplomacy.name,Bênção da Diplomacia
+blessing.blessing_of_diplomacy.description,"Cada vez que você estabelece relações com uma nação, ganha {amount} {magic_gold_icon}. - Não é afetado por bônus de recursos."
+blessing.blessing_of_effects.name,Bênção dos Efeitos
+blessing.blessing_of_effects.description,Cada efeito de status na muralha só decairá após atingir {decay} acúmulos
+blessing.blessing_of_exploration.name,Bênção da Exploração
+blessing.blessing_of_exploration.description,Revela uma nova nação que fornecerá Acordos Comerciais iguais à sua população de diplomatas quando relações forem estabelecidas.
+blessing.blessing_of_few.name,Bênção dos Poucos
+blessing.blessing_of_few.description,Todos os tipos de Espírito que não tiverem a Bênção de 60 ou a Bênção da População ativa se tornarão {percent_increase}% mais produtivos.
+blessing.blessing_of_fire.name,Bênção do Fogo
+blessing.blessing_of_fire.description,"Ifrits aplicarão {effect} na muralha. Para cada acúmulo de Fundido, a Muralha recebe {percent_increase}% mais dano das Bolas de Fogo do Dragão. - O ganho de EXP do Dragão também aumenta em {exp_increase}%"
+blessing.blessing_of_fire_abridged.description,"Ifrits aplicarão {effect} na muralha. Para cada acúmulo de Fundido, a Muralha recebe {percent_increase}% mais dano das Bolas de Fogo do Dragão."
+blessing.blessing_of_hovering.name,Bênção de Flutuar
+blessing.blessing_of_hovering.description,Apenas passar o mouse sobre um local acelerará os espíritos em vez de clicar.
+blessing.blessing_of_multitasking.name,Bênção da Multitarefa
+blessing.blessing_of_multitasking.description,Sábios Espirituais pesquisarão todos os temas na Academia ao mesmo tempo.
+blessing.blessing_of_n.name,Bênção de 60
+blessing.blessing_of_n.description,Espíritos com uma população de {threshold} ou mais se tornarão {percent_increase}% mais produtivos. - 'Produtivo' significa que a função primária do tipo de espírito é impulsionada.
+blessing.blessing_of_population.name,Bênção da População
+blessing.blessing_of_population.description,O tipo de Espírito com a maior população se tornará {percent_increase}% mais produtivo. - 'Produtivo' significa que a função primária do tipo de espírito é impulsionada.
+blessing.blessing_of_summoning.name,Bênção da Invocação
+blessing.blessing_of_summoning.description,Desbloqueia a opção de comprar {spirit_icon} automaticamente.
+blessing.blessing_of_supervision.name,Bênção da Supervisão
+blessing.blessing_of_supervision.description,O último local clicável que você clicou recebe um bônus de velocidade de {percent_increase}% até que uma área diferente seja clicada
+blessing.blessing_of_supervision_units.description,- Unidades de feitiçaria ganham apenas metade do aumento de velocidade
+blessing.blessing_of_the_tower.name,Bênção da Torre
+blessing.blessing_of_the_tower.description,"Ao iniciar uma nova partida, a torre será construída com o estudo, {cloudlings} nuvenzinhas e {tomes} tomos"
+blessing.blessing_of_the_tower_2.name,Bênção Maior da Torre
+blessing.blessing_of_the_tower_2.description,"Ao iniciar uma nova partida, a torre será construída com Silvicultura, {druids} Druidas, Prestígio e {spirit_tomes} Tomos Espirituais adicionais."
+blessing.blessing_of_the_tower_3.name,Bênção Final da Torre
+blessing.blessing_of_the_tower_3.description,"Ao iniciar uma nova partida, a torre será construída com todas as construções até e incluindo Feitiçaria."
+blessing.blessing_of_totems.name,Bênção dos Totens
+blessing.blessing_of_totems.description,"Para cada {totems} totens de um certo tipo entalhados, aumenta o efeito passivo daquele tipo de totem em {percent_increase}% compostos"
+blessing.build_academy.name,Bênção dos Tomos
+blessing.build_academy.description,"Quando houver pelo menos {requirement} Tomos Espirituais, o ganho de {knowledge_icon} e {magic_icon} aumenta em {percent_increase}%"
+blessing.crafting_totem_blessing.name,Bênção do Totem de Fabricação
+blessing.crafting_totem_blessing.description,Adiciona um novo Totem que acelera a criação de {blank_rune_icon} e {magic_gold_icon} em {percent_increase}%
+blessing.doubling_blessing.name,Bênção da Duplicação
+blessing.doubling_blessing.description,"Quando uma Nuvenzinha, Tomo Espiritual ou Druida é invocado, ele será invocado em dobro."
+blessing.dragon_blessing.name,Bênção do Dragão
+blessing.dragon_blessing.description,"Quando o Dragão sobe de nível, ganha {points} pontos de habilidade de dragão adicionais"
+blessing.dragon_wisdom_blessing.name,Bênção da Sabedoria do Dragão
+blessing.dragon_wisdom_blessing.description,"A cada 10º nível de uma habilidade de Dragão, o valor da habilidade é impulsionado em {percent_increase}% compostos"
+blessing.forest_keeper_blessing.name,Bênção do Guardião da Floresta
+blessing.forest_keeper_blessing.description,O Guardião da Floresta será invocado com {levels} níveis de melhoria
+blessing.forestry_blessing.name,Bênção da Floresta
+blessing.forestry_blessing.description,Aumenta o ganho de {wood_icon} em {percent_increase}%
+blessing.gorgon_blessing.name,Bênção da Górgona
+blessing.gorgon_blessing.description,Górgonas causam {percent_increase}% mais dano para cada {every} acúmulos de Fraqueza na muralha
+blessing.knowledge_blessing.name,Bênção do Conhecimento
+blessing.knowledge_blessing.description,Aumenta o ganho de {knowledge_icon} em {percent_increase}%
+blessing.magic_gain_blessing.name,Bênção da Magia
+blessing.magic_gain_blessing.description,Aumenta o ganho de {magic_icon} em {percent_increase}%
+blessing.midway_blessing.name,Bênção do Dano
+blessing.midway_blessing.description,O ganho de {knowledge_icon} aumenta em {knowledge_increase}% e o dano à muralha aumenta em {damage_increase}%
+blessing.prestige_blessing.name,Bênção do Farol
+blessing.prestige_blessing.description,"Quando a torre tem a construção de prestígio construída, o ganho de {magic_icon} e {wood_icon} aumenta em {percent_increase}%"
+blessing.refining_blessing.name,Bênção do Refino
+blessing.refining_blessing.description,Runas podem ser melhoradas várias vezes.
+blessing.research_blessing.name,Bênção da Pesquisa
+blessing.research_blessing.description,"Quando a Alquimia for construída, ganha instantaneamente {amount} {magic_gold_icon}. - Não é afetado por bônus de recursos."
+blessing.runecraft_blessing.name,Bênção da Forja de Runas
+blessing.runecraft_blessing.description,"Cada vez que uma Runa é criada, cria-se {amount} Runa(s) extra(s)"
+blessing.sage_totem_blessing.name,Bênção do Totem do Sábio
+blessing.sage_totem_blessing.description,Adiciona um novo Totem que aumenta o ganho de EXP da Academia em {percent_increase}% compostos
+blessing.specialization_blessing.name,Bênção da Especialização
+blessing.specialization_blessing.description,"Ganha {amount} Pontos de Habilidade de Dragão inicialmente. A cada {every} níveis ganhos em uma habilidade de Dragão, aumenta todas as outras habilidades de Dragão em {points} níveis"
+blessing.spirit_debt.name,Bênção da Dívida
+blessing.spirit_debt.description,Comece com {amount} {spirit_icon} negativo(s). Todo tipo de Espírito não-feitiçaria começará com {start_amount} {spirit_icon} invocados.
+button.autobuy_spirits,Compra Automática
+button.bought,Comprado
+button.build_tower,Construir Torre
+button.built,Construído
+button.buy,Comprar
+button.cancel,Cancelar
+button.cannot_upgrade,Não é possível melhorar
+button.close,Fechar
+button.continue_anyway,Continuar Mesmo Assim
+button.craft,Fabricar
+button.early_prestige,Prestígio Precoce
+button.email,barribobgames@gmail.com
+button.end_game,Fim de Jogo
+button.exit,Sair
+button.final_ascension,A Ascensão Final
+button.fire_magic,Feixe de Magia de Fogo
+button.go_to_academy,Ir para a Academia (Atalho {shortcut})
+button.go_to_building,Ir para a Construção (Atalho {shortcut})
+button.go_to_dragon,Ir para o Ninho do Dragão (Atalho {shortcut})
+button.go_to_embassy,Ir para a Embaixada (Atalho {shortcut})
+button.go_to_forest,Ir para a Silvicultura (Atalho {shortcut})
+button.go_to_observatory,Ir para o Observatório (Atalho {shortcut})
+button.go_to_orb,Ir para a Orbe (Atalho {shortcut})
+button.go_to_prestige,Ir para o Prestígio (Atalho {shortcut})
+button.go_to_relics,Ir para o Laboratório de Alquimia (Atalho {shortcut})
+button.go_to_runecraft,Ir para a Forja de Runas (Atalho {shortcut})
+button.go_to_sorcery,Ir para a Feitiçaria (Atalho {shortcut})
+button.go_to_sorcery_2,Ir para a Feitiçaria
+button.go_to_study,Ir para o Estudo (Atalho {shortcut})
+button.go_to_temple,Ir para o Templo (Atalho {shortcut})
+button.go_to_wall_wizard,Ir para o Mago da Muralha (Atalho {shortcut})
+button.google_forms,Google Forms
+button.hide_maxed_skills,Ocultar no Máximo
+button.learn,Aprender
+button.maxed,No Máximo
+button.new_game,Novo Jogo!
+button.next_run,Próxima Partida
+button.ok,OK
+button.open_remap_menu,Remapear Atalhos
+button.open_save_folder,Abrir Pasta de Saves
+button.preload_3,3 Pontos de Prestígio
+button.preload_6,6 Pontos de Prestígio
+button.preload_9,9 Pontos de Prestígio
+button.preload_13,13 Pontos de Prestígio
+button.preload_18,18 Pontos de Prestígio
+button.preload_24,24 Pontos de Prestígio
+button.prestige,Prestígio
+button.prestige_cancel,Cancelar
+button.prestige_confirm,Confirmar
+button.refund_diplomats,Reembolsar Diplomatas
+button.reset,Reiniciar
+button.reset_blessings,Reembolsar Todas as Bênçãos
+button.sorcery_manual,Manual de Feitiçaria
+button.steam_forum,Fórum da Steam
+button.toggle_fullscreen,Alternar Tela Cheia
+button.unlocked,Desbloqueado
+button.upgrade,Melhorar
+button.upgrade_tower,Ascender Torre
+button.view_blessings,Ver Bênçãos
+button.we'll_see,Veremos Sobre Isso
+damage_source.curse.name,Maldição
+damage_source.curse.description,Maldição
+damage_source.dragon.name,Dragão
+damage_source.dragon.description,Dragão
+damage_source.fire_arrows.name,Flechas de Fogo
+damage_source.fire_arrows.description,Flechas de Fogo
+damage_source.fireball_shrapnel.name,Estilhaços de Bola de Fogo
+damage_source.fireball_shrapnel.description,Estilhaços de Bola de Fogo
+damage_source.gorgon.name,Górgona
+damage_source.gorgon.description,Górgona
+damage_source.ice_arrows.name,Flechas de Gelo
+damage_source.ice_arrows.description,Flechas de Gelo
+damage_source.ifrit.name,Ifrit
+damage_source.ifrit.description,Ifrit
+damage_source.shaman.name,Xamã
+damage_source.shaman.description,Xamã
+damage_source.spirit_sage.name,Sábio Espiritual
+damage_source.spirit_sage.description,Sábio Espiritual
+damage_source.wall_repair.name,Reparo da Muralha
+damage_source.wall_repair.description,Reparo da Muralha - Repara a muralha em até {repair_rate} de dano por minuto
+damage_source.zephyr.name,Zéfiro
+damage_source.zephyr.description,Zéfiro
+dragon_ability.fireballs.name,Bolas de Fogo
+dragon_ability.fireballs.tooltip,"Se houver uma muralha, atira ocasionalmente uma bola de fogo que causa {main_value} de dano base."
+dragon_ability.magic_breath.name,Sopro Mágico
+dragon_ability.magic_breath.tooltip,"Sopra ocasionalmente {magic_icon} para a Orbe, igual à produção de {main_value} Nuvenzinhas"
+dragon_ability.next_value_tooltip,- Melhorar aumenta isso para {next_value}
+dragon_ability.pulse_of_knowledge.name,Pulso de Conhecimento
+dragon_ability.pulse_of_knowledge.tooltip,Ganha ocasionalmente {knowledge_icon} igual a {main_value} tomos. - Segure o botão ou pressione shift para comprar vários
+dragon_ability.telepathy.name,Telepatia
+dragon_ability.telepathy.tooltip,Aumenta o ganho de experiência da Academia em {main_value}%
+dragon_ability.treasure_keeper.name,Guardião do Tesouro
+dragon_ability.treasure_keeper.tooltip,Aumenta a velocidade de produção de {magic_gold_icon} em {main_value}%
+header.abilities,Habilidades
+header.academy,Academia
+header.alchemists,Laboratório de Alquimia
+header.blessing_locked,Bênçãos Bloqueadas
+header.blessings,Bênçãos
+header.blessings_view_only,Bênçãos (Apenas Visualização)
+header.building,Construção
+header.dragon_nest,Ninho do Dragão
+header.early_prestige,Prestígio Precoce
+header.embassy,Embaixada
+header.forestry,Silvicultura
+header.level,Nv.{level}
+header.milestone_blessings,Bênçãos de Marco
+header.new_update,Nova Atualização
+header.notice,Aviso
+header.observatory,Observatório
+header.orb,A Orbe
+header.playtest,Bem-vindo ao Playtest!
+header.prestige,Prestígio
+header.relics,Relíquias
+header.remap,Remapear
+header.rune,Forja de Runas
+header.skills,Habilidades
+header.small_buildings,Alojamento de Espíritos
+header.sorcery,Feitiçaria
+header.spirits,A Orbe
+header.study,Estudo
+header.temple,Templo
+header.this_run,Esta Partida
+header.totems,Totens
+header.tower_requirements,Requisitos da Torre
+header.training,Pesquisa
+header.unlockable_blessings,Bênçãos Desbloqueáveis
+header.unspent_points,Você Tem Pontos Não Gastos
+header.warden,Mago da Muralha
+label.assigned_points,Pontos Atribuídos: {points}
+label.attention_icon_explanation,A Torre pode ser Ascendida para o próximo nível.
+label.build_tower_explanation,Não consome recursos para ascender
+label.calculating,Calculando...
+label.confirm_prestige,Tem certeza de que deseja realizar o prestígio?
+label.cost,Custo:
+label.cost_icon,{cost} {icon}
+label.costs,- custa
+label.crafting_cost,Custo de Fabricação:
+label.damage_exp_explanation,"Quando esta barra estiver cheia, você ganha um ponto de prestígio. - A barra se preenche com base no dano causado à muralha. - Tempo Estimado: {eta}"
+label.damage_type_blessing,Efeito da Bênção:
+label.dragon_costs,- custa {cost} {icon}
+label.dragon_level,"Toda vez que o Dragão sobe de nível, você ganha um ponto de habilidade para melhorar habilidades - Tempo Estimado: {eta}"
+label.effects,Efeitos
+label.effects_description,Estes são os efeitos que estão atualmente aplicados à muralha.
+label.ending_time,Você construiu a maior Torre do Mago em {hours}:{minutes}:{seconds}
+label.feedback,Feedback
+label.final_ascension_explanation,Você consegue ascender a torre mais uma vez?
+label.fire_magic_explanation,O Astrólogo determinou que a muralha pode ser destruída usando A Orbe com os recursos corretos.
+label.go_to_sorcery,Ir para a Feitiçaria (Atalho 8)
+label.go_to_spoiler,Ir para ???
+label.hover,Passar o mouse sobre
+label.less_than_minute,Menos de 1 minuto
+label.maxed,No Máximo
+label.new_update_description.0_0_3,"O jogo recebeu uma grande atualização! Se você tinha um save anterior, a maior parte do progresso será transferida, mas considere iniciar um novo jogo para experimentar adequadamente alguns dos novos recursos."
+label.new_update_description.playtest,"Esta versão tem mais conteúdo desbloqueado além do que a demo fornece. Estou procurando feedback sobre o novo conteúdo. Além disso, existem alguns utilitários no menu 'playtest' que podem ajudá-lo. Divirta-se!"
+label.new_update_description.previous_playtest,Parece que você possivelmente já jogou a versão de playtest antes. Note que a versão demo terá menos conteúdo desbloqueado do que a versão de playtest fechada.
+label.new_update_description.prototype,"O jogo recebeu uma grande atualização! Se você tinha um save anterior, algum progresso (como pontos de prestígio) será transferido, mas recomendo iniciar um novo jogo porque muitas coisas mudaram e mecânicas foram adicionadas/removidas."
+label.not_active,- Inativo
+label.points,Pontos:{points}
+label.points_earned,Pontos Ganhos:{points}
+label.preloaded_saves,Saves Pré-carregados
+label.press_and_hold,Pressione e segure
+label.prestige_early_explanation,"Faça o prestígio cedo para reiniciar a partida ou reconfigurar suas bênçãos, mas não há um benefício significativo."
+label.prestige_exp_explanation,"Quando esta barra estiver cheia, você ganha um ponto de prestígio. - A barra se preenche com base na quantidade de {magic_icon} ganho. - Tempo Estimado: {eta}"
+label.prestige_explanation,"Realizar o prestígio reinicia seu progresso, mas permite que você ganhe bênçãos para tornar sua próxima partida melhor."
+label.prestige_points_explanation,Pontos de prestígio são usados para ganhar bênçãos.
+label.relics,Relíquias Possuídas
+label.relics_needed,(precisa de mais {needed})
+label.relics_owned,- Você possui {owned}
+label.reset_blessings,Você também pode clicar com o botão direito para reembolsar bênçãos individuais.
+label.restore_wall,Fazer o Mago da Muralha restaurar/desativar a Muralha Cósmica
+label.rune_exp,Progresso da Runa
+label.rune_exp_eta,Progresso da Runa - Tempo Estimado: {eta}
+label.story_1,"Vejo que você construiu uma bela civilização, mas essa torre não deve ir mais alto."
+label.story_2,Esta grande muralha o impedirá de ascender ainda mais.
+label.story_3,"Parece que o subestimei. No entanto, você não passará por esta muralha."
+label.story_4,"Tudo bem, farei um acordo. Se você conseguir destruir esta muralha, não o impedirei mais."
+label.story_5,Estou impressionado com sua determinação. Posso até ficar e ajudar um pouco para ver o resultado final.
+label.supervision_blessing,Bênção da Supervisão
+label.temple_exp,EXP de Poeira Cósmica
+label.temple_exp_explanation,"Progresso de criação de Poeira Cósmica. Quando cheia, você recebe 1 Poeira Cósmica. A barra se preenche com base no dano causado à Muralha Cósmica. - Tempo Estimado: {eta}"
+label.thanks_for_playing,Obrigado por jogar!
+label.the_end,Fim
+label.tower_requirements_explanation,Cumpra os requisitos da torre para ascender a torre para o próximo nível.
+label.tower_resource_explanation,Acumule um total vitalício de {cost} {resource}. ({accumulated} acumulado(s) até agora)
+label.tower_resource_explanation_balance_blessing,A bênção do equilíbrio está ativa para este recurso
+label.unspent_points_warning,Você tem pontos não gastos. Não há vantagem em manter pontos não gastos. É recomendado atribuir todos eles para bênçãos desbloqueáveis (algumas bênçãos podem ter dois pontos).
+label.utilities,Utilitários
+label.wall_0,Muralha de Nuvens
+label.wall_1,Muralha Solar
+label.wall_2,Muralha Cósmica
+label.wall_explanation,Quebre a muralha acima para ascender a torre.
+label.wall_health_bar,A muralha tem {value} de vida restante
+nation.arcanis_nation.name,Arcanis
+nation.arcanis_nation.description,Nação com uma universidade respeitada - Bônus de relações: Aumenta o ganho de EXP da Academia em {percent_increase}%
+nation.axel_nation.name,Axel
+nation.axel_nation.description,Reino de aventureiros e vastas planícies - Bônus de relações: Desbloqueia novas melhorias baseadas em Conhecimento para a Feitiçaria e Ninho do Dragão.
+nation.ceha_nation.name,Ceha
+nation.ceha_nation.description,Terra dos vulcões - Bônus de relações: Guardiões de Dragão fornecem {percent_increase}% a mais de EXP de Dragão
+nation.chronara_nation.name,Chronara
+nation.chronara_nation.description,Nação oculta que ocasionalmente submerge - Bônus de relações: A cada 2 segundos ganha Acordos Comerciais iguais à sua população de diplomatas.
+nation.fel_nation.name,Fel
+nation.fel_nation.description,Nação conhecida por magia antiga - Bônus de relações: Aumenta o ganho de EXP da Academia em {percent_increase}%
+nation.istesha_nation.name,Istesha
+nation.istesha_nation.description,Nação dos dragões - Bônus de relações: Ganha instantaneamente {amount} pontos de habilidade de dragão
+nation.janand_nation.name,Janand
+nation.janand_nation.description,Nação de prisioneiros e exilados - Bônus de relações: Aumenta o dano de todas as unidades em {percent_increase}%
+nation.lapis_nation.name,Lapis
+nation.lapis_nation.description,Nação com pilares de pedra e morros - Bônus de relações: Ganha instantaneamente {amount} Cognita.
+nation.lilon_nation.name,Lilon
+nation.lilon_nation.description,Nação do vento e costas - Bônus de relações: Aumenta o ganho de {magic_icon} das Nuvenzinhas em {percent_increase}%
+nation.luscana_nation.name,Luscana
+nation.luscana_nation.description,Nação da joalheria - Bônus de relações: Ganha instantaneamente {amount} Pedras de Mana.
+nation.maristella_nation.name,Maristella
+nation.maristella_nation.description,Nação de comércio e navegação. - Bônus de relações: Aumenta o ganho de {knowledge_icon} em {percent_increase}%
+nation.netus_nation.name,Netus
+nation.netus_nation.description,Nação de artesãos - Bônus de relações: Desbloqueia novas melhorias baseadas em Conhecimento para a floresta e academia
+nation.odantis_nation.name,Odantis
+nation.odantis_nation.description,Nação de longos invernos - Bônus de relações: Aumenta o ganho de {knowledge_icon} em {percent_increase}%
+nation.peace_land_nation.name,Terra da Paz
+nation.peace_land_nation.description,Nação de pequenos humanos e espíritos - Bônus de relações: Ganha instantaneamente {amount} {spirit_icon}.
+nation.prismara_nation.name,Prismara
+nation.prismara_nation.description,Nação do cristal e mar - Bônus de relações: Aumenta a velocidade de produção de {magic_gold_icon} em {percent_increase}%
+nation.starting_nation.name,Sua Nação
+nation.starting_nation.description,"Este é o seu domínio. Quando você tiver {trade_agreement_icon} suficiente, clique em uma nação vizinha para estabelecer relações."
+nation.tedora_nation.name,Tedora
+nation.tedora_nation.description,Nação das Florestas Antigas - Bônus de relações: Aumenta o ganho de {wood_icon} em {percent_increase}%
+nation.tempestus_nation.name,Tempestus
+nation.tempestus_nation.description,Nação de montanhas e tempestades - Bônus de relações: Aumenta o ganho de {magic_icon} das Nuvenzinhas em {percent_increase}%
+nation.tenebris_nation.name,Tenebris
+nation.tenebris_nation.description,Nação de vastas cavernas - Bônus de relações: Aumenta a velocidade de produção de {magic_gold_icon} em {percent_increase}%
+nation.verdania_nation.name,Verdania
+nation.verdania_nation.description,Nação de vastas florestas - Bônus de relações: Aumenta o ganho de {wood_icon} em {percent_increase}%
+nation.wedol_nation.name,Wedol
+nation.wedol_nation.description,Império da floresta tropical - Bônus de relações: Ganha instantaneamente {amount} totens.
+nation.xara_nation.name,Xara
+nation.xara_nation.description,Nação do deserto e pedra - Bônus de relações: Ganha instantaneamente {amount} Dragonita.
+relic.cognite,Cognita
+relic.cognite.tooltip,Cada Cognita aumenta o ganho de {knowledge_icon} em {percent_increase}%
+relic.dragonite,Dragonita
+relic.dragonite.tooltip,Cada Dragonita aumenta o ganho de EXP do Dragão em {percent_increase}%
+relic.holy_grail,Santo Graal
+relic.holy_grail.tooltip,Cada Santo Graal aumenta o ganho de {magic_icon} em {magic_increase}% e o ganho de EXP do Dragão em {dragon_exp_increase}%
+relic.magic_gold,Ouro Mágico
+relic.magic_gold.tooltip,Cada Ouro Mágico aumenta o ganho de {magic_icon} em {percent_increase}%
+relic.mana_stone,Pedra de Mana
+relic.mana_stone.tooltip,Cada Pedra de Mana aumenta o ganho de {magic_icon} em {percent_increase}%
+relic.ouroboros,Ouroboros
+relic.ouroboros.tooltip,Cada Ouroboros aumenta o ganho de {knowledge_icon} em {knowledge_increase}% e o ganho de EXP do Dragão em {dragon_exp_increase}%
+relic.philosopher_stone,Pedra Filosofal
+relic.philosopher_stone.tooltip,Cada Pedra Filosofal aumenta o ganho de {knowledge_icon} em {knowledge_increase}% e o ganho de {magic_icon} em {magic_increase}%
+resource.blank_rune,Runa Vazia
+resource.blank_rune_description,Criado por Forjadores de Runas
+resource.building_points,Pontos de Construção
+resource.building_points_description,Toda Ascensão de Torre concede uma quantia fixa.
+resource.cognite,Cognita
+resource.cosmic_analysis,Análise Cósmica
+resource.cosmic_analysis_description,Comprado no Observatório
+resource.cosmic_dust,Poeira Cósmica
+resource.cosmic_dust_description,Gerado no Templo a partir do Dano na Muralha Cósmica
+resource.dragon_ability_points,Pontos de Habilidade do Dragão
+resource.dragon_ability_points_description,Ganho ao subir o nível do Dragão
+resource.dragonite,Dragonita
+resource.holy_grail,Santo Graal
+resource.knowledge,Conhecimento
+resource.knowledge_description,Criado por Tomos Espirituais
+resource.magic,Magia
+resource.magic_description,Criado por Nuvenzinhas
+resource.magic_gold,Ouro Mágico
+resource.magic_gold_description,Criado por Alquimistas
+resource.mana_stone,Pedra de Mana
+resource.ouroboros,Ouroboros
+resource.philosopher_stone,Pedra Filosofal
+resource.spirits,Espíritos
+resource.spirits_description,Comprado na Orbe
+resource.totems,Totens
+resource.totems_description,Comprado no Portal da Silvicultura
+resource.trade_agreements,Acordos Comerciais
+resource.trade_agreements_description,Criado por Diplomatas
+resource.wood,Madeira
+resource.wood_description,Colhido por Druidas
+skill.alchemy_lab,Laboratório de Alquimia
+skill.alchemy_lab.tooltip,Aumenta o ganho de experiência para {training} em {percent_increase}%
+skill.analyze_cursed,Análise da Muralha Amaldiçoada
+skill.analyze_cursed.tooltip,Aumenta o dano base das Maldições em {percent_increase}%
+skill.analyze_molten,Análise da Muralha Fundida
+skill.analyze_molten.tooltip,Aumenta a quantidade de Fundido aplicada em {percent_increase}%
+skill.analyze_resonance,Análise da Muralha Estilhaçada
+skill.analyze_resonance.tooltip,Aumenta a quantidade de Estilhaço aplicada em {percent_increase}%
+skill.analyze_wall,Analisar Muralha
+skill.analyze_wall.tooltip,"Analisa a Muralha Cósmica, desbloqueando o conjunto de recursos necessários para quebrar a muralha. - Os requisitos serão exibidos na Orbe."
+skill.analyze_weakened,Análise da Muralha Enfraquecida
+skill.analyze_weakened.tooltip,Aumenta a quantidade de Enfraquecido aplicada em {percent_increase}%
+skill.bigger_forest,Floresta Maior
+skill.bigger_forest_2,Poder Druida
+skill.bigger_forest_2.tooltip,Aumenta o ganho de {wood_icon} em {percent_increase}%
+skill.bigger_forest.tooltip,Aumenta o tamanho da floresta. - Aumenta a quantidade de {wood_icon} que cada tora fornece em {percent_increase}%
+skill.build_academy,Construir Academia
+skill.build_academy.tooltip,Constrói uma Academia para educação mágica
+skill.build_book_house,Construir Casa dos Livros
+skill.build_book_house.tooltip,Casas dos Livros aumentam coletivamente o ganho de {knowledge_icon} em {percent_increase}% compostos
+skill.build_dragon_nest,Construir Ninho do Dragão
+skill.build_dragon_nest.tooltip,Constrói um ninho de dragão para chocar um dragão
+skill.build_embassy,Construir Embaixada
+skill.build_embassy.tooltip,Constrói uma embaixada para ganhar relações internacionais
+skill.build_house,Construir Casa dos Espíritos
+skill.build_house.tooltip,Casas dos Espíritos aumentam coletivamente o ganho de {magic_icon} em {percent_increase}% compostos - Toda Ascensão de Torre concede uma quantia fixa de {building_points_icon}
+skill.build_tree_house,Construir Casa na Árvore
+skill.build_tree_house.tooltip,Casas na Árvore aumentam coletivamente o ganho de {wood_icon} em {percent_increase}% compostos
+skill.carve_crafting_totem,Totem de Fabricação
+skill.carve_crafting_totem.tooltip,Cada Totem aumenta o progresso de criação de {blank_rune_icon} e {magic_gold_icon} em {percent_increase}% - Bônus atual: {total}%
+skill.carve_forest_totem,Totem da Floresta
+skill.carve_forest_totem.tooltip,Cada Totem aumenta o ganho de {wood_icon} em {percent_increase}% - Bônus atual: {total}% - Também cria {amount} {spirit_icon}
+skill.carve_knowledge_totem,Totem do Conhecimento
+skill.carve_knowledge_totem.tooltip,Cada Totem aumenta o ganho de {knowledge_icon} em {percent_increase}% - Bônus atual: {total}%
+skill.carve_magic_totem,Totem da Magia
+skill.carve_magic_totem.tooltip,Cada Totem aumenta o ganho de {magic_icon} em {percent_increase}% - Bônus atual: {total}%
+skill.carve_sage_totem,Totem do Sábio
+skill.carve_sage_totem.tooltip,Cada Totem aumenta o ganho de EXP da Academia em {percent_increase}% compostos - Bônus atual: {total}%
+skill.cloud_resonance,Ressonância de Nuvens
+skill.cloud_resonance.tooltip,"Toda vez que o Dragão sopra Magia, todas as Nuvenzinhas criarão uma gota de Magia"
+skill.cloudling_magic,Magia de Nuvenzinha
+skill.cloudling_potency,Impulso de Nuvenzinha
+skill.cloudling_potency.tooltip,Aumenta a criação de {magic_icon} por Nuvenzinhas em {percent_increase}%
+skill.combat_magic,Magia de Combate
+skill.combat_magic.tooltip,Aumenta todo o dano em {percent_increase}%
+skill.craft_totem,Fabricar Totem
+skill.craft_totem.tooltip,Fabrica {totem_icon}. Totens podem ser entalhados em diferentes tipos e colocados no mastro de totens para vários bônus.
+skill.create_cosmic_analysis,Análise Cósmica
+skill.create_cosmic_analysis.tooltip,Cria 1 Análise Cósmica para ser gasta em melhorias de análise.
+skill.dragon_alphabet,Alfabeto dos Dragões
+skill.dragon_alphabet.tooltip,Aumenta o ganho de experiência para {training} em {percent_increase}%
+skill.dragon_wisdom,Conhecimento de Dragão
+skill.dragon_wisdom.tooltip,Aumenta o ganho de EXP do Guardião de Dragão em {percent_increase}%
+skill.enchant_frost,Encantamento da Muralha Congelada
+skill.enchant_frost.tooltip,Cada acúmulo de Gelo aumenta o ganho de {wood_icon} em {percent_increase}% - Também aumenta a velocidade de criação de {cosmic_dust_icon} em {cosmic_percent_increase}%
+skill.enchant_molten,Encantamento da Muralha Fundida
+skill.enchant_molten.tooltip,Cada acúmulo de Fundido aumenta o ganho de EXP do Dragão em {percent_increase}% - Também aumenta a velocidade de criação de {cosmic_dust_icon} em {cosmic_percent_increase}%
+skill.enchant_shatter,Encantamento da Muralha Estilhaçada
+skill.enchant_shatter.tooltip,Cada acúmulo de Estilhaço aumenta a velocidade de criação de {blank_rune_icon} em {percent_increase}% - Também aumenta a velocidade de criação de {cosmic_dust_icon} em {cosmic_percent_increase}%
+skill.herbology_textbooks,Cadernos de Silvicultura
+skill.herbology_textbooks.tooltip,Aumenta o ganho de experiência para {training} em {percent_increase}%
+skill.improved_facilities,Academia Melhorada
+skill.improved_facilities_2,Grande Universidade
+skill.improved_facilities_2.tooltip,Aumenta o ganho de experiência para todos os temas de pesquisa na Academia em {percent_increase}%
+skill.improved_facilities.tooltip,Aumenta o ganho de experiência para todos os temas de pesquisa na Academia em {percent_increase}%
+skill.infinity_rune_upgrade,Runa do Infinito
+skill.infinity_rune_upgrade.tooltip,Aumenta todo o dano base em {percent_increase}%
+skill.library_spirits,Espíritos da Biblioteca
+skill.library_spirits.tooltip,Cria {amount} {spirit_icon} a partir do estudo
+skill.magic_textbooks,Varinhas Melhoradas
+skill.magic_textbooks.tooltip,Aumenta o ganho de experiência para {training} em {percent_increase}%
+skill.rune_mastery,Maestria em Runas
+skill.rune_mastery.tooltip,Aumenta a velocidade de criação de {blank_rune_icon} em {percent_increase}%
+skill.summon_alchemist,Invocar Alquimista
+skill.summon_alchemist.tooltip,Ajuda a criar {magic_gold_icon}. - Desbloqueia novas melhorias da Academia - Segure o botão ou pressione shift para comprar vários.
+skill.summon_astrologer,Invocar Astrólogo
+skill.summon_astrologer.tooltip,"Constrói o Observatório - O Astrólogo observará a Muralha Cósmica, encontrando fraquezas e a maneira de possivelmente quebrá-la."
+skill.summon_cloudling,Invocar Nuvenzinha
+skill.summon_cloudling.tooltip,Invoca uma Nuvenzinha que cria {magic_icon} - {press_and_hold} a orbe para acelerá-las em {speed_up_increase}%
+skill.summon_diplomat,Invocar Diplomata
+skill.summon_diplomat.tooltip,Invoca um diplomata que cria {trade_agreement_icon}. - {press_and_hold} a Embaixada para acelerá-los em {speed_up_increase}% - Pode ser reembolsado por {spirit_icon} quando o mapa estiver completo.
+skill.summon_dragon_keeper,Guardião de Dragão
+skill.summon_dragon_keeper.tooltip,Invoca um Guardião de Dragão para ajudar a subir o nível do Dragão - {press_and_hold} o Ninho do Dragão para acelerá-los em {speed_up_increase}%
+skill.summon_dragon_queen,Invocar Rainha Dragão
+skill.summon_dragon_queen.tooltip,A Rainha Dragão subirá o nível do Dragão igual a {percent}% de todos os Guardiões de Dragão combinados. - A Rainha Dragão também duplicará qualquer Bola de Fogo do Dragão em duas.
+skill.summon_druid,Invocar Druida
+skill.summon_druid.tooltip,Druidas mantêm a floresta e colhem {wood_icon}. - {press_and_hold} a floresta para acelerá-los em {speed_up_increase}%
+skill.summon_forest_keeper,Invocar Guardião da Floresta
+skill.summon_forest_keeper.tooltip,O Guardião da Floresta aprimorará toras aumentando seu valor de {wood_icon} em {percent_increase}% - O Guardião da Floresta também aumentará a velocidade de criação de {cosmic_dust_icon} em {exp_percent_increase}%
+skill.summon_gorgon,Invocar Górgona
+skill.summon_gorgon.tooltip,Causa {base_damage} de dano base à muralha. - O dano base aumenta em {damage_increase} para cada Ouroboros que você possui.
+skill.summon_ifrit,Invocar Ifrit
+skill.summon_ifrit.tooltip,Causa {base_damage} de dano base à muralha. - O dano base aumenta em {additional_damage} a cada 10 níveis da habilidade Bolas de Fogo do Dragão.
+skill.summon_rune_smith,Invocar Forjador de Runas
+skill.summon_rune_smith.tooltip,Invoca um Forjador de Runas para criar {blank_rune_icon} - {press_and_hold} o Obelisco/Bigorna para acelerá-los em {speed_up_increase}%
+skill.summon_shaman,Invocar Xamã
+skill.summon_shaman.tooltip,Causa {base_damage} de dano base à muralha multiplicado pela contagem do Tipo de Totem com mais Totens.
+skill.summon_smith_master,Invocar Mestre Forjador
+skill.summon_smith_master.tooltip,O Mestre Forjador ajudará a forjar {blank_rune_icon} com golpes iguais a todos os Forjadores de Runas combinados. - O Mestre Forjador também aumentará a velocidade de produção de {magic_gold_icon} em {alchemy_percent_increase}%
+skill.summon_spirit,Invocar Espírito
+skill.summon_spirit_sage,Invocar Sábio Espiritual
+skill.summon_spirit_sage.tooltip,Invoca um Sábio Espiritual para pesquisar vários temas - {press_and_hold} a Academia para acelerá-los em {speed_up_increase}%
+skill.summon_spirit_tome,Invocar Tomo Espiritual
+skill.summon_spirit_tome.tooltip,Invoca um Tomo Espiritual que cria {knowledge_icon} - {press_and_hold} a sala de estudo para acelerá-los em {speed_up_increase}%
+skill.summon_spirit.tooltip,Invoca {spirit_icon} que podem ser usados para invocar outros seres - Segure o botão ou pressione shift para comprar vários
+skill.summon_tome_master,Invocar Mestre dos Tomos
+skill.summon_tome_master.tooltip,"O Mestre dos Tomos absorverá todo o {knowledge_icon} criado e o amplificará em {percent_increase}% - Se você não tiver novos pontos de prestígio, o Mestre dos Tomos também aumentará a barra de progresso do prestígio de dano em {prestige_percent_increase}% a cada pulso."
+skill.summon_zephyr,Invocar Zéfiro
+skill.summon_zephyr.tooltip,"Enfraquece a muralha, aumentando o dano causado à muralha. - Aplica {base_stacks} acúmulos de fraqueza à muralha mais {additional_stacks} acúmulo para cada Tipo de Espírito com uma população de pelo menos {summon_threshold}."
+skill.text_enchantment,Encantamento de Texto
+skill.text_enchantment.tooltip,Aumenta o ganho de {knowledge_icon} em {percent_increase}%
+skill.unlock_alchemy_101,Pesquisa de Alquimia
+skill.unlock_alchemy_101.tooltip,{training} ajuda Alquimistas a criar {magic_gold_icon} mais rápido
+skill.unlock_dragon_bond,Desbloquear Pesquisa de Dragão
+skill.unlock_dragon_bond.tooltip,{training} ajuda Guardiões de Dragão a fornecer mais EXP para o Dragão
+skill.unlock_herbology,Desbloquear Pesquisa da Floresta
+skill.unlock_herbology.tooltip,{training} ajuda Druidas a cultivar mais {wood_icon}
+skill.unlock_magic_101,Desbloquear Pesquisa Mágica
+skill.unlock_magic_101.tooltip,{training} ajuda Espíritos a produzir mais {magic_icon}
+skill.upgrade_dragon_queen,Melhorar Rainha Dragão
+skill.upgrade_dragon_queen.tooltip,Aumenta o EXP do Dragão que a Rainha Dragão fornece em {percent_increase}% compostos
+skill.upgrade_forest_keeper,Melhorar Guardião da Floresta
+skill.upgrade_forest_keeper.tooltip,Aumenta o ganho de {wood_icon} em {percent_increase}% compostos - Também aumenta a velocidade de criação de {cosmic_dust_icon} em {exp_percent_increase}% compostos
+skill.upgrade_smith_master,Melhorar Mestre Forjador
+skill.upgrade_smith_master.tooltip,Aumenta o poder do martelo do Forjador em {percent_increase}% compostos - Também aumenta a velocidade de produção de {magic_gold_icon} em {alchemy_percent_increase}% compostos
+skill.upgrade_tome_master,Melhorar Mestre dos Tomos
+skill.upgrade_tome_master.tooltip,Aumenta a amplificação de {knowledge_icon} absorvido pelo Mestre dos Tomos em {percent_increase}% compostos
+skill.wizard_magic,Magia de Mago
+skill.wizard_magic.tooltip,Aumenta {magic_icon} ganho ao pressionar A Orbe em {percent_increase}%
+status_effect.cursed.name,Amaldiçoado
+status_effect.cursed.description,"Quando 100 acúmulos são atingidos, causa dano à muralha igual a {mult} vezes o dano de todos os Xamãs combinados."
+status_effect.frost.name,Gelo
+status_effect.frost.description,Reduz o decaimento de todos os outros efeitos de status na muralha em {reduction} por acúmulo
+status_effect.molten.name,Fundido
+status_effect.molten.description,"Para cada acúmulo, a Muralha recebe {percent_increase}% mais dano das Bolas de Fogo do Dragão"
+status_effect.resonance.name,Estilhaço
+status_effect.resonance.description,"Para cada acúmulo, a Muralha recebe {percent_increase}% mais dano das Bolas de Fogo do Dragão e Maldições"
+status_effect.weakened.name,Enfraquecido
+status_effect.weakened.description,"Para cada acúmulo, a Muralha recebe {percent_increase}% mais dano"
+tooltip.blessing_locked,As bênçãos abaixo estão bloqueadas até você ter {points} pontos totais - Você tem atualmente {total_points} pontos totais
+tooltip.damage_chart_button,Alternar Gráfico de Dano
+tooltip.knowledge,Conhecimento
+tooltip.magic,Magia
+tooltip.milestone_blessings,As Bênçãos de Marco são desbloqueadas automaticamente quando você atinge um certo número de pontos de prestígio
+training.alchemy_101,Pesquisa de Alquimia
+training.alchemy_101.tooltip,Aumenta a velocidade de produção de {magic_gold_icon} em {percent_increase}%
+training.dragon_bond,Pesquisa de Dragão
+training.dragon_bond.tooltip,Aumenta o ganho de EXP do Dragão em {percent_increase}%
+training.herbology,Pesquisa de Silvicultura
+training.herbology.tooltip,Aumenta o ganho de {wood_icon} em {percent_increase}%
+training.magic_101,Pesquisa Mágica
+training.magic_101.tooltip,Aumenta o {magic_icon} fornecido por Nuvenzinhas em {percent_increase}%
+tree.academy_exp_rune.name,Impulso de Academia
+tree.academy_exp_rune.description,Aumenta o ganho de EXP da Academia em {percent_increase}%
+tree.alchemy.name,Impulso de Alquimia
+tree.alchemy.description,Aumenta a velocidade de produção de {magic_gold_icon} em {percent_increase}%
+tree.alloy.name,Liga Metálica
+tree.alloy.description,"O dano base dos Ifrits aumenta em {percent_increase}% para cada Górgona, Xamã e Zéfiro."
+tree.arc.name,Arco
+tree.arc.description,Aumenta o dano da Górgona em {percent_increase}% para cada Zéfiro ou Nuvenzinha.
+tree.charge.name,Carga
+tree.charge.description,"Toda vez que o Relâmpago causa dano, o dano base do Relâmpago é aumentado permanentemente em {damage_increase}."
+tree.class_of_destruction.name,Sábios da Destruição
+tree.class_of_destruction.description,Sábios Espirituais causam {base_damage} de dano à muralha.
+tree.cloud.name,Impulso de Magia
+tree.cloud.description,Aumenta o ganho de {magic_icon} em {percent_increase}%
+tree.create_gorgons.name,Invocar Górgonas
+tree.create_gorgons.description,Invoca {amount} Górgonas
+tree.create_ifrits.name,Invocar Ifrits
+tree.create_ifrits.description,Invoca {amount} Ifrits
+tree.create_shamans.name,Invocar Xamãs
+tree.create_shamans.description,Invoca {amount} Xamãs
+tree.curse_resonance.name,Aura de Maldição
+tree.curse_resonance.description,"Quando uma maldição aparece na muralha, todas as Górgonas ganharão uma aura, aumentando seu próximo dano em {percent_increase}% - Pode acumular várias vezes."
+tree.cursed_fire.name,Fogo Amaldiçoado
+tree.cursed_fire.description,Os efeitos de Fundido na muralha se aplicarão a Maldições a {percent_of}% do efeito.
+tree.cursed_shards.name,Fragmentos Amaldiçoados
+tree.cursed_shards.description,O dano base das Maldições é adicionado ao dano base dos Estilhaços
+tree.diversity.name,Diversidade
+tree.diversity.description,O dano base do Sábio Espiritual aumenta em {damage_increase}% por acúmulo de qualquer efeito de status que não seja Enfraquecido.
+tree.dragon_wands.name,Varinhas de Dragão
+tree.dragon_wands.description,{percent_of}% do dano base das bolas de fogo de dragão é adicionado ao dano base do Sábio Espiritual.
+tree.dragon.name,Impulso do Guardião de Dragão
+tree.dragon.description,Aumenta o ganho de EXP do Dragão em {percent_increase}%
+tree.fire_arrows.name,Flechas de Fogo
+tree.fire_arrows.description,"Xamãs agora podem atirar flechas de fogo, causando {damage}x do dano da flecha do Xamã à muralha."
+tree.fire_damage.name,Flechas Fundidas
+tree.fire_damage.description,Os efeitos de Fundido na muralha se aplicarão às Flechas de Fogo a {percent_of}% do efeito.
+tree.fireball_shrapnel.name,Estilhaços de Bola de Fogo
+tree.fireball_shrapnel.description,"Bolas de fogo explodem em {amount} Estilhaços, que causam individualmente {base_damage} de dano à muralha. - Não conta como dano de Bola de Fogo."
+tree.fusion.name,Fusão
+tree.fusion.description,O dano base da Bola de Fogo aumenta em {percent_increase}% para cada dano base que os Ifrits têm.
+tree.hot_blooded.name,Sangue Quente
+tree.hot_blooded.description,Os efeitos de Fundido na muralha se aplicarão às bolas de fogo do Ifrit.
+tree.hot_runes.name,Runas Quentes
+tree.hot_runes.description,O dano base do Estilhaço aumenta em {percent_increase}% para cada runa desbloqueada.
+tree.ice_arrow_damage.name,Dano de Flecha de Gelo
+tree.ice_arrow_damage.description,Flechas de gelo causam dano igual ao dano base de {mult} Górgonas.
+tree.ice_arrows.name,Flechas de Gelo
+tree.ice_arrows.description,"Xamãs agora podem atirar flechas de gelo, que aplicarão {stacks} Gelo à muralha, reduzindo o decaimento dos efeitos de status na muralha."
+tree.infinity_resonance.name,Ressonância do Infinito
+tree.infinity_resonance.description,Górgonas ganham {percent_increase}% de dano para cada Runa do Infinito que você possui.
+tree.infinity.name,Infinito
+tree.infinity.description,Desbloqueia uma melhoria para aumentar todos os tipos de dano em troca de {blank_rune_icon}.
+tree.instructions.name,Instruções
+tree.instructions.description,Gaste {image} Runas Vazias para desbloquear melhorias.
+tree.relics.name,Relíquias
+tree.relics.description,O dano base da Górgona também aumentará em {damage_increase} para cada Santo Graal ou Pedra Filosofal que você tiver.
+tree.shrapnel_count.name,Contagem de Estilhaços
+tree.shrapnel_count.description,Aumenta o número de Estilhaços das Bolas de Fogo em {amount}.
+tree.shrapnel_molten.name,Estilhaços Fundidos
+tree.shrapnel_molten.description,Cada Estilhaço agora aplica {stacks} Fundido à muralha.
+tree.shrapnel_weakness.name,Fraqueza de Estilhaço
+tree.shrapnel_weakness.description,Cada Estilhaço agora aplica {stacks} Fraqueza à muralha.
+tree.sound_pulse.name,Pulso Sonoro
+tree.sound_pulse.description,"Górgonas agora podem emitir Pulsos Sonoros, que aplicarão Estilhaço à muralha. Para cada acúmulo de Estilhaço, a Muralha recebe {percent_increase}% mais dano das Bolas de Fogo do Dragão e Maldições"
+tree.strike_twice.name,Atacar Duas Vezes
+tree.strike_twice.description,Relâmpagos têm uma chance de {chance}% de atingir a muralha duas vezes.
+tree.wisps.name,Fogo Fátuo
+tree.wisps.description,"Górgonas agora podem emitir Fogos Fátuos, que aplicarão Amaldiçoado à muralha."
+tree.wood.name,Impulso de Druida
+tree.wood.description,Aumenta o ganho de {wood_icon} em {percent_increase}%
+tree.zephyr_damage.name,Relâmpago
+tree.zephyr_damage.description,"Zéfiros ocasionalmente invocam Relâmpagos, que causam {damage_increase} de dano à muralha."
+blessing.spoiler,Oculto até que as bênçãos acima sejam desbloqueadas
+button.view_tower_requirements,Pular para Requisitos
+label.needs_trade_agreements,- Precisa de {amount} {trade_agreement_icon}
