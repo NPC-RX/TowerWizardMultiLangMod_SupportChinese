@@ -64,7 +64,15 @@ Welcome to multi language translation mod for **Tower Wizard**! This tool allows
 * **False Positive (Antivirus):** Because this mod uses a `.bat` file and an `.exe` (`gdtr-tools.exe`) to modify the game's `.pck` file, your antivirus or Windows Defender might flag it. This is normal. You can safely add an exception for the game folder.
 * **How to Uninstall:** Open `translation.bat` and select Option 7 (`Restore Original Backup`). Alternatively, delete `Tower Wizard.pck` and rename `Tower Wizard_BACKUP.pck` to `Tower Wizard.pck`. 
 
+## 🛠️ 致谢
+
+* lltcggie (fork from [lltcggie/TowerWizardJapaneseMod](https://github.com/lltcggie/TowerWizardJapaneseMod)), MagroMagrones (fork from [MagroMagrones/TowerWizardMultiLangMod](https://github.com/MagroMagrones/TowerWizardMultiLangMod))
+* 翻译: MagroMagrones, AI DeepSeek (中文部分)
+* 工具: [GDTR Tools](https://github.com/imneme/gdre_tools) (解包/打包 Godot 文件).
+
+---
+
 ## 🛠️ Credits
-* lltcggie (fork from lltcggie/TowerWizardJapaneseMod), MagroMagrones (fork from MagroMagrones/TowerWizardMultiLangMod)
+* lltcggie (fork from [lltcggie/TowerWizardJapaneseMod](https://github.com/lltcggie/TowerWizardJapaneseMod)), MagroMagrones (fork from [MagroMagrones/TowerWizardMultiLangMod](https://github.com/MagroMagrones/TowerWizardMultiLangMod))
 * Translation by: MagroMagrones, AI DeepSeek (Chinese part)
 * Tool used: [GDTR Tools](https://github.com/imneme/gdre_tools) (for unpacking/packing Godot files).
