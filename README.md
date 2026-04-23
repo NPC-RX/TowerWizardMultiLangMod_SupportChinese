@@ -1,4 +1,4 @@
-# Tower Wizard - Multi Translation Mod
+# Tower Wizard - Multi-Language Mod
 
 Welcome to multi language translation mod for **Tower Wizard**! This tool allows you to easily play the game in: Brazilian Portuguese (PT-BR), Spanish (ESP), Japanese (JP) or Chinese (CH).
 
@@ -6,6 +6,7 @@ Welcome to multi language translation mod for **Tower Wizard**! This tool allows
 
 ## 📦 Requirements
 * The base game **Tower Wizard**.
+* 基础游戏 **Tower Wizard**。
 
 ## 📥 如何安装（Steam版）
 1. 前往本 GitHub 仓库右侧的 [Releases](../../releases) 页面。
