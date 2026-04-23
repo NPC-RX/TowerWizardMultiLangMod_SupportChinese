@@ -1,0 +1,771 @@
+﻿key,en
+theme.environmental.name,大地
+theme.gilded.name,镀金
+theme.inverted.name,反转
+theme.magical.name,魔法
+theme.sunset.name,日落
+theme.twilight.name,暮光
+action.area_press.name,区域按压
+action.buy_many.name,批量购买修饰键
+action.fps.name,切换帧率
+action.fullscreen.name,全屏
+action.go_to_academy.name,前往学院
+action.go_to_building.name,前往建筑
+action.go_to_dragon_nest.name,前往龙巢
+action.go_to_embassy.name,前往使馆
+action.go_to_forestry.name,前往林场
+action.go_to_observatory.name,前往天文台
+action.go_to_orb.name,前往宝珠
+action.go_to_prestige.name,前往威望
+action.go_to_relics.name,前往炼金实验室
+action.go_to_runecraft.name,前往符文工艺
+action.go_to_sorcery.name,前往巫术
+action.go_to_study.name,前往书房
+action.go_to_temple.name,前往神殿
+action.go_to_wall_wizard.name,前往城墙巫师
+action.joypad_zoom_in.name,放大（手柄）
+action.joypad_zoom_out.name,缩小（手柄）
+action.keyboard_zoom_in.name,放大（键盘）
+action.keyboard_zoom_out.name,缩小（键盘）
+action.up.name,向上移动
+action.down.name,向下移动
+action.left.name,向左移动
+action.right.name,向右移动
+blessing.academy_blessing.name,研究祝福
+blessing.academy_blessing.description,当学院中的研究课题升级时，它们额外获得{mult}级
+blessing.alchemy_blessing.name,炼金祝福
+blessing.alchemy_blessing.description,每生成一个{magic_gold_icon}，就额外生成{add}个{magic_gold_icon}
+blessing.balance_blessing.name,平衡祝福
+blessing.balance_blessing.description,"距离满足最远的塔楼需求的资源获取量提高{percent_increase}%
+
+- 如果所有塔楼需求都已满足，或者没有塔楼需求，则所有塔楼需求的资源获取量改为提高{all_increase}%。"
+blessing.balance_blessing_exception.description,- 不适用于{cosmic_dust_icon}
+blessing.blessing_of_carving.name,雕刻祝福
+blessing.blessing_of_carving.description,解锁自动购买图腾的选项
+blessing.blessing_of_compounding.name,复利祝福
+blessing.blessing_of_compounding.description,毁灭祝福的加成将提高复合{percent_increase}%
+blessing.blessing_of_curses.name,诅咒祝福
+blessing.blessing_of_curses.description,萨满会向城墙施加{effect}。当达到100层时，对城墙造成等同于所有萨满总伤害{mult}倍的伤害。
+blessing.blessing_of_destruction.name,毁灭祝福
+blessing.blessing_of_destruction.description,每分钟伤害每增加一个数量级，非巫术精灵的生产力提高{percent_increase}%
+blessing.blessing_of_destruction.active_description,"非巫术精灵的生产力提高{percent_increase}%
+
+ - 下一级需要达到每分钟{damage}伤害。"
+blessing.blessing_of_diplomacy.name,外交祝福
+blessing.blessing_of_diplomacy.description,"每次与一个国家建立关系时，获得{amount}{magic_gold_icon}。
+
+- 不受资源加成影响。"
+blessing.blessing_of_effects.name,效果祝福
+blessing.blessing_of_effects.description,城墙上的每个状态效果只有在达到{decay}层后才会衰减
+blessing.blessing_of_exploration.name,探索祝福
+blessing.blessing_of_exploration.description,揭示一个新国家，当建立关系时，该国家将提供等同于你外交官数量的贸易协定。
+blessing.blessing_of_few.name,少数祝福
+blessing.blessing_of_few.description,所有未激活“60祝福”或“人口祝福”的精灵类型，其生产力提高{percent_increase}%。
+blessing.blessing_of_fire.name,火焰祝福
+blessing.blessing_of_fire.description,"伊夫利特向城墙施加{effect}。每层熔融效果，城墙从龙火球受到的伤害提高{percent_increase}%。
+
+- 同时龙的经验获取提高{exp_increase}%"
+blessing.blessing_of_fire_abridged.description,伊夫利特向城墙施加{effect}。每层熔融效果，城墙从龙火球受到的伤害提高{percent_increase}%。
+blessing.blessing_of_hovering.name,悬停祝福
+blessing.blessing_of_hovering.description,只需将鼠标悬停在一个地方即可加速精灵，无需点击。
+blessing.blessing_of_multitasking.name,多任务祝福
+blessing.blessing_of_multitasking.description,精灵贤者将同时研究学院中的所有课题。
+blessing.blessing_of_n.name,60祝福
+blessing.blessing_of_n.description,"人口达到{threshold}或以上的精灵，其生产力提高{percent_increase}%。
+
+- “生产力”指该精灵类型的主要功能得到提升。"
+blessing.blessing_of_population.name,人口祝福
+blessing.blessing_of_population.description,"人口最多的精灵类型，其生产力提高{percent_increase}%。
+
+- “生产力”指该精灵类型的主要功能得到提升。"
+blessing.blessing_of_summoning.name,召唤祝福
+blessing.blessing_of_summoning.description,解锁自动购买{spirit_icon}的选项
+blessing.blessing_of_supervision.name,监督祝福
+blessing.blessing_of_supervision.description,你最后点击的可点击区域获得{percent_increase}%的速度提升，直到点击其他区域
+blessing.blessing_of_supervision_units.description,- 巫术单位仅获得一半的速度提升
+blessing.blessing_of_the_tower.name,高塔祝福
+blessing.blessing_of_the_tower.description,开始新轮次时，高塔将附带书房、{cloudlings}个云灵和{tomes}本典籍
+blessing.blessing_of_the_tower_2.name,高塔大祝福
+blessing.blessing_of_the_tower_2.description,开始新轮次时，高塔将附带林场、{druids}个德鲁伊、威望以及额外{spirit_tomes}本精灵典籍。
+blessing.blessing_of_the_tower_3.name,高塔终级祝福
+blessing.blessing_of_the_tower_3.description,开始新轮次时，高塔将附带直至并包括巫术在内的所有建筑。
+blessing.blessing_of_totems.name,图腾祝福
+blessing.blessing_of_totems.description,每雕刻{图腾}个某类型图腾，该图腾类型的被动效果提高复合{percent_increase}%
+blessing.build_academy.name,典籍祝福
+blessing.build_academy.description,当至少有{requirement}本精灵典籍时，{knowledge_icon}和{magic_icon}的获取量提高{percent_increase}%
+blessing.crafting_totem_blessing.name,工艺图腾祝福
+blessing.crafting_totem_blessing.description,添加一个新图腾，使{blank_rune_icon}和{magic_gold_icon}的生成速度提高{percent_increase}%
+blessing.doubling_blessing.name,倍增祝福
+blessing.doubling_blessing.description,当召唤云灵、精灵典籍或德鲁伊时，会召唤两次。
+blessing.dragon_blessing.name,龙之祝福
+blessing.dragon_blessing.description,当龙升级时，额外获得{points}点龙技能点
+blessing.dragon_wisdom_blessing.name,龙之智慧祝福
+blessing.dragon_wisdom_blessing.description,每10级龙技能，该技能数值提高复合{percent_increase}%
+blessing.forest_keeper_blessing.name,森林守护者祝福
+blessing.forest_keeper_blessing.description,森林守护者将被召唤时拥有{levels}级升级等级
+blessing.forestry_blessing.name,森林祝福
+blessing.forestry_blessing.description,{wood_icon}获取量提高{percent_increase}%
+blessing.gorgon_blessing.name,戈耳工祝福
+blessing.gorgon_blessing.description,城墙上每有{every}层虚弱，戈耳工造成的伤害提高{percent_increase}%
+blessing.knowledge_blessing.name,知识祝福
+blessing.knowledge_blessing.description,{knowledge_icon}获取量提高{percent_increase}%
+blessing.magic_gain_blessing.name,魔法祝福
+blessing.magic_gain_blessing.description,{magic_icon}获取量提高{percent_increase}%
+blessing.midway_blessing.name,伤害祝福
+blessing.midway_blessing.description,{knowledge_icon}获取量提高{knowledge_increase}%，城墙伤害提高{damage_increase}%
+blessing.prestige_blessing.name,灯塔祝福
+blessing.prestige_blessing.description,当高塔建有威望建筑时，{magic_icon}和{wood_icon}的获取量提高{percent_increase}%
+blessing.refining_blessing.name,精炼祝福
+blessing.refining_blessing.description,符文可以多次升级。
+blessing.research_blessing.name,研究祝福
+blessing.research_blessing.description,"当炼金实验室建成时，立即获得{amount}{magic_gold_icon}。
+
+- 不受资源加成影响。"
+blessing.runecraft_blessing.name,符文工艺祝福
+blessing.runecraft_blessing.description,每创建一个符文，就额外创建{amount}个符文
+blessing.sage_totem_blessing.name,贤者图腾祝福
+blessing.sage_totem_blessing.description,添加一个新图腾，使学院经验获取提高复合{percent_increase}%
+blessing.specialization_blessing.name,专精祝福
+blessing.specialization_blessing.description,"初始获得{amount}点龙技能点
+
+每当一个龙技能提升{every}级，所有其他龙技能提升{points}级"
+blessing.spirit_debt.name,债务祝福
+blessing.spirit_debt.description,初始拥有负{amount}{spirit_icon}。每个非巫术精灵类型初始拥有{start_amount}个已召唤的{spirit_icon}。
+button.autobuy_spirits,自动购买
+button.bought,已购买
+button.build_tower,建造高塔
+button.built,已建造
+button.buy,购买
+button.cancel,取消
+button.cannot_upgrade,无法升级
+button.close,关闭
+button.continue_anyway,仍然继续
+button.craft,制作
+button.early_prestige,提前威望
+button.email,barribobgames@gmail.com
+button.end_game,结束游戏
+button.exit,退出
+button.final_ascension,最终飞升
+button.fire_magic,火焰魔法光束
+button.go_to_academy,前往学院（快捷键{shortcut}）
+button.go_to_building,前往建筑（快捷键{shortcut}）
+button.go_to_dragon,前往龙巢（快捷键{shortcut}）
+button.go_to_embassy,前往使馆（快捷键{shortcut}）
+button.go_to_forest,前往林场（快捷键{shortcut}）
+button.go_to_observatory,前往天文台（快捷键{shortcut}）
+button.go_to_orb,前往宝珠（快捷键{shortcut}）
+button.go_to_prestige,前往威望（快捷键{shortcut}）
+button.go_to_relics,前往炼金实验室（快捷键{shortcut}）
+button.go_to_runecraft,前往符文工艺（快捷键{shortcut}）
+button.go_to_sorcery,前往巫术（快捷键{shortcut}）
+button.go_to_sorcery_2,前往巫术
+button.go_to_study,前往书房（快捷键{shortcut}）
+button.go_to_temple,前往神殿（快捷键{shortcut}）
+button.go_to_wall_wizard,前往城墙巫师（快捷键{shortcut}）
+button.google_forms,谷歌表单
+button.hide_maxed_skills,隐藏已满级
+button.learn,学习
+button.maxed,已满级
+button.new_game,新游戏！
+button.next_run,下一轮
+button.ok,确定
+button.open_remap_menu,重新映射快捷键
+button.open_save_folder,打开存档文件夹
+button.preload_3,3威望点
+button.preload_6,6威望点
+button.preload_9,9威望点
+button.preload_13,13威望点
+button.preload_18,18威望点
+button.preload_24,24威望点
+button.prestige,威望
+button.prestige_cancel,取消
+button.prestige_confirm,确认
+button.refund_diplomats,退还外交官
+button.reset,重置
+button.reset_blessings,退还所有祝福
+button.sorcery_manual,巫术手册
+button.steam_forum,Steam论坛
+button.toggle_fullscreen,切换全屏
+button.unlocked,已解锁
+button.upgrade,升级
+button.upgrade_tower,晋升高塔
+button.view_blessings,查看祝福
+button.we'll_see,我们拭目以待
+damage_source.curse.name,诅咒
+damage_source.curse.description,诅咒
+damage_source.dragon.name,龙
+damage_source.dragon.description,龙
+damage_source.fire_arrows.name,火箭
+damage_source.fire_arrows.description,火箭
+damage_source.fireball_shrapnel.name,火球碎片
+damage_source.fireball_shrapnel.description,火球碎片
+damage_source.gorgon.name,戈耳工
+damage_source.gorgon.description,戈耳工
+damage_source.ice_arrows.name,冰箭
+damage_source.ice_arrows.description,冰箭
+damage_source.ifrit.name,伊夫利特
+damage_source.ifrit.description,伊夫利特
+damage_source.shaman.name,萨满
+damage_source.shaman.description,萨满
+damage_source.spirit_sage.name,精灵贤者
+damage_source.spirit_sage.description,精灵贤者
+damage_source.wall_repair.name,城墙修复
+damage_source.wall_repair.description,"城墙修复
+
+- 每分钟最多修复城墙{repair_rate}点伤害"
+damage_source.zephyr.name,泽菲尔
+damage_source.zephyr.description,泽菲尔
+dragon_ability.fireballs.name,火球
+dragon_ability.fireballs.tooltip,如果有城墙，偶尔发射一颗火球，造成{main_value}基础伤害。
+dragon_ability.magic_breath.name,魔法吐息
+dragon_ability.magic_breath.tooltip,偶尔向宝珠吐出{magic_icon}，相当于{main_value}个云灵的产出
+dragon_ability.next_value_tooltip,- 升级后提升至{next_value}
+dragon_ability.pulse_of_knowledge.name,知识脉冲
+dragon_ability.pulse_of_knowledge.tooltip,偶尔获得等同于{main_value}本典籍的{knowledge_icon}。- 按住按钮或按Shift键批量购买
+dragon_ability.telepathy.name,心灵感应
+dragon_ability.telepathy.tooltip,学院经验获取提高{main_value}%
+dragon_ability.treasure_keeper.name,宝藏守护者
+dragon_ability.treasure_keeper.tooltip,{magic_gold_icon}生产速度提高{main_value}%
+header.abilities,技能
+header.academy,学院
+header.alchemists,炼金实验室
+header.blessing_locked,祝福已锁定
+header.blessings,祝福
+header.blessings_view_only,祝福（仅查看）
+header.building,建筑
+header.dragon_nest,龙巢
+header.early_prestige,提前威望
+header.embassy,使馆
+header.forestry,林场
+header.level,等级{level}
+header.milestone_blessings,里程碑祝福
+header.new_update,新更新
+header.notice,注意
+header.observatory,天文台
+header.orb,宝珠
+header.playtest,欢迎参加试玩！
+header.prestige,威望
+header.relics,圣物
+header.remap,重新映射
+header.rune,符文工艺
+header.skills,技能
+header.small_buildings,精灵住房
+header.sorcery,巫术
+header.spirits,宝珠
+header.study,书房
+header.temple,神殿
+header.this_run,本轮
+header.totems,图腾
+header.tower_requirements,高塔需求
+header.training,研究
+header.unlockable_blessings,可解锁祝福
+header.unspent_points,你有未使用的点数
+header.warden,城墙巫师
+label.assigned_points,已分配点数：{points}
+label.attention_icon_explanation,高塔可以晋升到下一级。
+label.build_tower_explanation,晋升不消耗任何资源
+label.calculating,计算中...
+label.confirm_prestige,你确定要进行威望吗？
+label.cost,消耗：
+label.cost_icon,{cost}{icon}
+label.costs,- 消耗
+label.crafting_cost,制作消耗：
+label.damage_exp_explanation,"当此条满时，你获得1点威望点。
+
+- 进度条根据对城墙造成的伤害填充。
+
+- 预计时间：{eta}"
+label.damage_type_blessing,祝福效果：
+label.dragon_costs,- 消耗{cost}{icon}
+label.dragon_level,"每次龙升级时，你获得1点技能点用于升级技能
+
+- 预计时间：{eta}"
+label.effects,效果
+label.effects_description,这些是当前施加在城墙上的效果。
+label.ending_time,你在{hours}小时{minutes}分{seconds}秒建成了最伟大的巫师塔
+label.feedback,反馈
+label.final_ascension_explanation,你能再晋升一次高塔吗？
+label.fire_magic_explanation,占星师已经确定，使用宝珠配合正确的资源可以摧毁城墙。
+label.go_to_sorcery,前往巫术（快捷键8）
+label.go_to_spoiler,前往？？？
+label.hover,悬停
+label.less_than_minute,不足1分钟
+label.maxed,已满级
+label.new_update_description.0_0_3,游戏进行了重大更新！如果你有之前的存档，大部分进度会继承，但建议开始新游戏以完整体验部分新功能。
+label.new_update_description.playtest,此版本解锁了比试玩版更多的内容。我正在寻求关于新内容的反馈。此外，“试玩”菜单中有一些工具可能对你有帮助。玩得开心！
+label.new_update_description.previous_playtest,你似乎之前玩过试玩版。请注意，试玩版解锁的内容将少于封闭试玩版。
+label.new_update_description.prototype,游戏进行了重大更新！如果你有之前的存档，部分进度（如威望点）会继承，但我建议开始新游戏，因为许多内容已更改，机制也有增删。
+label.not_active,- 未激活
+label.points,点数：{points}
+label.points_earned,已获得点数：{points}
+label.preloaded_saves,预加载存档
+label.press_and_hold,按住
+label.prestige_early_explanation,提前威望可以重新开始本轮或重新配置你的祝福，但并没有显著的好处。
+label.prestige_exp_explanation,"当此条满时，你获得1点威望点。
+
+- 进度条根据获得的{magic_icon}数量填充。
+
+- 预计时间：{eta}"
+label.prestige_explanation,威望会重置你的进度，但允许你获得祝福，使下一轮更顺利。
+label.prestige_points_explanation,威望点用于获得祝福。
+label.relics,已拥有圣物
+label.relics_needed,（还需要{needed}个）
+label.relics_owned,- 你拥有{owned}
+label.reset_blessings,你也可以右键单击来退还单个祝福。
+label.restore_wall,让城墙巫师修复/禁用宇宙城墙
+label.rune_exp,符文进度
+label.rune_exp_eta,"符文进度
+
+- 预计时间：{eta}"
+label.story_1,我看到你已经建立了相当文明的国度，但那座塔不能再升高了。
+label.story_2,这道长城将阻止你进一步晋升。
+label.story_3,看来我低估了你。然而，你无法越过这道墙。
+label.story_4,好吧，我们来做个交易。如果你能摧毁这道墙，我就不再阻止你。
+label.story_5,你的决心给我留下了深刻印象。我甚至可能留下来帮点忙，看看最终结果。
+label.supervision_blessing,监督祝福
+label.temple_exp,宇宙尘埃经验
+label.temple_exp_explanation,"宇宙尘埃生成进度。满时获得1宇宙尘埃。进度条根据对宇宙城墙造成的伤害填充。
+
+- 预计时间：{eta}"
+label.thanks_for_playing,感谢游玩！
+label.the_end,结束
+label.tower_requirements_explanation,满足高塔需求以将高塔晋升到下一级。
+label.tower_resource_explanation,"累积终生总量{cost}{resource}。
+（目前已累积{accumulated}）"
+label.tower_resource_explanation_balance_blessing,平衡祝福对此资源生效
+label.unspent_points_warning,你有未使用的点数。保留点数没有任何好处。建议将它们全部分配给可解锁的祝福（有些祝福可以分配两点）。
+label.utilities,实用工具
+label.wall_0,云墙
+label.wall_1,日墙
+label.wall_2,宇宙墙
+label.wall_explanation,打破上方的城墙以晋升高塔。
+label.wall_health_bar,城墙剩余{value}生命值
+nation.arcanis_nation.name,阿卡尼斯
+nation.arcanis_nation.description,"拥有著名大学的国家
+
+- 关系加成：学院经验获取提高{percent_increase}%"
+nation.axel_nation.name,阿克塞尔
+nation.axel_nation.description,"冒险者和广袤平原的王国
+
+- 关系加成：为巫术和龙巢解锁新的基于知识的升级。"
+nation.ceha_nation.name,塞哈
+nation.ceha_nation.description,"火山之地
+
+- 关系加成：龙守护者提供的龙经验提高{percent_increase}%"
+nation.chronara_nation.name,克罗娜拉
+nation.chronara_nation.description,"偶尔沉没的隐藏国家
+
+- 关系加成：每2秒获得等同于你外交官数量的贸易协定。"
+nation.fel_nation.name,费尔
+nation.fel_nation.description,"以古代魔法闻名的国家
+
+- 关系加成：学院经验获取提高{percent_increase}%"
+nation.istesha_nation.name,伊斯特莎
+nation.istesha_nation.description,"龙之国度
+
+- 关系加成：立即获得{amount}点龙技能点"
+nation.janand_nation.name,贾南德
+nation.janand_nation.description,"囚犯和流放者的国度
+
+- 关系加成：所有单位伤害提高{percent_increase}%"
+nation.lapis_nation.name,拉皮斯
+nation.lapis_nation.description,"拥有石柱和孤峰的国家
+
+- 关系加成：立即获得{amount}个科格奈特。"
+nation.lilon_nation.name,莱隆
+nation.lilon_nation.description,"风和海岸的国度
+
+- 关系加成：云灵的{magic_icon}获取量提高{percent_increase}%"
+nation.luscana_nation.name,卢斯卡纳
+nation.luscana_nation.description,"珠宝之国
+
+- 关系加成：立即获得{amount}个法力石。"
+nation.maristella_nation.name,玛丽斯特拉
+nation.maristella_nation.description,"贸易与航海之国
+
+- 关系加成：{knowledge_icon}获取量提高{percent_increase}%"
+nation.netus_nation.name,内图斯
+nation.netus_nation.description,"工匠之国
+
+- 关系加成：为森林和学院解锁新的基于知识的升级"
+nation.odantis_nation.name,奥丹蒂斯
+nation.odantis_nation.description,"长冬之国
+
+- 关系加成：{knowledge_icon}获取量提高{percent_increase}%"
+nation.peace_land_nation.name,和平之地
+nation.peace_land_nation.description,"小人类和精灵的国度
+
+- 关系加成：立即获得{amount}{spirit_icon}。"
+nation.prismara_nation.name,普里斯玛拉
+nation.prismara_nation.description,"水晶与海洋之国
+
+- 关系加成：{magic_gold_icon}生产速度提高{percent_increase}%"
+nation.starting_nation.name,你的国度
+nation.starting_nation.description,这是你的领地。一旦你有足够的{trade_agreement_icon}，点击邻国建立关系。
+nation.tedora_nation.name,泰多拉
+nation.tedora_nation.description,"古老森林之国
+
+- 关系加成：{wood_icon}获取量提高{percent_increase}%"
+nation.tempestus_nation.name,坦佩斯图斯
+nation.tempestus_nation.description,"高山与风暴之国
+
+- 关系加成：云灵的{magic_icon}获取量提高{percent_increase}%"
+nation.tenebris_nation.name,特内布里斯
+nation.tenebris_nation.description,"广阔洞穴之国
+
+- 关系加成：{magic_gold_icon}生产速度提高{percent_increase}%"
+nation.verdania_nation.name,维尔达尼亚
+nation.verdania_nation.description,"广袤森林之国
+
+- 关系加成：{wood_icon}获取量提高{percent_increase}%"
+nation.wedol_nation.name,韦多尔
+nation.wedol_nation.description,"雨林帝国
+
+- 关系加成：立即获得{amount}个图腾。"
+nation.xara_nation.name,萨拉
+nation.xara_nation.description,"沙漠与石头之国
+
+- 关系加成：立即获得{amount}个龙石。"
+relic.cognite,科格奈特
+relic.cognite.tooltip,每个科格奈特使{knowledge_icon}获取量提高{percent_increase}%
+relic.dragonite,龙石
+relic.dragonite.tooltip,每个龙石使龙经验获取提高{percent_increase}%
+relic.holy_grail,圣杯
+relic.holy_grail.tooltip,每个圣杯使{magic_icon}获取量提高{magic_increase}%，龙经验获取提高{dragon_exp_increase}%
+relic.magic_gold,魔法金
+relic.magic_gold.tooltip,每个魔法金使{magic_icon}获取量提高{percent_increase}%
+relic.mana_stone,法力石
+relic.mana_stone.tooltip,每个法力石使{magic_icon}获取量提高{percent_increase}%
+relic.ouroboros,乌洛波罗斯
+relic.ouroboros.tooltip,每个乌洛波罗斯使{knowledge_icon}获取量提高{knowledge_increase}%，龙经验获取提高{dragon_exp_increase}%
+relic.philosopher_stone,贤者之石
+relic.philosopher_stone.tooltip,每个贤者之石使{knowledge_icon}获取量提高{knowledge_increase}%，{magic_icon}获取量提高{magic_increase}%
+resource.blank_rune,空白符文
+resource.blank_rune_description,由符文铁匠创造
+resource.building_points,建筑点数
+resource.building_points_description,每次高塔晋升给予固定数量。
+resource.cognite,科格奈特
+resource.cosmic_analysis,宇宙分析
+resource.cosmic_analysis_description,在天文台购买
+resource.cosmic_dust,宇宙尘埃
+resource.cosmic_dust_description,在神殿通过宇宙城墙伤害生成
+resource.dragon_ability_points,龙技能点
+resource.dragon_ability_points_description,通过龙升级获得
+resource.dragonite,龙石
+resource.holy_grail,圣杯
+resource.knowledge,知识
+resource.knowledge_description,由精灵典籍创造
+resource.magic,魔法
+resource.magic_description,由云灵创造
+resource.magic_gold,魔法金
+resource.magic_gold_description,由炼金术士创造
+resource.mana_stone,法力石
+resource.ouroboros,乌洛波罗斯
+resource.philosopher_stone,贤者之石
+resource.spirits,精灵
+resource.spirits_description,在宝珠购买
+resource.totems,图腾
+resource.totems_description,在林场传送门购买
+resource.trade_agreements,贸易协定
+resource.trade_agreements_description,由外交官创造
+resource.wood,木材
+resource.wood_description,由德鲁伊收获
+skill.alchemy_lab,炼金实验室
+skill.alchemy_lab.tooltip,{training}的经验获取提高{percent_increase}%
+skill.analyze_cursed,诅咒城墙分析
+skill.analyze_cursed.tooltip,诅咒的基础伤害提高{percent_increase}%
+skill.analyze_molten,熔融城墙分析
+skill.analyze_molten.tooltip,施加的熔融层数提高{percent_increase}%
+skill.analyze_resonance,碎裂城墙分析
+skill.analyze_resonance.tooltip,施加的碎裂层数提高{percent_increase}%
+skill.analyze_wall,分析城墙
+skill.analyze_wall.tooltip,"分析宇宙城墙，解锁打破城墙所需的一组资源。
+
+- 需求将显示在宝珠中。"
+skill.analyze_weakened,虚弱城墙分析
+skill.analyze_weakened.tooltip,施加的虚弱层数提高{percent_increase}%
+skill.bigger_forest,更大的森林
+skill.bigger_forest_2,德鲁伊之力
+skill.bigger_forest_2.tooltip,{wood_icon}获取量提高{percent_increase}%
+skill.bigger_forest.tooltip,"增加森林面积。
+
+- 每根原木提供的{wood_icon}量提高{percent_increase}%"
+skill.build_academy,建造学院
+skill.build_academy.tooltip,建造一所魔法教育学院
+skill.build_book_house,建造书屋
+skill.build_book_house.tooltip,书屋共同使{knowledge_icon}获取量提高复合{percent_increase}%
+skill.build_dragon_nest,建造龙巢
+skill.build_dragon_nest.tooltip,建造龙巢以孵化龙
+skill.build_embassy,建造使馆
+skill.build_embassy.tooltip,建造使馆以获得国际关系
+skill.build_house,建造精灵小屋
+skill.build_house.tooltip,"精灵小屋共同使{magic_icon}获取量提高复合{percent_increase}%
+
+- 每次高塔晋升给予固定数量的{building_points_icon}"
+skill.build_tree_house,建造树屋
+skill.build_tree_house.tooltip,树屋共同使{wood_icon}获取量提高复合{percent_increase}%
+skill.carve_crafting_totem,工艺图腾
+skill.carve_crafting_totem.tooltip,"每个图腾使{blank_rune_icon}和{magic_gold_icon}的生成进度提高{percent_increase}%
+
+- 当前加成：{total}%"
+skill.carve_forest_totem,森林图腾
+skill.carve_forest_totem.tooltip,"每个图腾使{wood_icon}获取量提高{percent_increase}%
+
+- 当前加成：{total}%
+
+- 同时创建{amount}{spirit_icon}"
+skill.carve_knowledge_totem,知识图腾
+skill.carve_knowledge_totem.tooltip,"每个图腾使{knowledge_icon}获取量提高{percent_increase}%
+
+- 当前加成：{total}%"
+skill.carve_magic_totem,魔法图腾
+skill.carve_magic_totem.tooltip,"每个图腾使{magic_icon}获取量提高{percent_increase}%
+
+- 当前加成：{total}%"
+skill.carve_sage_totem,贤者图腾
+skill.carve_sage_totem.tooltip,"每个图腾使学院经验获取提高复合{percent_increase}%
+
+- 当前加成：{total}%"
+skill.cloud_resonance,云共鸣
+skill.cloud_resonance.tooltip,每次龙吐出魔法时，所有云灵都会创造一滴魔法
+skill.cloudling_magic,云灵魔法
+skill.cloudling_potency,云灵强化
+skill.cloudling_potency.tooltip,云灵的{magic_icon}创造量提高{percent_increase}%
+skill.combat_magic,战斗魔法
+skill.combat_magic.tooltip,所有伤害提高{percent_increase}%
+skill.craft_totem,制作图腾
+skill.craft_totem.tooltip,制作{totem_icon}。图腾可以被雕刻成不同类型并放置在图腾柱上，获得各种加成。
+skill.create_cosmic_analysis,宇宙分析
+skill.create_cosmic_analysis.tooltip,创建1个宇宙分析，用于分析升级。
+skill.dragon_alphabet,龙之字母表
+skill.dragon_alphabet.tooltip,{training}的经验获取提高{percent_increase}%
+skill.dragon_wisdom,龙之知识
+skill.dragon_wisdom.tooltip,龙守护者的经验获取提高{percent_increase}%
+skill.enchant_frost,霜冻城墙附魔
+skill.enchant_frost.tooltip,"每层霜冻使{wood_icon}获取量提高{percent_increase}%
+
+- 同时{cosmic_dust_icon}生成速度提高{cosmic_percent_increase}%"
+skill.enchant_molten,熔融城墙附魔
+skill.enchant_molten.tooltip,"每层熔融使龙经验获取提高{percent_increase}%
+
+- 同时{cosmic_dust_icon}生成速度提高{cosmic_percent_increase}%"
+skill.enchant_shatter,碎裂城墙附魔
+skill.enchant_shatter.tooltip,"每层碎裂使{blank_rune_icon}生成速度提高{percent_increase}%
+
+- 同时{cosmic_dust_icon}生成速度提高{cosmic_percent_increase}%"
+skill.herbology_textbooks,林场笔记
+skill.herbology_textbooks.tooltip,{training}的经验获取提高{percent_increase}%
+skill.improved_facilities,改进学院
+skill.improved_facilities_2,伟大大学
+skill.improved_facilities_2.tooltip,学院中所有研究课题的经验获取提高{percent_increase}%
+skill.improved_facilities.tooltip,学院中所有研究课题的经验获取提高{percent_increase}%
+skill.infinity_rune_upgrade,无限符文
+skill.infinity_rune_upgrade.tooltip,所有基础伤害提高{percent_increase}%
+skill.library_spirits,图书馆精灵
+skill.library_spirits.tooltip,从书房创建{amount}{spirit_icon}
+skill.magic_textbooks,改进魔杖
+skill.magic_textbooks.tooltip,{training}的经验获取提高{percent_increase}%
+skill.rune_mastery,符文专精
+skill.rune_mastery.tooltip,{blank_rune_icon}生成速度提高{percent_increase}%
+skill.summon_alchemist,召唤炼金术士
+skill.summon_alchemist.tooltip,"帮助创造{magic_gold_icon}。
+
+- 解锁新的学院升级
+
+- 按住按钮或按Shift键批量购买。"
+skill.summon_astrologer,召唤占星师
+skill.summon_astrologer.tooltip,"建造天文台
+
+- 占星师将观察宇宙城墙，发现弱点以及可能打破它的方法。"
+skill.summon_cloudling,召唤云灵
+skill.summon_cloudling.tooltip,"召唤一个创造{magic_icon}的云灵
+
+- {press_and_hold}宝珠可使其速度提高{speed_up_increase}%"
+skill.summon_diplomat,召唤外交官
+skill.summon_diplomat.tooltip,"召唤一个创造{trade_agreement_icon}的外交官。
+
+- {press_and_hold}使馆可使其速度提高{speed_up_increase}%
+
+- 地图完成后可以退还获得{spirit_icon}。"
+skill.summon_dragon_keeper,龙守护者
+skill.summon_dragon_keeper.tooltip,"召唤龙守护者帮助龙升级
+
+- {press_and_hold}龙巢可使其速度提高{speed_up_increase}%"
+skill.summon_dragon_queen,召唤龙后
+skill.summon_dragon_queen.tooltip,"龙后将为龙提供等同于所有龙守护者总和{percent}%的升级经验。
+
+- 龙后还会将任何龙火球翻倍为两个。"
+skill.summon_druid,召唤德鲁伊
+skill.summon_druid.tooltip,"德鲁伊维护森林并收获{wood_icon}。
+
+- {press_and_hold}森林可使其速度提高{speed_up_increase}%"
+skill.summon_forest_keeper,召唤森林守护者
+skill.summon_forest_keeper.tooltip,"森林守护者将强化原木，使其{wood_icon}价值提高{percent_increase}%
+
+- 森林守护者还会使{cosmic_dust_icon}生成速度提高{exp_percent_increase}%"
+skill.summon_gorgon,召唤戈耳工
+skill.summon_gorgon.tooltip,"对城墙造成{base_damage}基础伤害。
+
+- 每拥有一个乌洛波罗斯，基础伤害提高{damage_increase}。"
+skill.summon_ifrit,召唤伊夫利特
+skill.summon_ifrit.tooltip,"对城墙造成{base_damage}基础伤害。
+
+- 龙的火焰箭技能每10级，基础伤害提高{additional_damage}。"
+skill.summon_rune_smith,召唤符文铁匠
+skill.summon_rune_smith.tooltip,"召唤符文铁匠创造{blank_rune_icon}
+
+- {press_and_hold}方尖碑/铁砧可使其速度提高{speed_up_increase}%"
+skill.summon_shaman,召唤萨满
+skill.summon_shaman.tooltip,对城墙造成{base_damage}基础伤害，乘以图腾数量最多的图腾类型的计数。
+skill.summon_smith_master,召唤铁匠大师
+skill.summon_smith_master.tooltip,"铁匠大师将帮助锻造{blank_rune_icon}，打击次数等于所有符文铁匠的总和。
+
+- 铁匠大师还会使{magic_gold_icon}生产速度提高{alchemy_percent_increase}%"
+skill.summon_spirit,召唤精灵
+skill.summon_spirit_sage,召唤精灵贤者
+skill.summon_spirit_sage.tooltip,"召唤精灵贤者研究各种课题
+
+- {press_and_hold}学院可使其速度提高{speed_up_increase}%"
+skill.summon_spirit_tome,召唤精灵典籍
+skill.summon_spirit_tome.tooltip,"召唤创造{knowledge_icon}的精灵典籍
+
+- {press_and_hold}书房可使其速度提高{speed_up_increase}%"
+skill.summon_spirit.tooltip,"召唤{spirit_icon}，可用于召唤其他存在
+
+- 按住按钮或按Shift键批量购买"
+skill.summon_tome_master,召唤典籍大师
+skill.summon_tome_master.tooltip,"典籍大师将吸收所有创造的{knowledge_icon}并将其放大{percent_increase}%
+
+- 如果你没有新的威望点，典籍大师每次脉冲还会使伤害威望进度条增加{prestige_percent_increase}%。"
+skill.summon_zephyr,召唤泽菲尔
+skill.summon_zephyr.tooltip,"削弱城墙，增加对城墙造成的伤害。
+
+- 向城墙施加{base_stacks}层虚弱，并且每有一种精灵类型的人口达到{summon_threshold}，额外施加{additional_stacks}层。"
+skill.text_enchantment,文本附魔
+skill.text_enchantment.tooltip,{knowledge_icon}获取量提高{percent_increase}%
+skill.unlock_alchemy_101,炼金研究
+skill.unlock_alchemy_101.tooltip,{training}帮助炼金术士更快地创造{magic_gold_icon}
+skill.unlock_dragon_bond,解锁龙研究
+skill.unlock_dragon_bond.tooltip,{training}帮助龙守护者为龙提供更多经验
+skill.unlock_herbology,解锁森林研究
+skill.unlock_herbology.tooltip,{training}帮助德鲁伊生长更多{wood_icon}
+skill.unlock_magic_101,解锁魔法研究
+skill.unlock_magic_101.tooltip,{training}帮助精灵产生更多{magic_icon}
+skill.upgrade_dragon_queen,升级龙后
+skill.upgrade_dragon_queen.tooltip,龙后提供的龙经验提高复合{percent_increase}%
+skill.upgrade_forest_keeper,升级森林守护者
+skill.upgrade_forest_keeper.tooltip,"{wood_icon}获取量提高复合{percent_increase}%
+
+- 同时{cosmic_dust_icon}生成速度提高复合{exp_percent_increase}%"
+skill.upgrade_smith_master,升级铁匠大师
+skill.upgrade_smith_master.tooltip,"铁匠的锤子力量提高复合{percent_increase}%
+
+- 同时{magic_gold_icon}生产速度提高复合{alchemy_percent_increase}%"
+skill.upgrade_tome_master,升级典籍大师
+skill.upgrade_tome_master.tooltip,典籍大师吸收的{knowledge_icon}的放大倍率提高复合{percent_increase}%
+skill.wizard_magic,巫师魔法
+skill.wizard_magic.tooltip,通过按压宝珠获得的{magic_icon}提高{percent_increase}%
+status_effect.cursed.name,诅咒
+status_effect.cursed.description,当达到100层时，对城墙造成等同于所有萨满总伤害{mult}倍的伤害。
+status_effect.frost.name,霜冻
+status_effect.frost.description,每层使城墙上所有其他状态效果的衰减减少{reduction}
+status_effect.molten.name,熔融
+status_effect.molten.description,每层使城墙从龙火球受到的伤害提高{percent_increase}%
+status_effect.resonance.name,碎裂
+status_effect.resonance.description,每层使城墙从龙火球和诅咒受到的伤害提高{percent_increase}%
+status_effect.weakened.name,虚弱
+status_effect.weakened.description,每层使城墙受到的伤害提高{percent_increase}%
+tooltip.blessing_locked,"下方的祝福已锁定，直到你拥有{points}总点数
+
+- 你当前拥有{total_points}总点数"
+tooltip.damage_chart_button,切换伤害图表
+tooltip.knowledge,知识
+tooltip.magic,魔法
+tooltip.milestone_blessings,里程碑祝福在你达到一定数量的威望点时自动解锁
+training.alchemy_101,炼金研究
+training.alchemy_101.tooltip,{magic_gold_icon}生产速度提高{percent_increase}%
+training.dragon_bond,龙研究
+training.dragon_bond.tooltip,龙经验获取提高{percent_increase}%
+training.herbology,林场研究
+training.herbology.tooltip,{wood_icon}获取量提高{percent_increase}%
+training.magic_101,魔法研究
+training.magic_101.tooltip,云灵提供的{magic_icon}提高{percent_increase}%
+tree.academy_exp_rune.name,学院强化
+tree.academy_exp_rune.description,学院经验获取提高{percent_increase}%
+tree.alchemy.name,炼金强化
+tree.alchemy.description,{magic_gold_icon}生产速度提高{percent_increase}%
+tree.alloy.name,合金
+tree.alloy.description,每有一个戈耳工、萨满和泽菲尔，伊夫利特的基础伤害提高{percent_increase}%
+tree.arc.name,弧光
+tree.arc.description,每有一个泽菲尔或云灵，戈耳工伤害提高{percent_increase}%
+tree.charge.name,充能
+tree.charge.description,每次闪电造成伤害时，闪电的基础伤害永久提高{damage_increase}。
+tree.class_of_destruction.name,毁灭贤者
+tree.class_of_destruction.description,精灵贤者对城墙造成{base_damage}伤害。
+tree.cloud.name,魔法强化
+tree.cloud.description,{magic_icon}获取量提高{percent_increase}%
+tree.create_gorgons.name,召唤戈耳工
+tree.create_gorgons.description,召唤{amount}个戈耳工
+tree.create_ifrits.name,召唤伊夫利特
+tree.create_ifrits.description,召唤{amount}个伊夫利特
+tree.create_shamans.name,召唤萨满
+tree.create_shamans.description,召唤{amount}个萨满
+tree.curse_resonance.name,诅咒光环
+tree.curse_resonance.description,"当城墙上出现诅咒时，所有戈耳工获得一个光环，使其下一次伤害提高{percent_increase}%
+
+- 可多次叠加。"
+tree.cursed_fire.name,诅咒之火
+tree.cursed_fire.description,城墙上的熔融效果将以{percent_of}%的效果应用于诅咒。
+tree.cursed_shards.name,诅咒碎片
+tree.cursed_shards.description,诅咒的基础伤害添加到碎片的基础伤害中。
+tree.diversity.name,多样性
+tree.diversity.description,除虚弱外，每层任意状态效果，精灵贤者的基础伤害提高{damage_increase}%
+tree.dragon_wands.name,龙之魔杖
+tree.dragon_wands.description,龙火球基础伤害的{percent_of}%添加到精灵贤者的基础伤害中。
+tree.dragon.name,龙守护者强化
+tree.dragon.description,龙经验获取提高{percent_increase}%
+tree.fire_arrows.name,火箭
+tree.fire_arrows.description,萨满现在可以射出火箭，对城墙造成萨满箭矢伤害{damage}倍的伤害。
+tree.fire_damage.name,熔融箭矢
+tree.fire_damage.description,城墙上的熔融效果将以{percent_of}%的效果应用于火箭。
+tree.fireball_shrapnel.name,火球碎片
+tree.fireball_shrapnel.description,"火球爆炸成{amount}个碎片，每个碎片对城墙造成{base_damage}伤害。
+
+- 不计入火球伤害。"
+tree.fusion.name,融合
+tree.fusion.description,伊夫利特每拥有1点基础伤害，火球基础伤害提高{percent_increase}%
+tree.hot_blooded.name,热血
+tree.hot_blooded.description,城墙上的熔融效果将应用于伊夫利特的火球。
+tree.hot_runes.name,炽热符文
+tree.hot_runes.description,每解锁一个符文，碎片基础伤害提高{percent_increase}%
+tree.ice_arrow_damage.name,冰箭伤害
+tree.ice_arrow_damage.description,冰箭造成等同于{mult}个戈耳工基础伤害的伤害。
+tree.ice_arrows.name,冰箭
+tree.ice_arrows.description,萨满现在可以射出冰箭，向城墙施加{stacks}层霜冻，减少城墙上状态效果的衰减。
+tree.infinity_resonance.name,无限共鸣
+tree.infinity_resonance.description,每拥有一个无限符文，戈耳工获得{percent_increase}%伤害。
+tree.infinity.name,无限
+tree.infinity.description,解锁一项升级，以{blank_rune_icon}为代价提高所有类型的伤害。
+tree.instructions.name,说明
+tree.instructions.description,花费{image}空白符文解锁升级。
+tree.relics.name,圣物
+tree.relics.description,每拥有一个圣杯或贤者之石，戈耳工的基础伤害额外提高{damage_increase}。
+tree.shrapnel_count.name,碎片数量
+tree.shrapnel_count.description,火球产生的碎片数量增加{amount}。
+tree.shrapnel_molten.name,熔融碎片
+tree.shrapnel_molten.description,每个碎片现在向城墙施加{stacks}层熔融。
+tree.shrapnel_weakness.name,碎片虚弱
+tree.shrapnel_weakness.description,每个碎片现在向城墙施加{stacks}层虚弱。
+tree.sound_pulse.name,声波脉冲
+tree.sound_pulse.description,戈耳工现在可以发出声波脉冲，向城墙施加碎裂。每层碎裂，城墙从龙火球和诅咒受到的伤害提高{percent_increase}%
+tree.strike_twice.name,双重打击
+tree.strike_twice.description,闪电有{chance}%的几率击中城墙两次。
+tree.wisps.name,灵火
+tree.wisps.description,戈耳工现在可以发出灵火，向城墙施加诅咒。
+tree.wood.name,德鲁伊强化
+tree.wood.description,{wood_icon}获取量提高{percent_increase}%
+tree.zephyr_damage.name,闪电
+tree.zephyr_damage.description,泽菲尔偶尔召唤闪电，对城墙造成{damage_increase}伤害。
+blessing.spoiler,隐藏直至上方祝福解锁
+button.view_tower_requirements,跳转到需求
+label.needs_trade_agreements,- 需要{amount}{trade_agreement_icon}

@@ -17,25 +17,27 @@ echo     LANGUAGE MANAGER - TOWER WIZARD
 echo ===========================================
 echo Choose the language to apply to the game:
 echo.
-echo 1. Japanese (translation_jp.csv)
-echo 2. Portuguese (translation_ptbr.csv)
-echo 3. Spanish (translation_esp.csv)
-echo 4. English / Original (translation.csv)
-echo 5. Restore Original Backup
-echo 6. Exit
+echo 1. Chinese (translation_ch.csv)
+echo 2. Japanese (translation_jp.csv)
+echo 3. Portuguese (translation_ptbr.csv)
+echo 4. Spanish (translation_esp.csv)
+echo 5. English / Original (translation.csv)
+echo 6. Restore Original Backup
+echo 7. Exit
 echo ===========================================
 set /p choice="Enter the option number: "
 
-if "%choice%"=="1" set "csv_file=translation_jp.csv"
-if "%choice%"=="2" set "csv_file=translation_ptbr.csv"
-if "%choice%"=="3" set "csv_file=translation_esp.csv"
-if "%choice%"=="4" set "csv_file=translation.csv"
-if "%choice%"=="5" goto restore_backup
-if "%choice%"=="6" exit
+if "%choice%"=="1" set "csv_file=translation_ch.csv"
+if "%choice%"=="2" set "csv_file=translation_jp.csv"
+if "%choice%"=="3" set "csv_file=translation_ptbr.csv"
+if "%choice%"=="4" set "csv_file=translation_esp.csv"
+if "%choice%"=="5" set "csv_file=translation.csv"
+if "%choice%"=="6" goto restore_backup
+if "%choice%"=="7" exit
 
 rem Check for invalid input
 if "%choice%" lss "1" goto menu
-if "%choice%" gtr "6" goto menu
+if "%choice%" gtr "7" goto menu
 
 rem Check if the selected CSV file actually exists in the folder
 if not exist "%csv_file%" (
@@ -47,7 +49,7 @@ if not exist "%csv_file%" (
 
 echo.
 echo Injecting the file "%csv_file%" into the game...
-gdtr-tools.exe "--replace-translation=Tower Wizard.pck" "--output=Tower Wizard.pck" --translation-csv="%csv_file%"=res://translation.csv
+gdtr-tools.exe "--replace-translation=Tower Wizard.pck" "--output=Tower Wizard.pck" --translation-csv="%csv_file%"=res://translation.csv --translation-csv=add_translation.csv=res://add_translation.csv
 
 if %errorlevel% neq 0 (
     echo.

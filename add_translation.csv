@@ -1,24 +1,22 @@
-"key","en","ja"
-"Resources","Resources","リソース"
-"Autosave","Autosave","オートセーブ"
-"Save Now","Save Now","今すぐセーブ"
-"Import Save","Import Save","セーブをインポート"
-"Hard Reset","Hard Reset","ハードリセット"
-"Save and Quit","Save and Quit","セーブして終了"
-"Music","Music","音楽"
-"Sfx","Sfx","効果音"
+﻿key,en
+Resources,资源
+Autosave,自动保存
+Save Now,立即保存
+Import Save,导入存档
+Hard Reset,硬重置
+Save and Quit,保存并退出
+Music,音乐
+Sfx,音效
 "Mute when
-minimized","Mute when
-minimized","最小化時に
-ミュート"
-"Number Display:","Number Display:","数値の表記:"
-"Theme:","Theme:","テーマ:"
-"UI Scale:","UI Scale:","UIのスケール:"
-"Long press speed: ","Long press speed: ","長押しの速度: "
-"Shortcut bar: ","Shortcut bar: ","ショートカットバー: "
-"Resource/Damage Indicators","Resource/Damage Indicators","リソース/ダメージ インジケーター"
-"Short Suffix","Short Suffix","短縮接尾辞"
-"Scientific","Scientific","科学的"
-"Restore Cosmic Wall","Restore Cosmic Wall","宇宙の壁を復元"
-"Keep Playing","Keep Playing","プレイを続ける"
-"Begin!","Begin!","開始!"
+minimized",最小化时静音
+Number Display:,数字显示：
+Theme:,主题：
+UI Scale:,界面缩放：
+Long press speed: ,长按速度：
+Shortcut bar: ,快捷栏：
+Resource/Damage Indicators,资源/伤害指示器
+Short Suffix,短后缀
+Scientific,科学计数法
+Restore Cosmic Wall,恢复宇宙之墙
+Keep Playing,继续游戏
+Begin!,开始！
